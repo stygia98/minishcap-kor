@@ -1,0 +1,137 @@
+# block 27 · 33 msgs · minish_cap 한글화 워크스페이스
+# 규칙: 'J:' = 일본어 원문(수정 금지, 참고용). 'K:' 줄만 번역으로 수정.
+#       줄바꿈=<BR>, 색/제어 태그(<green> 등)·원시코드({0309} 등)는 그대로 유지.
+#       빈/제어전용 메시지는 K를 건드리지 말 것(원문 그대로 왕복됨).
+
+#0
+J: <start>
+K: <start>
+
+#1
+J: <start>
+K: <start>
+
+#2
+J: オイラは まいにち はたけを たがやすぜ！<BR><BR>たがやしてたら はたけから <red>しあわせのカケラ<colorEnd>が<BR>出てきたぜ ベイベ∼！<start>
+K: オイラは まいにち はたけを たがやすぜ！<BR><BR>たがやしてたら はたけから <red>しあわせのカケラ<colorEnd>が<BR>出てきたぜ ベイベ∼！<start>
+
+#3
+J: なんだ オマエ？<BR><blue>カケラあわせ<colorEnd>やるってのか ベイベ？<start>
+K: なんだ オマエ？<BR><blue>カケラあわせ<colorEnd>やるってのか ベイベ？<start>
+
+#4
+J: なんだ？ やんないのか？<BR>ベイベ∼！<start>
+K: なんだ？ やんないのか？<BR>ベイベ∼！<start>
+
+#5
+J: ヘヘヘ∼イ！ ピッタリだぜ！<start>
+K: ヘヘヘ∼イ！ ピッタリだぜ！<start>
+
+#6
+J: ヘイ？ 今 ビッグな じしんが おきなかったか ベイベ？<start>
+K: ヘイ？ 今 ビッグな じしんが おきなかったか ベイベ？<start>
+
+#7
+J: サンキュ○ ベイベ∼！<BR>ますます ガツガツ たがやすぜ！<start>
+K: サンキュ○ ベイベ∼！<BR>ますます ガツガツ たがやすぜ！<start>
+
+#8
+J: <start>
+K: <start>
+
+#9
+J: <start>
+K: <start>
+
+#10
+J: <start>
+K: <start>
+
+#11
+J: <start>
+K: <start>
+
+#12
+J: <start>
+K: <start>
+
+#13
+J: ロッケンロ∼ル！<BR>はたけから <red>カケラ<colorEnd>が出てくるなんて ロッケンロ∼ル！<start>
+K: ロッケンロ∼ル！<BR>はたけから <red>カケラ<colorEnd>が出てくるなんて ロッケンロ∼ル！<start>
+
+#14
+J: <blue>カケラあわせ<colorEnd> するのかい？<BR>オ○！ なんて ロッケンロ∼ル！<start>
+K: <blue>カケラあわせ<colorEnd> するのかい？<BR>オ○！ なんて ロッケンロ∼ル！<start>
+
+#15
+J: ブ○ッ！ とちゅうで やめるなんて<BR>ブ○ッ！<start>
+K: ブ○ッ！ とちゅうで やめるなんて<BR>ブ○ッ！<start>
+
+#16
+J: ジャストフィット！<BR>お○ ロッケンロ∼ル！<start>
+K: ジャストフィット！<BR>お○ ロッケンロ∼ル！<start>
+
+#17
+J: ロック ロック ロッケンロ∼ル！<start>
+K: ロック ロック ロッケンロ∼ル！<start>
+
+#18
+J: <start>
+K: <start>
+
+#19
+J: <start>
+K: <start>
+
+#20
+J: <start>
+K: <start>
+
+#21
+J: <start>
+K: <start>
+
+#22
+J: <start>
+K: <start>
+
+#23
+J: <start>
+K: <start>
+
+#24
+J: ようこそ ゴングル山に<BR>ワタクシは <green>チョウの大妖精<BR><colorEnd>あなたが 持っている <red>サイフ<colorEnd>を 大きくしてあげましょう<start>
+K: ようこそ ゴングル山に<BR>ワタクシは <green>チョウの大妖精<BR><colorEnd>あなたが 持っている <red>サイフ<colorEnd>を 大きくしてあげましょう<start>
+
+#25
+J: ようこそ ゴングル山に<BR>ワタクシは <green>カゲロウの大妖精<colorEnd><BR>あなたが 持っている <red>ボムぶくろ<colorEnd>を<BR>大きくしてあげましょう<start>
+K: ようこそ ゴングル山に<BR>ワタクシは <green>カゲロウの大妖精<colorEnd><BR>あなたが 持っている <red>ボムぶくろ<colorEnd>を<BR>大きくしてあげましょう<start>
+
+#26
+J: ようこそ ゴングル山に<BR>ワタクシは <green>トンボの大妖精<colorEnd><BR>あなたが 持っている <red>矢づつ<colorEnd>を<BR>大きくしてあげましょう<start>
+K: ようこそ ゴングル山に<BR>ワタクシは <green>トンボの大妖精<colorEnd><BR>あなたが 持っている <red>矢づつ<colorEnd>を<BR>大きくしてあげましょう<start>
+
+#27
+J: <start>
+K: <start>
+
+#28
+J: <start>
+K: <start>
+
+#29
+J: <start>
+K: <start>
+
+#30
+J: <start>
+K: <start>
+
+#31
+J: <start>
+K: <start>
+
+#32
+J: <start>ホホホホホホホゅ
+K: <start>ホホホホホホホゅ
+

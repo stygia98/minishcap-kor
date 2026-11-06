@@ -1,0 +1,29 @@
+# block 24 · 6 msgs · minish_cap 한글화 워크스페이스
+# 규칙: 'J:' = 일본어 원문(수정 금지, 참고용). 'K:' 줄만 번역으로 수정.
+#       줄바꿈=<BR>, 색/제어 태그(<green> 등)·원시코드({0309} 등)는 그대로 유지.
+#       빈/제어전용 메시지는 K를 건드리지 말 것(원문 그대로 왕복됨).
+
+#0
+J: <start>
+K: <start>
+
+#1
+J: {0302}口{030F}{060F}{060F}{0620}  ···<colorEnd><BR><BR><blue>少年よ···<BR><BR>わが しそん ゼルダを 救わんとする 少年よ···<BR><BR>よくぞ まいった···<colorEnd><BR><BR><blue>わが名は<colorEnd> <green>グスタフ<blue>···<BR>はるか遠い昔の ハイラルの王···<start>
+K: {0302}口{030F}{060F}{060F}{0620}  ···<colorEnd><BR><BR><blue>少年よ···<BR><BR>わが しそん ゼルダを 救わんとする 少年よ···<BR><BR>よくぞ まいった···<colorEnd><BR><BR><blue>わが名は<colorEnd> <green>グスタフ<blue>···<BR>はるか遠い昔の ハイラルの王···<start>
+
+#2
+J: <blue>おまえに このカケラを さずけよう···<colorEnd><BR><BR><blue>ハイラルの <green>大いなる 水の源流<blue>を めざせ···<BR><colorEnd><BR><blue>さすれば 道は 開かれよう···<colorEnd><BR><BR><green>ゼルダ<blue>を···<BR><colorEnd><BR><blue>ハイラルを たのむぞ 少年···<start>
+K: <blue>おまえに このカケラを さずけよう···<colorEnd><BR><BR><blue>ハイラルの <green>大いなる 水の源流<blue>を めざせ···<BR><colorEnd><BR><blue>さすれば 道は 開かれよう···<colorEnd><BR><BR><green>ゼルダ<blue>を···<BR><colorEnd><BR><blue>ハイラルを たのむぞ 少年···<start>
+
+#3
+J: <sound>むむう··· ワシらを よんだのが<BR>とおい昔の ハイラルの王だったとは ビックリじゃ！<BR>それにしても <green>ハイラルの 水の源流<colorEnd> か···<BR>いったい どこの ことかのう？<start>
+K: <sound>むむう··· ワシらを よんだのが<BR>とおい昔の ハイラルの王だったとは ビックリじゃ！<BR>それにしても <green>ハイラルの 水の源流<colorEnd> か···<BR>いったい どこの ことかのう？<start>
+
+#4
+J: <start>
+K: <start>
+
+#5
+J: オロカナル モノハ ココデ タチドマリ<BR>タダシキ モノハ ココヨリ サキニ ススム<BR>シンジツハ メニ ミエズ<BR>ホノオノ アイダニ ヤドル<start><center>
+K: オロカナル モノハ ココデ タチドマリ<BR>タダシキ モノハ ココヨリ サキニ ススム<BR>シンジツハ メニ ミエズ<BR>ホノオノ アイダニ ヤドル<start><center>
+

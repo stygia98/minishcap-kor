@@ -1,0 +1,85 @@
+# block 60 · 20 msgs · minish_cap 한글화 워크스페이스
+# 규칙: 'J:' = 일본어 원문(수정 금지, 참고용). 'K:' 줄만 번역으로 수정.
+#       줄바꿈=<BR>, 색/제어 태그(<green> 등)·원시코드({0309} 등)는 그대로 유지.
+#       빈/제어전용 메시지는 K를 건드리지 말 것(원문 그대로 왕복됨).
+
+#0
+J: <start>
+K: <start>
+
+#1
+J: <start>
+K: <start>
+
+#2
+J: <start>
+K: <start>
+
+#3
+J: <start>
+K: <start>
+
+#4
+J: <start>
+K: <start>
+
+#5
+J: <start>
+K: <start>
+
+#6
+J: <start>
+K: <start>
+
+#7
+J: <start>
+K: <start>
+
+#8
+J: <start>
+K: <start>
+
+#9
+J: <start>
+K: <start>
+
+#10
+J: <start>
+K: <start>
+
+#11
+J: {0302}ぁあら いらっしゃい<BR>えいよう タップリ <red>ロンロンミルク<colorEnd><BR><red>ビン<colorEnd>に いっぱい {0601}ルピ○よ<BR><BR>かってくれる？<BR><select>ホください <select>ぇ禮めときます<start>
+K: {0302}ぁあら いらっしゃい<BR>えいよう タップリ <red>ロンロンミルク<colorEnd><BR><red>ビン<colorEnd>に いっぱい {0601}ルピ○よ<BR><BR>かってくれる？<BR><select>ホください <select>ぇ禮めときます<start>
+
+#12
+J: ありがとう！<BR>じゃあ <red>ビン<colorEnd>の中に 入れとくわね<start>
+K: ありがとう！<BR>じゃあ <red>ビン<colorEnd>の中に 入れとくわね<start>
+
+#13
+J: そう？ いつも このあたりにいるから<BR>また こえをかけてね！<start>
+K: そう？ いつも このあたりにいるから<BR>また こえをかけてね！<start>
+
+#14
+J: ゴメンなさい<BR>ちょっと ルピ○が たりないみたい<start>
+K: ゴメンなさい<BR>ちょっと ルピ○が たりないみたい<start>
+
+#15
+J: ゴメンね <red>ビン<colorEnd>に 空きがないみたい<BR>また <red>ビン<colorEnd>が空いてる持に きてちょうだいね<start>
+K: ゴメンね <red>ビン<colorEnd>に 空きがないみたい<BR>また <red>ビン<colorEnd>が空いてる持に きてちょうだいね<start>
+
+#16
+J: よかったら もう いっぱい いかが？<BR><select>ホはい  <select>ぇ全いえ<start>
+K: よかったら もう いっぱい いかが？<BR><select>ホはい  <select>ぇ全いえ<start>
+
+#17
+J: まいどありい∼<BR>今後も <red>ロンロンミルク<colorEnd>を よろしくね<start>
+K: まいどありい∼<BR>今後も <red>ロンロンミルク<colorEnd>を よろしくね<start>
+
+#18
+J: <start>
+K: <start>
+
+#19
+J: <start>ホホホホホホホホ4
+K: <start>ホホホホホホホホ4
+

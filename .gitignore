@@ -1,0 +1,28 @@
+# 롬·세이브 (저작물·대용량, 덤프로 재생성)
+roms/
+*.gba
+*.sav
+*.bak
+
+# 외부 저장소 복제(자체 .git 있음)
+ref/
+
+# 프로젝트 전용 설치 패키지
+tools/_vendor/
+
+# 빌드 결과물·캐시
+__pycache__/
+build/
+dist/
+
+# 자동 생성(dump.py가 매번 재생성)
+work/review.html
+
+# 날짜 백업(git 이력으로 대체)
+work/backup/
+
+# 외부 도구(에뮬레이터·그래픽 편집기)
+upload/Vba/
+upload/yy-chr2/
+upload/rom address/
+upload/trans-kor/

@@ -1,0 +1,409 @@
+# block 19 · 101 msgs · minish_cap 한글화 워크스페이스
+# 규칙: 'J:' = 일본어 원문(수정 금지, 참고용). 'K:' 줄만 번역으로 수정.
+#       줄바꿈=<BR>, 색/제어 태그(<green> 등)·원시코드({0309} 등)는 그대로 유지.
+#       빈/제어전용 메시지는 K를 건드리지 말 것(원문 그대로 왕복됨).
+
+#0
+J: <start>
+K: <start>
+
+#1
+J: <sound>ザさあさあ おたちあい∼！<BR>たっぷり しあわせを 集めましょう！<BR>ぴったり くっつくと とびっきり よいことが あると言う<BR><red>しあわせのカケラ<colorEnd>！<BR>その <red>しあわせのカケラ<colorEnd>を 入れる<BR><red>カケラぶくろ<colorEnd>を むりょうで サ○ビス中！<BR>この チャンスを のがすと もったいないよ∼！<start>
+K: <sound>ザさあさあ おたちあい∼！<BR>たっぷり しあわせを 集めましょう！<BR>ぴったり くっつくと とびっきり よいことが あると言う<BR><red>しあわせのカケラ<colorEnd>！<BR>その <red>しあわせのカケラ<colorEnd>を 入れる<BR><red>カケラぶくろ<colorEnd>を むりょうで サ○ビス中！<BR>この チャンスを のがすと もったいないよ∼！<start>
+
+#2
+J: はいはい <red>カケラぶくろ<colorEnd> だね<BR>ただいま お子さまには サ○ビス中！<BR>キミにも おひとつ あげちゃいましょう！<start>
+K: はいはい <red>カケラぶくろ<colorEnd> だね<BR>ただいま お子さまには サ○ビス中！<BR>キミにも おひとつ あげちゃいましょう！<start>
+
+#3
+J: <red>しあわせのカケラ<colorEnd>どうしを くっつけることを<BR><blue>カケラあわせ<colorEnd>って 言うんだよ<BR>カケラと カケラが ぴったり くっつけば<BR>しあわせが まいこんでくる って言う お話さ<BR><red>カケラぶくろ<colorEnd>の中に <red>しあわせのカケラ<colorEnd>を ひとつ<BR>入れておいたから さっそく<blue>カケラあわせ<colorEnd> してみよう！<BR><DEL>い<center><start>
+K: <red>しあわせのカケラ<colorEnd>どうしを くっつけることを<BR><blue>カケラあわせ<colorEnd>って 言うんだよ<BR>カケラと カケラが ぴったり くっつけば<BR>しあわせが まいこんでくる って言う お話さ<BR><red>カケラぶくろ<colorEnd>の中に <red>しあわせのカケラ<colorEnd>を ひとつ<BR>入れておいたから さっそく<blue>カケラあわせ<colorEnd> してみよう！<BR><DEL>い<center><start>
+
+#4
+J: <blue>カケラあわせ<colorEnd>を したがっている人は<BR>今の ボクのように 見えるよ<BR>そしたら ⓑを 押してみよう！<BR><BR>◇で <red>カケラ<colorEnd>を えらんで<BR>{0C00}で <blue>カケラあわせ<colorEnd>を するよ！<BR>今の話 分かった？<BR>   <select>い<select>うん   <select>い{03B5}んぜん<start>
+K: <blue>カケラあわせ<colorEnd>を したがっている人は<BR>今の ボクのように 見えるよ<BR>そしたら ⓑを 押してみよう！<BR><BR>◇で <red>カケラ<colorEnd>を えらんで<BR>{0C00}で <blue>カケラあわせ<colorEnd>を するよ！<BR>今の話 分かった？<BR>   <select>い<select>うん   <select>い{03B5}んぜん<start>
+
+#5
+J: じゃあ ボクの前で ⓑを 押して <BR><blue>カケラあわせ<colorEnd>を してみよう！<start>
+K: じゃあ ボクの前で ⓑを 押して <BR><blue>カケラあわせ<colorEnd>を してみよう！<start>
+
+#6
+J: どこへ 行くの？<BR>ボクの 前でⓑ だよ！<start>
+K: どこへ 行くの？<BR>ボクの 前でⓑ だよ！<start>
+
+#7
+J: そうそう そうやって ⓑだよ！<BR>すると <blue>カケラあわせ<colorEnd>をする畵面に 入るからね<start>
+K: そうそう そうやって ⓑだよ！<BR>すると <blue>カケラあわせ<colorEnd>をする畵面に 入るからね<start>
+
+#8
+J: あれ？ どうしたんだい？<BR><blue>カケラあわせ<colorEnd>は ⓑ だよ！<start>
+K: あれ？ どうしたんだい？<BR><blue>カケラあわせ<colorEnd>は ⓑ だよ！<start>
+
+#9
+J: それでOK！ さあ これで キミにも ボクにも<BR>しあわせが やってくるかもね！ じゃあ また！<start>
+K: それでOK！ さあ これで キミにも ボクにも<BR>しあわせが やってくるかもね！ じゃあ また！<start>
+
+#10
+J: <start>
+K: <start>
+
+#11
+J: {0302}<DEL>ヤットコ ヤットコ ♪<BR>オイラは セッセと てつをほる∼♪<start>
+K: {0302}<DEL>ヤットコ ヤットコ ♪<BR>オイラは セッセと てつをほる∼♪<start>
+
+#12
+J: {0302}{08}ヤットコ ヤットコ ♪<BR>ヤレほれ スグほれ はやくほれ∼♪<start>
+K: {0302}{08}ヤットコ ヤットコ ♪<BR>ヤレほれ スグほれ はやくほれ∼♪<start>
+
+#13
+J: {0302}<BR>ここは <green>メルタおやかた<colorEnd>と7人の弟子のこう山ッス<BR>劍をなおしに ヤットコ ヤットコ やってきたッスか <BR><green>おやかた<colorEnd>は いちばん下に いるッスよ<BR><start>
+K: {0302}<BR>ここは <green>メルタおやかた<colorEnd>と7人の弟子のこう山ッス<BR>劍をなおしに ヤットコ ヤットコ やってきたッスか <BR><green>おやかた<colorEnd>は いちばん下に いるッスよ<BR><start>
+
+#14
+J: {0302}<BR>ヤットコ ヤットコ ♪<BR>オイラは ふふンフ ふんフフフ∼ン<BR>ああ···オイラも早く 自分だけの<BR>オリジナルヤットコソングが ほしいッスよ<start>
+K: {0302}<BR>ヤットコ ヤットコ ♪<BR>オイラは ふふンフ ふんフフフ∼ン<BR>ああ···オイラも早く 自分だけの<BR>オリジナルヤットコソングが ほしいッスよ<start>
+
+#15
+J: {0302}<BR>ヤットコ ヤットコ ♪<BR>うまってる∼ うれしいものがうまってる∼♪<start>
+K: {0302}<BR>ヤットコ ヤットコ ♪<BR>うまってる∼ うれしいものがうまってる∼♪<start>
+
+#16
+J: {0302}<BR>ここから そとに出れば<BR>人間がほった <green>こう山<colorEnd>に行けるッス<BR>でも <green>おやかた<colorEnd>の ゆるしがない人を<BR>通すわけには いかないッス<start>
+K: {0302}<BR>ここから そとに出れば<BR>人間がほった <green>こう山<colorEnd>に行けるッス<BR>でも <green>おやかた<colorEnd>の ゆるしがない人を<BR>通すわけには いかないッス<start>
+
+#17
+J: {0302}<BR>え！ <green>こう山<colorEnd>に 行くッスか？<BR><green>おやかた<colorEnd>と 話が ついてるなら とめないッス<BR>氣をつけて 行くッスよ<BR><start>
+K: {0302}<BR>え！ <green>こう山<colorEnd>に 行くッスか？<BR><green>おやかた<colorEnd>と 話が ついてるなら とめないッス<BR>氣をつけて 行くッスよ<BR><start>
+
+#18
+J: {0302}{09}ヤットコ ヤットコ ♪<BR>オイラは ピッコルで 2ばん目 てつしょくにん∼♪<BR>おやかたといっしょに 劍つくり∼ ♪<BR><start>
+K: {0302}{09}ヤットコ ヤットコ ♪<BR>オイラは ピッコルで 2ばん目 てつしょくにん∼♪<BR>おやかたといっしょに 劍つくり∼ ♪<BR><start>
+
+#19
+J: {0302}{065D}ットコ ヤットコ ♪<BR>オイラは ピッコルで3ばん目 てつしょくにん∼♪<BR>おやかたといっしょに 劍つくり∼ ♪<BR><start>
+K: {0302}{065D}ットコ ヤットコ ♪<BR>オイラは ピッコルで3ばん目 てつしょくにん∼♪<BR>おやかたといっしょに 劍つくり∼ ♪<BR><start>
+
+#20
+J: <start>
+K: <start>
+
+#21
+J: <start>
+K: <start>
+
+#22
+J: {0302}<BR>あ！ 無事だったッスね<BR>心配してたッスよ<BR>もう そろそろ <red>劍<colorEnd>ができるころッス<BR>おやかたが 待ってるはずッスよ<start>
+K: {0302}<BR>あ！ 無事だったッスね<BR>心配してたッスよ<BR>もう そろそろ <red>劍<colorEnd>ができるころッス<BR>おやかたが 待ってるはずッスよ<start>
+
+#23
+J: {0302}{065D}ットコ ヤットコ かんせいだ∼♪<BR>すっごい<red>劍<colorEnd>が かんせいだ∼♪<start>
+K: {0302}{065D}ットコ ヤットコ かんせいだ∼♪<BR>すっごい<red>劍<colorEnd>が かんせいだ∼♪<start>
+
+#24
+J: <start>
+K: <start>
+
+#25
+J: <center>あ<start><green>聖域<colorEnd>は ピッコルの國と 人間の世界の<BR>まん中にある ヘンテコな場所だ<BR>その入り口は 100年に一度 開く！<BR><green>ハイラルの城<colorEnd>に あったハズだぜ<start>
+K: <center>あ<start><green>聖域<colorEnd>は ピッコルの國と 人間の世界の<BR>まん中にある ヘンテコな場所だ<BR>その入り口は 100年に一度 開く！<BR><green>ハイラルの城<colorEnd>に あったハズだぜ<start>
+
+#26
+J: おっ <red>しあわせのカケラ<colorEnd>を 持ってるのか<BR>さっそく <blue>カケラあわせ<colorEnd>しようぜ！<start>
+K: おっ <red>しあわせのカケラ<colorEnd>を 持ってるのか<BR>さっそく <blue>カケラあわせ<colorEnd>しようぜ！<start>
+
+#27
+J: なんだい やめるのか？<start>
+K: なんだい やめるのか？<start>
+
+#28
+J: おっ やったな！ くっついたぜ！<BR>何回やっても ぴったりくっつくと 氣持ちいいな！<start>
+K: おっ やったな！ くっついたぜ！<BR>何回やっても ぴったりくっつくと 氣持ちいいな！<start>
+
+#29
+J: <start>
+K: <start>
+
+#30
+J: <start>
+K: <start>
+
+#31
+J: ここの地面の下から<BR><red>しあわせのカケラ<colorEnd>を 見つけたッスよ<start>
+K: ここの地面の下から<BR><red>しあわせのカケラ<colorEnd>を 見つけたッスよ<start>
+
+#32
+J: オイラと <blue>カケラあわせ<colorEnd> しないッスか？<BR><start>
+K: オイラと <blue>カケラあわせ<colorEnd> しないッスか？<BR><start>
+
+#33
+J: カケラあわせ やめるッスか？<BR><start>
+K: カケラあわせ やめるッスか？<BR><start>
+
+#34
+J: やったッス！ ピッタリくっついたッス！<BR><BR>これで オイラも いいてつが<BR>見つかるかも しれないッス！<start>
+K: やったッス！ ピッタリくっついたッス！<BR><BR>これで オイラも いいてつが<BR>見つかるかも しれないッス！<start>
+
+#35
+J: <start>
+K: <start>
+
+#36
+J: <start>
+K: <start>
+
+#37
+J: {0302}<BR>ヤットコ ヤットコ ♪<BR>穴をほる∼ <red>カケラ<colorEnd>探して 穴をほる∼♪<start>
+K: {0302}<BR>ヤットコ ヤットコ ♪<BR>穴をほる∼ <red>カケラ<colorEnd>探して 穴をほる∼♪<start>
+
+#38
+J: ぼくと <blue>カケラあわせ<colorEnd> しない？<start>
+K: ぼくと <blue>カケラあわせ<colorEnd> しない？<start>
+
+#39
+J: カケラあわせ やめるの？<start>
+K: カケラあわせ やめるの？<start>
+
+#40
+J: やったぁ！ ピッタリくっついたよ！<BR>これで ぼくも おやかた みたいに なれるかも！<start>
+K: やったぁ！ ピッタリくっついたよ！<BR>これで ぼくも おやかた みたいに なれるかも！<start>
+
+#41
+J: <start>
+K: <start>
+
+#42
+J: <start>
+K: <start>
+
+#43
+J: ここの 地面からは てつの他にも<BR><red>しあわせのカケラ<colorEnd>が 出てくるときが あるんだ<start>
+K: ここの 地面からは てつの他にも<BR><red>しあわせのカケラ<colorEnd>が 出てくるときが あるんだ<start>
+
+#44
+J: オイラと <blue>カケラあわせ<colorEnd> しない？<start>
+K: オイラと <blue>カケラあわせ<colorEnd> しない？<start>
+
+#45
+J: また カケラが集まったら きてよ<BR>オイラも たくさん 探しておくからさ<start>
+K: また カケラが集まったら きてよ<BR>オイラも たくさん 探しておくからさ<start>
+
+#46
+J: すごい！ ピッタリくっついたよ！<BR>これで オイラも いいことあるかな！<start>
+K: すごい！ ピッタリくっついたよ！<BR>これで オイラも いいことあるかな！<start>
+
+#47
+J: <start>
+K: <start>
+
+#48
+J: <start>
+K: <start>
+
+#49
+J: {0302}{09}ヤットコ ヤットコ ねるじゅんび∼♪<BR>テキパキ テキパキ ねるじゅんび∼♪<BR>ヤットコソングは 一人前の<BR>山のおとこにだけ ゆるされた うたさ！<BR>げんきが モリモリでてくるよね<BR>キミも ヤットコ うたってみれば？<start>
+K: {0302}{09}ヤットコ ヤットコ ねるじゅんび∼♪<BR>テキパキ テキパキ ねるじゅんび∼♪<BR>ヤットコソングは 一人前の<BR>山のおとこにだけ ゆるされた うたさ！<BR>げんきが モリモリでてくるよね<BR>キミも ヤットコ うたってみれば？<start>
+
+#50
+J: ぼくと カケラあわせ しない？<start>
+K: ぼくと カケラあわせ しない？<start>
+
+#51
+J: また カケラあわせ しようね<start>
+K: また カケラあわせ しようね<start>
+
+#52
+J: わっ！ くっつけ せいこう！<BR>みんなに じまんしよっと！！<start>
+K: わっ！ くっつけ せいこう！<BR>みんなに じまんしよっと！！<start>
+
+#53
+J: <start>
+K: <start>
+
+#54
+J: <start>
+K: <start>
+
+#55
+J: <blue>カケラあわせ<colorEnd> すんの？<start>
+K: <blue>カケラあわせ<colorEnd> すんの？<start>
+
+#56
+J: <blue>カケラあわせ<colorEnd> やるんだ！<start>
+K: <blue>カケラあわせ<colorEnd> やるんだ！<start>
+
+#57
+J: たのしいよ○ <blue>カケラあわせ<colorEnd>！<start>
+K: たのしいよ○ <blue>カケラあわせ<colorEnd>！<start>
+
+#58
+J: <start>
+K: <start>
+
+#59
+J: <start>
+K: <start>
+
+#60
+J: <start>
+K: <start>
+
+#61
+J: {0302}ⓡあ店、のふくに ヘンチクリンなぼうし···<BR>オメエが <name>って こぞうっこかい！<BR>話は 森の長老から きいてるぜ<BR>オレっちは ココの おやかたで <green>メルタ<colorEnd>ってんだ<BR>お姬さまの 呪いを解くために<BR><red>聖劍<colorEnd>を あたらしく作ろうってんだろ？<BR>しかし それには <red>エレメント<colorEnd>の力を やどす<BR>もとになる劍が ないと はじまんねぇ<BR>持ってきた <red>折れたピッコルの劍<colorEnd>を 出しな！<BR>お姬さまを 助けるってのが 氣に入った<BR>オレっちが あたらしい聖劍の もとになるように<BR>ガッチリ うちなおしてやるぜ<start>
+K: {0302}ⓡあ店、のふくに ヘンチクリンなぼうし···<BR>オメエが <name>って こぞうっこかい！<BR>話は 森の長老から きいてるぜ<BR>オレっちは ココの おやかたで <green>メルタ<colorEnd>ってんだ<BR>お姬さまの 呪いを解くために<BR><red>聖劍<colorEnd>を あたらしく作ろうってんだろ？<BR>しかし それには <red>エレメント<colorEnd>の力を やどす<BR>もとになる劍が ないと はじまんねぇ<BR>持ってきた <red>折れたピッコルの劍<colorEnd>を 出しな！<BR>お姬さまを 助けるってのが 氣に入った<BR>オレっちが あたらしい聖劍の もとになるように<BR>ガッチリ うちなおしてやるぜ<start>
+
+#62
+J: <center>あ<start>劍が できあがるまでには しばらくかかる<BR><BR>そのあいだに オメェさんは <red>エレメント<colorEnd>を<BR>探しに行きな！<BR>昔 人間がほったって言う <green>こう山<colorEnd>が<BR>ここから少し行ったところに あったハズだ<start>
+K: <center>あ<start>劍が できあがるまでには しばらくかかる<BR><BR>そのあいだに オメェさんは <red>エレメント<colorEnd>を<BR>探しに行きな！<BR>昔 人間がほったって言う <green>こう山<colorEnd>が<BR>ここから少し行ったところに あったハズだ<start>
+
+#63
+J: <center>あ<start>よし！ それじゃあ<BR>そろそろ はじめるとするか！<start>
+K: <center>あ<start>よし！ それじゃあ<BR>そろそろ はじめるとするか！<start>
+
+#64
+J: <sound>もよし <name><BR>ここは おやかたたちに まかせよう<BR>ワシらは <red>エレメント<colorEnd>を 探すぞい！<start>
+K: <sound>もよし <name><BR>ここは おやかたたちに まかせよう<BR>ワシらは <red>エレメント<colorEnd>を 探すぞい！<start>
+
+#65
+J: <start>
+K: <start>
+
+#66
+J: <start>
+K: <start>
+
+#67
+J: <center>あ{0E24}シの名は <green>ゴングルせんにん<colorEnd><BR>世の中から はなれ 心の しゅぎょう中ぞよ<BR>みたところ まだ こどもなのに よく この山に<BR>あがって これたぞよ<BR>その 勇氣にめんじて 良いことを 敎えるぞよ<BR><BR>この山の 壁をのぼってくる とちゅうに<BR>あやしい 壁はなかったかな？<BR>ヒントは <red>バクダン<colorEnd>じゃ<start>
+K: <center>あ{0E24}シの名は <green>ゴングルせんにん<colorEnd><BR>世の中から はなれ 心の しゅぎょう中ぞよ<BR>みたところ まだ こどもなのに よく この山に<BR>あがって これたぞよ<BR>その 勇氣にめんじて 良いことを 敎えるぞよ<BR><BR>この山の 壁をのぼってくる とちゅうに<BR>あやしい 壁はなかったかな？<BR>ヒントは <red>バクダン<colorEnd>じゃ<start>
+
+#68
+J: <start>
+K: <start>
+
+#69
+J: <start>
+K: <start>
+
+#70
+J: <start>
+K: <start>
+
+#71
+J: <start>
+K: <start>
+
+#72
+J: <start>
+K: <start>
+
+#73
+J: <start>
+K: <start>
+
+#74
+J: <start>
+K: <start>
+
+#75
+J: <start>
+K: <start>
+
+#76
+J: <start>
+K: <start>
+
+#77
+J: <start>
+K: <start>
+
+#78
+J: <start>
+K: <start>
+
+#79
+J: <start>
+K: <start>
+
+#80
+J: <start>
+K: <start>
+
+#81
+J: ここの地面から 出きてきた<BR><red>しあわせのカケラ<colorEnd> 持ってるッスよ<BR>オイラと <blue>カケラあわせ<colorEnd> しないッスか？<BR>するする  またこんど<start>
+K: ここの地面から 出きてきた<BR><red>しあわせのカケラ<colorEnd> 持ってるッスよ<BR>オイラと <blue>カケラあわせ<colorEnd> しないッスか？<BR>するする  またこんど<start>
+
+#82
+J: DEMO＿2＿02＿022<start>
+K: DEMO＿2＿02＿022<start>
+
+#83
+J: ヤットコ ヤットコ ♪<start>
+K: ヤットコ ヤットコ ♪<start>
+
+#84
+J: <start>
+K: <start>
+
+#85
+J: <start>
+K: <start>
+
+#86
+J: <start>
+K: <start>
+
+#87
+J: <start>
+K: <start>
+
+#88
+J: <start>
+K: <start>
+
+#89
+J: <start>
+K: <start>
+
+#90
+J: <start>
+K: <start>
+
+#91
+J: <start>
+K: <start>
+
+#92
+J: {0302}ⓡあ<start>おう イガイと 早かったじゃねえか<BR>オレっちのほうも バッチリ オッケ○だぜ<BR>さあ 見てみろ！<BR>これが あたらしい劍<red> ホワイトソ○ド <colorEnd>だぜ！<start>
+K: {0302}ⓡあ<start>おう イガイと 早かったじゃねえか<BR>オレっちのほうも バッチリ オッケ○だぜ<BR>さあ 見てみろ！<BR>これが あたらしい劍<red> ホワイトソ○ド <colorEnd>だぜ！<start>
+
+#93
+J: その劍に <blue>エレメントの 力を やどす<colorEnd>と<BR><red>聖劍<colorEnd>が できあがるって スンポウよ！<BR>森の長老が 言うにゃあ<BR>劍に エレメントの力を やどすためには<BR><green>聖域<colorEnd> って場所に 行かなきゃなんねえって ハナシだ！<BR><BR><green>聖域<colorEnd>は ピッコルの國と 人間の世界の<BR>まん中にある ヘンテコな場所だ<BR>その入り口は <green>ハイラルの城<colorEnd>に あって<BR>100年に一度 開く！<BR>4つの<red>エレメント<colorEnd>の 力を やどした<red>聖劍<colorEnd>なら<BR>呪いを解くことが できるハズだ<BR>城へは さっき こう山に 行くときに 通った<BR>出口から 出ると 近道だ<BR>がんばるんだぜ！<BR><start>
+K: その劍に <blue>エレメントの 力を やどす<colorEnd>と<BR><red>聖劍<colorEnd>が できあがるって スンポウよ！<BR>森の長老が 言うにゃあ<BR>劍に エレメントの力を やどすためには<BR><green>聖域<colorEnd> って場所に 行かなきゃなんねえって ハナシだ！<BR><BR><green>聖域<colorEnd>は ピッコルの國と 人間の世界の<BR>まん中にある ヘンテコな場所だ<BR>その入り口は <green>ハイラルの城<colorEnd>に あって<BR>100年に一度 開く！<BR>4つの<red>エレメント<colorEnd>の 力を やどした<red>聖劍<colorEnd>なら<BR>呪いを解くことが できるハズだ<BR>城へは さっき こう山に 行くときに 通った<BR>出口から 出ると 近道だ<BR>がんばるんだぜ！<BR><start>
+
+#94
+J: ふもとに 歸りたいなら ここから出て<BR>がけから とびおりれば 近道っすよ<start>
+K: ふもとに 歸りたいなら ここから出て<BR>がけから とびおりれば 近道っすよ<start>
+
+#95
+J: <start>
+K: <start>
+
+#96
+J: <start>
+K: <start>
+
+#97
+J: <start>
+K: <start>
+
+#98
+J: <start>
+K: <start>
+
+#99
+J: <start>
+K: <start>
+
+#100
+J: <start>ホホホホバ
+K: <start>ホホホホバ
+

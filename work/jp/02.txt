@@ -1,0 +1,121 @@
+# block 02 · 29 msgs · minish_cap 한글화 워크스페이스
+# 규칙: 'J:' = 일본어 원문(수정 금지, 참고용). 'K:' 줄만 번역으로 수정.
+#       줄바꿈=<BR>, 색/제어 태그(<green> 등)·원시코드({0309} 등)는 그대로 유지.
+#       빈/제어전용 메시지는 K를 건드리지 말 것(원문 그대로 왕복됨).
+
+#0
+J: <BR><BR><BR><BR><BR><green>DIRECTOR<colorEnd><BR><BR>Hidemaro Fujibayashi<start>
+K: <BR><BR><BR><BR><BR><green>DIRECTOR<colorEnd><BR><BR>Hidemaro Fujibayashi<start>
+
+#1
+J: <green>PLANNING<colorEnd><BR><BR>Hidemaro Fujibayashi<BR>Suchol Lee<BR>Joko Kazuki<BR>Mitsuki Tsukada<BR>Minoru Nakai<BR>Takashi Hamamura<BR>Shigeki Morihira<start>
+K: <green>PLANNING<colorEnd><BR><BR>Hidemaro Fujibayashi<BR>Suchol Lee<BR>Joko Kazuki<BR>Mitsuki Tsukada<BR>Minoru Nakai<BR>Takashi Hamamura<BR>Shigeki Morihira<start>
+
+#2
+J: <green>PROGRAMMING<colorEnd><BR><BR>Toshihiko Honda<BR>shimitan<BR>Yoshiyuki Fujikawa<BR>N．MINOMIYA<BR>Yohey Doi<BR>K．YOSHIDA<start>
+K: <green>PROGRAMMING<colorEnd><BR><BR>Toshihiko Honda<BR>shimitan<BR>Yoshiyuki Fujikawa<BR>N．MINOMIYA<BR>Yohey Doi<BR>K．YOSHIDA<start>
+
+#3
+J: <green>OBJECT DESIGN<colorEnd><BR><BR>KIMOKIMO<BR>erichop<BR>Kumiko Fujiwara<BR><BR>Keisuke<BR>     ”TWIGGY”<BR>         Motozono<start>
+K: <green>OBJECT DESIGN<colorEnd><BR><BR>KIMOKIMO<BR>erichop<BR>Kumiko Fujiwara<BR><BR>Keisuke<BR>     ”TWIGGY”<BR>         Motozono<start>
+
+#4
+J: <green>SCROLL DESIGN<colorEnd><BR><BR>Nishitsuji Asae<BR>Takayuki Nakayama<BR>Hiroyuki Imahori<BR>Yoshi Maeda<BR>Haruki Suetsugu<start>
+K: <green>SCROLL DESIGN<colorEnd><BR><BR>Nishitsuji Asae<BR>Takayuki Nakayama<BR>Hiroyuki Imahori<BR>Yoshi Maeda<BR>Haruki Suetsugu<start>
+
+#5
+J: <BR><BR><BR><BR><BR><green>MUSIC<colorEnd><BR><BR>Mitsuhiko Takano<start>
+K: <BR><BR><BR><BR><BR><green>MUSIC<colorEnd><BR><BR>Mitsuhiko Takano<start>
+
+#6
+J: <BR><BR><BR><BR><BR><green>CHARACTER DESIGN<colorEnd><BR><BR>KIMOKIMO<start>
+K: <BR><BR><BR><BR><BR><green>CHARACTER DESIGN<colorEnd><BR><BR>KIMOKIMO<start>
+
+#7
+J: <BR><BR><BR><BR><BR><green>ARTWORK<colorEnd><BR><BR>Haruki Suetsugu<start>
+K: <BR><BR><BR><BR><BR><green>ARTWORK<colorEnd><BR><BR>Haruki Suetsugu<start>
+
+#8
+J: <BR><BR><BR><BR><green>TITLE LOGO DESIGN<colorEnd><BR><BR>SHOEI<BR>Satoshi Ukai<start>
+K: <BR><BR><BR><BR><green>TITLE LOGO DESIGN<colorEnd><BR><BR>SHOEI<BR>Satoshi Ukai<start>
+
+#9
+J: <start>
+K: <start>
+
+#10
+J: <BR><BR><green>SUPERVISOR<colorEnd><BR><BR>E．Aonuma<BR>Y．Yamada<BR>M．Narita<BR>T．Tezuka<BR>Y．Yamashita<start>
+K: <BR><BR><green>SUPERVISOR<colorEnd><BR><BR>E．Aonuma<BR>Y．Yamada<BR>M．Narita<BR>T．Tezuka<BR>Y．Yamashita<start>
+
+#11
+J: <BR><BR><BR><BR><BR><green>SOUND ADVISOR<colorEnd><BR><BR>K．Kondo<start>
+K: <BR><BR><BR><BR><BR><green>SOUND ADVISOR<colorEnd><BR><BR>K．Kondo<start>
+
+#12
+J: <BR><BR><BR><BR><BR><green>SPECIAL THANKS<colorEnd><BR><BR>M．TAKEGUCHI<BR>SUPER MARIO CLUB<start>
+K: <BR><BR><BR><BR><BR><green>SPECIAL THANKS<colorEnd><BR><BR>M．TAKEGUCHI<BR>SUPER MARIO CLUB<start>
+
+#13
+J: <BR><BR><BR><BR><green>SPECIAL THANKS<colorEnd><BR><BR>ORIGINAL<BR>     ”ZELDA” STAFF<start>
+K: <BR><BR><BR><BR><green>SPECIAL THANKS<colorEnd><BR><BR>ORIGINAL<BR>     ”ZELDA” STAFF<start>
+
+#14
+J: <BR><BR><BR><BR><green>MANAGEMENT<colorEnd><BR><BR>nosetake<BR>Masanori Kusumoto<start>
+K: <BR><BR><BR><BR><green>MANAGEMENT<colorEnd><BR><BR>nosetake<BR>Masanori Kusumoto<start>
+
+#15
+J: <BR><BR><BR><BR><BR><green>PRODUCER<colorEnd><BR><BR>Keiji Inafune<start>
+K: <BR><BR><BR><BR><BR><green>PRODUCER<colorEnd><BR><BR>Keiji Inafune<start>
+
+#16
+J: <BR><BR><BR><green>GENERAL<BR>    PRODUCER<colorEnd><BR><BR>Shigeru Miyamoto<start>
+K: <BR><BR><BR><green>GENERAL<BR>    PRODUCER<colorEnd><BR><BR>Shigeru Miyamoto<start>
+
+#17
+J: <BR><BR><BR><green>EXECUTIVE<BR>      PRODUCER<colorEnd><BR><BR>Satoru Iwata<start>
+K: <BR><BR><BR><green>EXECUTIVE<BR>      PRODUCER<colorEnd><BR><BR>Satoru Iwata<start>
+
+#18
+J: <start>
+K: <start>
+
+#19
+J: <BR><BR><BR><BR><BR><green>SOUND EFFECTS<colorEnd><BR><BR>Shinji Amagishi<BR>Takashi Moriguchi<start>
+K: <BR><BR><BR><BR><BR><green>SOUND EFFECTS<colorEnd><BR><BR>Shinji Amagishi<BR>Takashi Moriguchi<start>
+
+#20
+J: <BR><BR><BR><green>SPECIAL THANKS<colorEnd><BR><BR>ROCKMAN CLUB<BR>CAPCOM HC<BR><BR>FLAGSHIP Co．，Ltd<start>
+K: <BR><BR><BR><green>SPECIAL THANKS<colorEnd><BR><BR>ROCKMAN CLUB<BR>CAPCOM HC<BR><BR>FLAGSHIP Co．，Ltd<start>
+
+#21
+J: <BR><BR><BR><BR><green>PRODUCT<BR>    MANAGEMENT<colorEnd><BR><BR>Yasushi Adachi<start>
+K: <BR><BR><BR><BR><green>PRODUCT<BR>    MANAGEMENT<colorEnd><BR><BR>Yasushi Adachi<start>
+
+#22
+J: <start>
+K: <start>
+
+#23
+J: <start>
+K: <start>
+
+#24
+J: <BR><BR><BR><BR>All Rights， including the copyrights of<BR>Game， Scenario， Music and Program，<BR>reserved by NINTENDO．<start>
+K: <BR><BR><BR><BR>All Rights， including the copyrights of<BR>Game， Scenario， Music and Program，<BR>reserved by NINTENDO．<start>
+
+#25
+J: こうして <name> の<BR>はじめての 冒險は おわりました<start>
+K: こうして <name> の<BR>はじめての 冒險は おわりました<start>
+
+#26
+J: しかし これからも <name> に ゼルダに<BR>ハイラルに さまざまなできごとが おとずれるでしょう<start>
+K: しかし これからも <name> に ゼルダに<BR>ハイラルに さまざまなできごとが おとずれるでしょう<start>
+
+#27
+J: <BR>そう ものがたりは つづいていくのです<start>
+K: <BR>そう ものがたりは つづいていくのです<start>
+
+#28
+J: <BR>フォ○スの みちびきが あるかぎり···<start>ホホホホホホホホホホホT
+K: <BR>フォ○スの みちびきが あるかぎり···<start>ホホホホホホホホホホホT
+

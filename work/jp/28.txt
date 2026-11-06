@@ -1,0 +1,165 @@
+# block 28 · 40 msgs · minish_cap 한글화 워크스페이스
+# 규칙: 'J:' = 일본어 원문(수정 금지, 참고용). 'K:' 줄만 번역으로 수정.
+#       줄바꿈=<BR>, 색/제어 태그(<green> 등)·원시코드({0309} 등)는 그대로 유지.
+#       빈/제어전용 메시지는 K를 건드리지 말 것(원문 그대로 왕복됨).
+
+#0
+J: <start>
+K: <start>
+
+#1
+J: <start>
+K: <start>
+
+#2
+J: <sound>ぜオレっちは ハイラル王から この町の しゅうりを<BR>まかされた 大工の とうりょうの <green>ムト○<colorEnd>ってもんだ！<BR>ぼうず ここは 今 しゅうり中だ！<BR>あぶねぇから 近よっちゃなんねぇぜ<start>
+K: <sound>ぜオレっちは ハイラル王から この町の しゅうりを<BR>まかされた 大工の とうりょうの <green>ムト○<colorEnd>ってもんだ！<BR>ぼうず ここは 今 しゅうり中だ！<BR>あぶねぇから 近よっちゃなんねぇぜ<start>
+
+#3
+J: <sound>ぜオレっちは ハイラル王から この町の しゅうりを<BR>たのまれた 大工の とうりょうの <green>ムト○<colorEnd>ってもんだ！<BR>ぼうず ここは さっきの じしんで くずれちまって<BR>今 シュウリ中だ！<BR>あぶねぇから ちかよっちゃ なんねえぜ<BR><start>
+K: <sound>ぜオレっちは ハイラル王から この町の しゅうりを<BR>たのまれた 大工の とうりょうの <green>ムト○<colorEnd>ってもんだ！<BR>ぼうず ここは さっきの じしんで くずれちまって<BR>今 シュウリ中だ！<BR>あぶねぇから ちかよっちゃ なんねえぜ<BR><start>
+
+#4
+J: <start>
+K: <start>
+
+#5
+J: 本當に <red>ピッコルの劍<colorEnd>が ささっていた 寶箱に<BR>魔物が 封印されていたなんて···<BR><green>グフ○<colorEnd>は 何か 別の目的で 寶箱を 開けたらしいが<BR>おかげで ハイラル中 魔物だらけだよ <start>
+K: 本當に <red>ピッコルの劍<colorEnd>が ささっていた 寶箱に<BR>魔物が 封印されていたなんて···<BR><green>グフ○<colorEnd>は 何か 別の目的で 寶箱を 開けたらしいが<BR>おかげで ハイラル中 魔物だらけだよ <start>
+
+#6
+J: このあたりの 魔物は われわれが なんとかしたが<BR><green>チロリアの森<colorEnd>までは たくさんの 魔物が いるだろう<BR>氣を つけて 行くんだよ<start>
+K: このあたりの 魔物は われわれが なんとかしたが<BR><green>チロリアの森<colorEnd>までは たくさんの 魔物が いるだろう<BR>氣を つけて 行くんだよ<start>
+
+#7
+J: <start>
+K: <start>
+
+#8
+J: <start>
+K: <start>
+
+#9
+J: <start>
+K: <start>
+
+#10
+J: <start>
+K: <start>
+
+#11
+J: <start>
+K: <start>
+
+#12
+J: <start>
+K: <start>
+
+#13
+J: <sound>ベああ いそがしい！<BR><BR>ウチの とうりょうってば<BR>人使い あらいんだから···<start>
+K: <sound>ベああ いそがしい！<BR><BR>ウチの とうりょうってば<BR>人使い あらいんだから···<start>
+
+#14
+J: <sound>ベああ いそがしい！<BR><BR>ウチの とうりょうってば ハリキッちゃって<BR>やすむ ヒマさえ ないのよ···<start>
+K: <sound>ベああ いそがしい！<BR><BR>ウチの とうりょうってば ハリキッちゃって<BR>やすむ ヒマさえ ないのよ···<start>
+
+#15
+J: <start>
+K: <start>
+
+#16
+J: <start>
+K: <start>
+
+#17
+J: <start>
+K: <start>
+
+#18
+J: <start>
+K: <start>
+
+#19
+J: <start>
+K: <start>
+
+#20
+J: <start>
+K: <start>
+
+#21
+J: <start>
+K: <start>
+
+#22
+J: <start>
+K: <start>
+
+#23
+J: <start>
+K: <start>
+
+#24
+J: <sound>デ最近 魔物が あちこちで あばれてるから<BR>町の シュウリに 大いそがしなのよ<start>
+K: <sound>デ最近 魔物が あちこちで あばれてるから<BR>町の シュウリに 大いそがしなのよ<start>
+
+#25
+J: <sound>デさっきの じしん すごかったわね<BR><BR>おかげで いろんな ところが<BR>こわれちゃった らしいわ<start>
+K: <sound>デさっきの じしん すごかったわね<BR><BR>おかげで いろんな ところが<BR>こわれちゃった らしいわ<start>
+
+#26
+J: <start>
+K: <start>
+
+#27
+J: <start>
+K: <start>
+
+#28
+J: <start>
+K: <start>
+
+#29
+J: <start>
+K: <start>
+
+#30
+J: <start>
+K: <start>
+
+#31
+J: <start>
+K: <start>
+
+#32
+J: <start>
+K: <start>
+
+#33
+J: <start>
+K: <start>
+
+#34
+J: <start>
+K: <start>
+
+#35
+J: <sound>ベきゅうに 魔物が ふえた氣が するのよ<BR>コワイわね···<start>
+K: <sound>ベきゅうに 魔物が ふえた氣が するのよ<BR>コワイわね···<start>
+
+#36
+J: <start>
+K: <start>
+
+#37
+J: <start>
+K: <start>
+
+#38
+J: <sound>デいそがしい いそがしい<BR><BR>ここが すんだら 今度は<BR>カイダンを なおしに行かなきゃ<start>
+K: <sound>デいそがしい いそがしい<BR><BR>ここが すんだら 今度は<BR>カイダンを なおしに行かなきゃ<start>
+
+#39
+J: <start>ホホホホお
+K: <start>ホホホホお
+

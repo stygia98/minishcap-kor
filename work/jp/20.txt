@@ -1,0 +1,201 @@
+# block 20 · 49 msgs · minish_cap 한글화 워크스페이스
+# 규칙: 'J:' = 일본어 원문(수정 금지, 참고용). 'K:' 줄만 번역으로 수정.
+#       줄바꿈=<BR>, 색/제어 태그(<green> 등)·원시코드({0309} 등)는 그대로 유지.
+#       빈/제어전용 메시지는 K를 건드리지 말 것(원문 그대로 왕복됨).
+
+#0
+J: <start>
+K: <start>
+
+#1
+J: <center>あ<DEL><sound>レおや こんなトコロで おあいできるとは···<BR><BR>誰かと 思えば<BR>わが おししょうさまでは ありませんか···<start>
+K: <center>あ<DEL><sound>レおや こんなトコロで おあいできるとは···<BR><BR>誰かと 思えば<BR>わが おししょうさまでは ありませんか···<start>
+
+#2
+J: {0301}スキ··· キサマは <green>グフ○<colorEnd>！<BR><start>
+K: {0301}スキ··· キサマは <green>グフ○<colorEnd>！<BR><start>
+
+#3
+J: {0301}セあいかわらず みすぼらしい カッコウですね<BR>ワタクシの <blue>呪い<colorEnd>の力も たいしたものでしょう<BR>なにしろ アナタにかけた呪いは 强力です<BR>いかなる力を もってしても 解くことはできませんよ<start>
+K: {0301}セあいかわらず みすぼらしい カッコウですね<BR>ワタクシの <blue>呪い<colorEnd>の力も たいしたものでしょう<BR>なにしろ アナタにかけた呪いは 强力です<BR>いかなる力を もってしても 解くことはできませんよ<start>
+
+#4
+J: あいかわらずの ようじゃのう<BR><BR>ワシは キサマの 惡しき のぞみのために<BR>その <red>ぼうし<colorEnd>を 作ったのでは ないと言うのに···<start>
+K: あいかわらずの ようじゃのう<BR><BR>ワシは キサマの 惡しき のぞみのために<BR>その <red>ぼうし<colorEnd>を 作ったのでは ないと言うのに···<start>
+
+#5
+J: かぶった人のねがいを かなえる<BR>この<red>ぼうし<colorEnd>は すばらしい！<BR>おかげで わたしは この世界で<BR>たった一人のそんざい···<BR>何者にも まけない <blue>魔人<colorEnd>となれたのです<BR>殘すは <red>フォ○ス<colorEnd>の力を 手に入れるのみ！ <BR>これも 全部 アナタのおかげです<BR>ワタシからの プレゼントを うけとってください<start>
+K: かぶった人のねがいを かなえる<BR>この<red>ぼうし<colorEnd>は すばらしい！<BR>おかげで わたしは この世界で<BR>たった一人のそんざい···<BR>何者にも まけない <blue>魔人<colorEnd>となれたのです<BR>殘すは <red>フォ○ス<colorEnd>の力を 手に入れるのみ！ <BR>これも 全部 アナタのおかげです<BR>ワタシからの プレゼントを うけとってください<start>
+
+#6
+J: 待て！<BR>待たんか <green>グフ○<colorEnd>よ！<start>
+K: 待て！<BR>待たんか <green>グフ○<colorEnd>よ！<start>
+
+#7
+J: <start>
+K: <start>
+
+#8
+J: <start>
+K: <start>
+
+#9
+J: <start>
+K: <start>
+
+#10
+J: <start>
+K: <start>
+
+#11
+J: <start>
+K: <start>
+
+#12
+J: <green>グフ○<colorEnd>め！ いったい 今度は 何をたくらんでおるのじゃ<BR><BR>···<name>よ<BR>こうなっては オヌシには 全て 話さねばならんな···<BR>ワシと <green>グフ○<colorEnd>は <green>ピッコル<colorEnd>だったのじゃ<BR><BR>ワシは ピッコルの國で 少しは ゆうめいな 賢者でな<BR><green>グフ○<colorEnd>は ワシの弟子だった おとこ···<BR>ヤツは 人間の<blue>惡い心<colorEnd>に とても あこがれておった<BR><BR>ある日 ワシが 人間のために作った<BR>ねがいが かなう <red>ぼうし<colorEnd>を ヤツは···<start>
+K: <green>グフ○<colorEnd>め！ いったい 今度は 何をたくらんでおるのじゃ<BR><BR>···<name>よ<BR>こうなっては オヌシには 全て 話さねばならんな···<BR>ワシと <green>グフ○<colorEnd>は <green>ピッコル<colorEnd>だったのじゃ<BR><BR>ワシは ピッコルの國で 少しは ゆうめいな 賢者でな<BR><green>グフ○<colorEnd>は ワシの弟子だった おとこ···<BR>ヤツは 人間の<blue>惡い心<colorEnd>に とても あこがれておった<BR><BR>ある日 ワシが 人間のために作った<BR>ねがいが かなう <red>ぼうし<colorEnd>を ヤツは···<start>
+
+#13
+J: {0301}ス<center>あ<DEL>おお！ 何と言う 邪惡なすがた！<start>
+K: {0301}ス<center>あ<DEL>おお！ 何と言う 邪惡なすがた！<start>
+
+#14
+J: <sound>レワタシは 今 <blue>魔人<colorEnd>となり<BR>誰にも まけない 力を手に入れました···<start>
+K: <sound>レワタシは 今 <blue>魔人<colorEnd>となり<BR>誰にも まけない 力を手に入れました···<start>
+
+#15
+J: <center>あ{06DB}サマ いったい 何をたくらんでおる！<start>
+K: <center>あ{06DB}サマ いったい 何をたくらんでおる！<start>
+
+#16
+J: 今年は 100年に一度の <blue>とびらが開く年<colorEnd><BR><red>フォ○ス<colorEnd>を 手に入れ ワタシは カンペキになるのです<BR>もう誰も ワタシを とめられません···<start>
+K: 今年は 100年に一度の <blue>とびらが開く年<colorEnd><BR><red>フォ○ス<colorEnd>を 手に入れ ワタシは カンペキになるのです<BR>もう誰も ワタシを とめられません···<start>
+
+#17
+J: グアアアアッ！<BR><start>
+K: グアアアアッ！<BR><start>
+
+#18
+J: <center>あ<DEL>ハッハッハッハ！<BR><BR>どうです！？ <blue>魔人の呪い<colorEnd>は？<BR><BR>そうなってしまっては <green>エゼロさま<colorEnd>も<BR>何も できませんね！<BR>では ワタシは これにて シツレイ···<BR><start>
+K: <center>あ<DEL>ハッハッハッハ！<BR><BR>どうです！？ <blue>魔人の呪い<colorEnd>は？<BR><BR>そうなってしまっては <green>エゼロさま<colorEnd>も<BR>何も できませんね！<BR>では ワタシは これにて シツレイ···<BR><start>
+
+#19
+J: 待て！ 待たんか！<BR><green>グフ○<colorEnd>よ！<start>
+K: 待て！ 待たんか！<BR><green>グフ○<colorEnd>よ！<start>
+
+#20
+J: オヌシも <blue>ピッコルの傳說<colorEnd>は 知っておるだろう<BR>ピッコルが 人間に 光と劍をあたえた話じゃ<BR>劍は <red>ピッコルの劍<BR><colorEnd>光とは <red>フォ○ス<colorEnd>の ことなのじゃ<BR><red>フォ○ス<colorEnd>とは <blue>むげんの魔力<colorEnd><BR>今の <green>グフ○<colorEnd>が手に入れれば 大變なことになろう<BR>ワシは <green>グフ○<colorEnd>をとめるため 人間の世界に きて<BR>あの<green>森<colorEnd>で オヌシと 出會ったというわけじゃ<BR>ワシにかけられた <blue>呪い<colorEnd>は<BR>もはや 解くことは できんらしい<BR>しかし <red>聖劍<colorEnd>があれば <green>ゼルダ姬<colorEnd>は<BR>必ず もとに 戾せるハズじゃ<BR>こうなったのも すべて ワシのせきにんじゃ<BR>最後まで オヌシに 力を かすぞ<start>
+K: オヌシも <blue>ピッコルの傳說<colorEnd>は 知っておるだろう<BR>ピッコルが 人間に 光と劍をあたえた話じゃ<BR>劍は <red>ピッコルの劍<BR><colorEnd>光とは <red>フォ○ス<colorEnd>の ことなのじゃ<BR><red>フォ○ス<colorEnd>とは <blue>むげんの魔力<colorEnd><BR>今の <green>グフ○<colorEnd>が手に入れれば 大變なことになろう<BR>ワシは <green>グフ○<colorEnd>をとめるため 人間の世界に きて<BR>あの<green>森<colorEnd>で オヌシと 出會ったというわけじゃ<BR>ワシにかけられた <blue>呪い<colorEnd>は<BR>もはや 解くことは できんらしい<BR>しかし <red>聖劍<colorEnd>があれば <green>ゼルダ姬<colorEnd>は<BR>必ず もとに 戾せるハズじゃ<BR>こうなったのも すべて ワシのせきにんじゃ<BR>最後まで オヌシに 力を かすぞ<start>
+
+#21
+J: さあ <name>！ 昔話は ここまでじゃ<BR>次の<red>エレメント<colorEnd>を 探しに行くぞい！<start>
+K: さあ <name>！ 昔話は ここまでじゃ<BR>次の<red>エレメント<colorEnd>を 探しに行くぞい！<start>
+
+#22
+J: <green>グフ○<colorEnd>！<BR>何を しておる！<start>
+K: <green>グフ○<colorEnd>！<BR>何を しておる！<start>
+
+#23
+J: <start>
+K: <start>
+
+#24
+J: うん？ <green>城<colorEnd>の方でなにやら<BR>ミョウな 氣配を 感じたが···<BR>氣のせいかの？<start>
+K: うん？ <green>城<colorEnd>の方でなにやら<BR>ミョウな 氣配を 感じたが···<BR>氣のせいかの？<start>
+
+#25
+J: <sound>ョむ！   何ヤツだ？<BR><BR>キサマは <green>グフ○<colorEnd>！<BR>どうやって ここまで 入った！？<start>
+K: <sound>ョむ！   何ヤツだ？<BR><BR>キサマは <green>グフ○<colorEnd>！<BR>どうやって ここまで 入った！？<start>
+
+#26
+J: うお おのれ 何をする···！<BR><start>
+K: うお おのれ 何をする···！<BR><start>
+
+#27
+J: <sound>レフハハハハハ<sound>ぎ<start>
+K: <sound>レフハハハハハ<sound>ぎ<start>
+
+#28
+J: <sound>ぐみな そろったようじゃな<BR>では <green>ハイラル王<colorEnd> より おコトバが ある<start>
+K: <sound>ぐみな そろったようじゃな<BR>では <green>ハイラル王<colorEnd> より おコトバが ある<start>
+
+#29
+J: <sound>ョそなたたちは その昔 <green>ピッコル<colorEnd>が 人間に<BR>さずけたという <red>フォ○ス<colorEnd>のことは 知っておろうな？<BR>そう··· むげんの魔力 黃金の光と<BR>言われている <red>フォ○ス<colorEnd>の ことだ···<BR>ワシは それが ほしい！！<BR>この ハイラルの どこかに あるハズだ！<BR>今から オマエたち全員で <red>フォ○ス<colorEnd>を 探すのだ！<start>
+K: <sound>ョそなたたちは その昔 <green>ピッコル<colorEnd>が 人間に<BR>さずけたという <red>フォ○ス<colorEnd>のことは 知っておろうな？<BR>そう··· むげんの魔力 黃金の光と<BR>言われている <red>フォ○ス<colorEnd>の ことだ···<BR>ワシは それが ほしい！！<BR>この ハイラルの どこかに あるハズだ！<BR>今から オマエたち全員で <red>フォ○ス<colorEnd>を 探すのだ！<start>
+
+#30
+J: モタモタ するな！<BR>早く <red>フォ○ス<colorEnd>を 探しに行くのだ！<BR>なまけた ヤツは 本人は モチロン<BR>その かぞくも ろうやに 入れるぞ！<BR>さあ ハイラル中を<BR>しらみつぶしに 探すのだ！<start>
+K: モタモタ するな！<BR>早く <red>フォ○ス<colorEnd>を 探しに行くのだ！<BR>なまけた ヤツは 本人は モチロン<BR>その かぞくも ろうやに 入れるぞ！<BR>さあ ハイラル中を<BR>しらみつぶしに 探すのだ！<start>
+
+#31
+J: ふむう···？ ワシの氣のせい かのう？<BR>惡いことが おこらねば よいが···<BR>そんな ことより 今は <red>エレメント<colorEnd>探しじゃ<BR>地圖では この近くに <red>エレメント<colorEnd>が あるようじゃな<start>
+K: ふむう···？ ワシの氣のせい かのう？<BR>惡いことが おこらねば よいが···<BR>そんな ことより 今は <red>エレメント<colorEnd>探しじゃ<BR>地圖では この近くに <red>エレメント<colorEnd>が あるようじゃな<start>
+
+#32
+J: <sound>グ<green>ハイラル王<colorEnd>の ごめいれいで ここは 誰であろうと<BR>通すわけには いかん！  <BR>さあ<BR>歸った 歸った！<start>
+K: <sound>グ<green>ハイラル王<colorEnd>の ごめいれいで ここは 誰であろうと<BR>通すわけには いかん！  <BR>さあ<BR>歸った 歸った！<start>
+
+#33
+J: <sound>グコラコラ！！<BR>ここは 立ち入り キンシだ！<start>
+K: <sound>グコラコラ！！<BR>ここは 立ち入り キンシだ！<start>
+
+#34
+J: <sound>グこの城には <blue>ヒミツの出入り口<colorEnd>が あると<BR>きいた ことがある<BR>もしもの ことが あっては イカンから<BR>その <blue>入り口<colorEnd>も 探し出して うめて しまわなければ！<start>
+K: <sound>グこの城には <blue>ヒミツの出入り口<colorEnd>が あると<BR>きいた ことがある<BR>もしもの ことが あっては イカンから<BR>その <blue>入り口<colorEnd>も 探し出して うめて しまわなければ！<start>
+
+#35
+J: <start>
+K: <start>
+
+#36
+J: 我ら <green>風の民<colorEnd><BR><BR>ながきにわたり 風とくらし<BR>今 これを きわめ<BR>大いなる風の力とともに<BR>この地より 空へ向かうものなり<BR>後に 我らの力 もとめ きたりし者<BR>リトロックの さずけし <blue>音色<colorEnd> かなでたまえ<BR>されば 道は 開かれん<start>
+K: 我ら <green>風の民<colorEnd><BR><BR>ながきにわたり 風とくらし<BR>今 これを きわめ<BR>大いなる風の力とともに<BR>この地より 空へ向かうものなり<BR>後に 我らの力 もとめ きたりし者<BR>リトロックの さずけし <blue>音色<colorEnd> かなでたまえ<BR>されば 道は 開かれん<start>
+
+#37
+J: <sound>メなんという ことじゃ！<BR>どうやら ここには エレメントは ないようじゃぞ！<BR>昔 ここに住んでいたらしい <green>風の民<colorEnd>たちが<BR>空へ とびたつときに エレメントも 持っていったんじゃ！<BR>せっかく がんばってきたのに ガッカリじゃのう···<BR><BR>しかたない···<BR>とにかく まずは ここから でるとするかのう<start>
+K: <sound>メなんという ことじゃ！<BR>どうやら ここには エレメントは ないようじゃぞ！<BR>昔 ここに住んでいたらしい <green>風の民<colorEnd>たちが<BR>空へ とびたつときに エレメントも 持っていったんじゃ！<BR>せっかく がんばってきたのに ガッカリじゃのう···<BR><BR>しかたない···<BR>とにかく まずは ここから でるとするかのう<start>
+
+#38
+J: <sound>ョおお <name>！ よく 歸ってきてくれた<BR>して 森の<green>ピッコル<colorEnd>に會うことは できたのか？<BR>なに？<BR>なるほど <red>4つのエレメント<colorEnd>か···<BR>それを 集めるにも ピッコルの力がひつようならば<BR>やはり オヌシに たのむ いがいにない<BR>いっこくも 早く <red>聖劍<colorEnd>を かんせい させてくれ<BR>たのんだぞ <name><start>
+K: <sound>ョおお <name>！ よく 歸ってきてくれた<BR>して 森の<green>ピッコル<colorEnd>に會うことは できたのか？<BR>なに？<BR>なるほど <red>4つのエレメント<colorEnd>か···<BR>それを 集めるにも ピッコルの力がひつようならば<BR>やはり オヌシに たのむ いがいにない<BR>いっこくも 早く <red>聖劍<colorEnd>を かんせい させてくれ<BR>たのんだぞ <name><start>
+
+#39
+J: <sound>ぐおお <name>！<BR>無事だったか<start>
+K: <sound>ぐおお <name>！<BR>無事だったか<start>
+
+#40
+J: <sound>グこれは <name>くん<BR><green>王さま<colorEnd> なら おくの部屋に おいでですよ<start>
+K: <sound>グこれは <name>くん<BR><green>王さま<colorEnd> なら おくの部屋に おいでですよ<start>
+
+#41
+J: <sound>ョおお <name> よく歸ってきたな<BR>して <red>聖劍<colorEnd>を つくることは できたのか？<BR>なに？<BR><green>聖域<colorEnd> とな？<BR>そんなものが 城にあるとは きいたこともないが···<BR><start>
+K: <sound>ョおお <name> よく歸ってきたな<BR>して <red>聖劍<colorEnd>を つくることは できたのか？<BR>なに？<BR><green>聖域<colorEnd> とな？<BR>そんなものが 城にあるとは きいたこともないが···<BR><start>
+
+#42
+J: <sound>ぐ<green>聖域<colorEnd> か···<BR><BR>そういえば 昔 うちのばあさまが こどものころ<BR>城で とびらを 見たと言っておったな<BR>100年に一度 開く とびらならば<BR><blue>城のどこかに もう 開いておるかもしれん<colorEnd>ぞ<BR>それも こどもにしか見えんの ならば ワシらが<BR>氣づいて おらんだけ かもしれん<start>
+K: <sound>ぐ<green>聖域<colorEnd> か···<BR><BR>そういえば 昔 うちのばあさまが こどものころ<BR>城で とびらを 見たと言っておったな<BR>100年に一度 開く とびらならば<BR><blue>城のどこかに もう 開いておるかもしれん<colorEnd>ぞ<BR>それも こどもにしか見えんの ならば ワシらが<BR>氣づいて おらんだけ かもしれん<start>
+
+#43
+J: <sound>グ<green>聖域<colorEnd>？<BR>見たことないな<start>
+K: <sound>グ<green>聖域<colorEnd>？<BR>見たことないな<start>
+
+#44
+J: <sound>グ<green>聖域<colorEnd>？<BR><green>大臣<colorEnd>が 前に そんな話を していたような···<start>
+K: <sound>グ<green>聖域<colorEnd>？<BR><green>大臣<colorEnd>が 前に そんな話を していたような···<start>
+
+#45
+J: <sound>もおお！ <name><BR>これが <green>聖域<colorEnd>への とびらでは ないか？<BR>どうやら 大人たちには 見えんらしいが···<BR>とにかく 中に入って みるのじゃ<start>
+K: <sound>もおお！ <name><BR>これが <green>聖域<colorEnd>への とびらでは ないか？<BR>どうやら 大人たちには 見えんらしいが···<BR>とにかく 中に入って みるのじゃ<start>
+
+#46
+J: <sound>ョなんと！ 城の中庭に <green>聖域<colorEnd>への 入り口が！<BR><BR>ワシらには まったく ただのカベにしか<BR>見えぬがのう···<BR>これで あと2つの<red>エレメント<colorEnd>が そろえば<BR><red>聖劍<colorEnd>は かんせいする<BR>たのんだぞ <name><start>
+K: <sound>ョなんと！ 城の中庭に <green>聖域<colorEnd>への 入り口が！<BR><BR>ワシらには まったく ただのカベにしか<BR>見えぬがのう···<BR>これで あと2つの<red>エレメント<colorEnd>が そろえば<BR><red>聖劍<colorEnd>は かんせいする<BR>たのんだぞ <name><start>
+
+#47
+J: <sound>ぐおお やっぱり 中庭に 入り口が あったか<BR>うちのばあさまが言っていたことは ほんとうじゃったな<BR>まあ わしのかぞくは しょうじきモノばかり だからのう<BR>ピッコルも 入り口も 見えるのじゃよ<BR>でも ワシには 見えんかった···<BR>なんでじゃろ？<start>
+K: <sound>ぐおお やっぱり 中庭に 入り口が あったか<BR>うちのばあさまが言っていたことは ほんとうじゃったな<BR>まあ わしのかぞくは しょうじきモノばかり だからのう<BR>ピッコルも 入り口も 見えるのじゃよ<BR>でも ワシには 見えんかった···<BR>なんでじゃろ？<start>
+
+#48
+J: <center>あ<DEL><green>グフ○<colorEnd>！ そこで 何をしておる！！<start>ホホホホホホホホぃ
+K: <center>あ<DEL><green>グフ○<colorEnd>！ そこで 何をしておる！！<start>ホホホホホホホホぃ
+

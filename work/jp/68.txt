@@ -1,0 +1,209 @@
+# block 68 · 51 msgs · minish_cap 한글화 워크스페이스
+# 규칙: 'J:' = 일본어 원문(수정 금지, 참고용). 'K:' 줄만 번역으로 수정.
+#       줄바꿈=<BR>, 색/제어 태그(<green> 등)·원시코드({0309} 등)는 그대로 유지.
+#       빈/제어전용 메시지는 K를 건드리지 말 것(원문 그대로 왕복됨).
+
+#0
+J: <start>
+K: <start>
+
+#1
+J: <start>
+K: <start>
+
+#2
+J: <select>Cエやる    <select>C{08}やらない<start>
+K: <select>Cエやる    <select>C{08}やらない<start>
+
+#3
+J: <start>
+K: <start>
+
+#4
+J: <start>
+K: <start>
+
+#5
+J: ボクは 世界にちらばる<BR><red>ヒミツのかいがら<colorEnd>を 集めてるんだ<BR><red>かいがら<colorEnd>を持ってきたら ボクが作った<BR>じまんの<red>フィギュア<colorEnd>と こうかんしてあげるよ<start>
+K: ボクは 世界にちらばる<BR><red>ヒミツのかいがら<colorEnd>を 集めてるんだ<BR><red>かいがら<colorEnd>を持ってきたら ボクが作った<BR>じまんの<red>フィギュア<colorEnd>と こうかんしてあげるよ<start>
+
+#6
+J: おおっ キミは <red>ヒミツのかいがら<colorEnd>を<BR>持っているようだね<BR>よかったら <red>かいがら<colorEnd>とこうかんに<BR><blue>フィギュアが當たる くじびき<colorEnd>を やってみないかい？<BR><DEL>C<colorEnd>
+K: おおっ キミは <red>ヒミツのかいがら<colorEnd>を<BR>持っているようだね<BR>よかったら <red>かいがら<colorEnd>とこうかんに<BR><blue>フィギュアが當たる くじびき<colorEnd>を やってみないかい？<BR><DEL>C<colorEnd>
+
+#7
+J: おや？ 今は <red>ヒミツのかいがら<colorEnd>を<BR>持っていないようだね<BR><red>かいがら<colorEnd>を 手に入れたら また きておくれよ<start>
+K: おや？ 今は <red>ヒミツのかいがら<colorEnd>を<BR>持っていないようだね<BR><red>かいがら<colorEnd>を 手に入れたら また きておくれよ<start>
+
+#8
+J: それは ざんねんだ<BR>氣が變わったら また きておくれよ<start>
+K: それは ざんねんだ<BR>氣が變わったら また きておくれよ<start>
+
+#9
+J: <start>
+K: <start>
+
+#10
+J: <start>
+K: <start>
+
+#11
+J: やあ また きてくれたんだね<BR>この前の <red>フィギュア<colorEnd>は 氣に入って くれたみたいだね<BR>また くじびきを やってみるかい？<BR><DEL>C<colorEnd>
+K: やあ また きてくれたんだね<BR>この前の <red>フィギュア<colorEnd>は 氣に入って くれたみたいだね<BR>また くじびきを やってみるかい？<BR><DEL>C<colorEnd>
+
+#12
+J: また くじびきを やってみるかい？<BR><DEL>C<colorEnd>
+K: また くじびきを やってみるかい？<BR><DEL>C<colorEnd>
+
+#13
+J: <start>
+K: <start>
+
+#14
+J: やあ 待ってたんだよ<BR><BR><blue>あたらしいフィギュアが できた<colorEnd>から<BR>ぜひ くじびきを やって行ってくれよ<BR><DEL>C<colorEnd>
+K: やあ 待ってたんだよ<BR><BR><blue>あたらしいフィギュアが できた<colorEnd>から<BR>ぜひ くじびきを やって行ってくれよ<BR><DEL>C<colorEnd>
+
+#15
+J: <start>
+K: <start>
+
+#16
+J: <start>
+K: <start>
+
+#17
+J: やあ また きてくれたんだね<BR><BR><blue>まだ あたらしいフィギュアは できていない<colorEnd>んだけど<BR>それでも くじびきを やってみるかい？<BR><DEL>C<colorEnd>
+K: やあ また きてくれたんだね<BR><BR><blue>まだ あたらしいフィギュアは できていない<colorEnd>んだけど<BR>それでも くじびきを やってみるかい？<BR><DEL>C<colorEnd>
+
+#18
+J: <start>
+K: <start>
+
+#19
+J: キミは <blue>ボクが作ったフィギュアを<BR>全部 持っている<colorEnd>ようだけど<BR>それでも くじびきを やってみるかい？<BR><DEL>C<colorEnd>
+K: キミは <blue>ボクが作ったフィギュアを<BR>全部 持っている<colorEnd>ようだけど<BR>それでも くじびきを やってみるかい？<BR><DEL>C<colorEnd>
+
+#20
+J: やあ また きてくれたんだね<BR><BR>キミは <blue>ボクが作ったフィギュアを<BR>全部 持っている<colorEnd>ようだけど<BR>それでも くじびきを やってみるかい？<BR><DEL>C<colorEnd>
+K: やあ また きてくれたんだね<BR><BR>キミは <blue>ボクが作ったフィギュアを<BR>全部 持っている<colorEnd>ようだけど<BR>それでも くじびきを やってみるかい？<BR><DEL>C<colorEnd>
+
+#21
+J: やあ まってたよ！<BR>ついさいきん ヒラメいてさあ<BR><blue>フィギュアの さいしゅうさくひん <colorEnd>が<blue><BR><colorEnd>できあがったんだ！<blue><BR><colorEnd>さっそく くじびきを やってみるかい？<BR><blue><DEL>C<colorEnd>
+K: やあ まってたよ！<BR>ついさいきん ヒラメいてさあ<BR><blue>フィギュアの さいしゅうさくひん <colorEnd>が<blue><BR><colorEnd>できあがったんだ！<blue><BR><colorEnd>さっそく くじびきを やってみるかい？<BR><blue><DEL>C<colorEnd>
+
+#22
+J: <start>
+K: <start>
+
+#23
+J: 何コの <red>かいがら<colorEnd>で くじびきをするんだい？<BR><BR>たくさん 使えば 持っていない フィギュアが<BR>當たり やすくなるよ<start>
+K: 何コの <red>かいがら<colorEnd>で くじびきをするんだい？<BR><BR>たくさん 使えば 持っていない フィギュアが<BR>當たり やすくなるよ<start>
+
+#24
+J:  かいがら       かくりつ<BR><center>を{0601}<center>う コ       <center>を{0602}<center>う %<start>
+K:  かいがら       かくりつ<BR><center>を{0601}<center>う コ       <center>を{0602}<center>う %<start>
+
+#25
+J: 何コの <red>かいがら<colorEnd>で くじびきをするんだい？<start>
+K: 何コの <red>かいがら<colorEnd>で くじびきをするんだい？<start>
+
+#26
+J: {0601}コ だね<start>
+K: {0601}コ だね<start>
+
+#27
+J: <select>Cぅはい    <select>Cエいいえ<start>
+K: <select>Cぅはい    <select>Cエいいえ<start>
+
+#28
+J: <start>
+K: <start>
+
+#29
+J: <start>
+K: <start>
+
+#30
+J: それじゃ 右にある <blue>くじびきマシ○ンの<BR>レバ○<colorEnd>を ひっぱっておいでよ<start>
+K: それじゃ 右にある <blue>くじびきマシ○ンの<BR>レバ○<colorEnd>を ひっぱっておいでよ<start>
+
+#31
+J: これこれ 何のために <red>かいがら<colorEnd>を 使ったんじゃ！？<BR>くじびきをせずに 出て行ったら もったいないじゃろう！<start>
+K: これこれ 何のために <red>かいがら<colorEnd>を 使ったんじゃ！？<BR>くじびきをせずに 出て行ったら もったいないじゃろう！<start>
+
+#32
+J: <start>
+K: <start>
+
+#33
+J: <start>
+K: <start>
+
+#34
+J: おや？ その<red>フィギュア<colorEnd>は もう 持っているようだよ<BR>ざんねんだったね<BR>その<red>フィギュア<colorEnd>なら {0601}ルピ○で かいとるよ<start>
+K: おや？ その<red>フィギュア<colorEnd>は もう 持っているようだよ<BR>ざんねんだったね<BR>その<red>フィギュア<colorEnd>なら {0601}ルピ○で かいとるよ<start>
+
+#35
+J: <start>
+K: <start>
+
+#36
+J: <start>
+K: <start>
+
+#37
+J: おめでとう！<BR><BR>當たった<red>フィギュア<colorEnd>は 左の たな に おいておく から<BR>たな の前に行けば いつでも見られるよ<start>
+K: おめでとう！<BR><BR>當たった<red>フィギュア<colorEnd>は 左の たな に おいておく から<BR>たな の前に行けば いつでも見られるよ<start>
+
+#38
+J: こりずに また きておくれよ<start>
+K: こりずに また きておくれよ<start>
+
+#39
+J: すごいな！<BR><BR>今 くじびきマシ○ンに 入っている フィギュアは<BR>これで全部なんだ<BR>まだまだ あたらしい<red>フィギュア<colorEnd>を 作っておくから<BR>また きておくれよ<start>
+K: すごいな！<BR><BR>今 くじびきマシ○ンに 入っている フィギュアは<BR>これで全部なんだ<BR>まだまだ あたらしい<red>フィギュア<colorEnd>を 作っておくから<BR>また きておくれよ<start>
+
+#40
+J: おめでとう！<BR>ついに <blue>ボクの作った フィギュアを 全部 集めた<colorEnd>ね！<BR>たなの<red>フィギュア<colorEnd>は 大事に あずかっておくから<BR>いつでも 見においでよ<BR>よ○し また あたらしい <red>フィギュア<colorEnd>を 作ろう！<BR>何か ヒラメキさえあれば つくれそうなんだよなあ<start>
+K: おめでとう！<BR>ついに <blue>ボクの作った フィギュアを 全部 集めた<colorEnd>ね！<BR>たなの<red>フィギュア<colorEnd>は 大事に あずかっておくから<BR>いつでも 見においでよ<BR>よ○し また あたらしい <red>フィギュア<colorEnd>を 作ろう！<BR>何か ヒラメキさえあれば つくれそうなんだよなあ<start>
+
+#41
+J: おめでとう！ スゴイや！！<BR><blue>ボクの作った フィギュアを カンゼンに 集めた<colorEnd>ね！<BR>たなの<red>フィギュア<colorEnd>は 大事に あずかっておくから<BR>いつでも 見においでよ<BR>さらに キミには これ<BR><red>ニテンどうゴ○ルドメダル<colorEnd>を あげちゃいましょう！<BR>いっしょうの お寶に してちょうだいね<start>
+K: おめでとう！ スゴイや！！<BR><blue>ボクの作った フィギュアを カンゼンに 集めた<colorEnd>ね！<BR>たなの<red>フィギュア<colorEnd>は 大事に あずかっておくから<BR>いつでも 見においでよ<BR>さらに キミには これ<BR><red>ニテンどうゴ○ルドメダル<colorEnd>を あげちゃいましょう！<BR>いっしょうの お寶に してちょうだいね<start>
+
+#42
+J: <start>
+K: <start>
+
+#43
+J: その<blue>マシ○ン<colorEnd>に きょうみが あるのかい？<BR>だったら まず ボクの話を きいておくれよ<start>
+K: その<blue>マシ○ン<colorEnd>に きょうみが あるのかい？<BR>だったら まず ボクの話を きいておくれよ<start>
+
+#44
+J: <start>
+K: <start>
+
+#45
+J: <start>
+K: <start>
+
+#46
+J: そこは <red>フィギュア<colorEnd>をかざる たな なんだけど<BR>まだ だれも つかって いないんだ<start>
+K: そこは <red>フィギュア<colorEnd>をかざる たな なんだけど<BR>まだ だれも つかって いないんだ<start>
+
+#47
+J: <red>ニテンどうゴ○ルドメダル <colorEnd>いい感じ？<BR><BR>持ってるだけで マニアのあかし<BR>コレクタ○みょうりに つきるよね<start>
+K: <red>ニテンどうゴ○ルドメダル <colorEnd>いい感じ？<BR><BR>持ってるだけで マニアのあかし<BR>コレクタ○みょうりに つきるよね<start>
+
+#48
+J: <start>
+K: <start>
+
+#49
+J: <start>
+K: <start>
+
+#50
+J: <start>ホホホホホホホホホホホホる
+K: <start>ホホホホホホホホホホホホる
+

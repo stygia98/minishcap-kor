@@ -1,0 +1,609 @@
+# block 06 · 151 msgs · minish_cap 한글화 워크스페이스
+# 규칙: 'J:' = 일본어 원문(수정 금지, 참고용). 'K:' 줄만 번역으로 수정.
+#       줄바꿈=<BR>, 색/제어 태그(<green> 등)·원시코드({0309} 등)는 그대로 유지.
+#       빈/제어전용 메시지는 K를 건드리지 말 것(원문 그대로 왕복됨).
+
+#0
+J: ．．．<start>
+K: ．．．<start>
+
+#1
+J: <center>あⓑ{01}スミスの劍<colorEnd>を 手に入れた！<BR>おじいさんが 作った ワザモノだ<start>
+K: <center>あⓑ{01}スミスの劍<colorEnd>を 手に入れた！<BR>おじいさんが 作った ワザモノだ<start>
+
+#2
+J: <center>あ口{01}ホワイトソ○ド<colorEnd>に きたえてもらった！<BR>白くかがやく 美しい劍だ！<BR><red>スミスの劍<colorEnd>は しまっておこう<start>
+K: <center>あ口{01}ホワイトソ○ド<colorEnd>に きたえてもらった！<BR>白くかがやく 美しい劍だ！<BR><red>スミスの劍<colorEnd>は しまっておこう<start>
+
+#3
+J: <center>あ<start>劍に <red>大地のエレメント<colorEnd>と <red>炎のエレメント<colorEnd>の<BR>力を やどした！<start>
+K: <center>あ<start>劍に <red>大地のエレメント<colorEnd>と <red>炎のエレメント<colorEnd>の<BR>力を やどした！<start>
+
+#4
+J: <center>あ<start>劍に <red>しずくのエレメント<colorEnd>の力を やどした！<BR><BR>あらたな <red>エレメント<colorEnd>の力を やどし<BR><blue>3人に分身<colorEnd> できるように なった！<start>
+K: <center>あ<start>劍に <red>しずくのエレメント<colorEnd>の力を やどした！<BR><BR>あらたな <red>エレメント<colorEnd>の力を やどし<BR><blue>3人に分身<colorEnd> できるように なった！<start>
+
+#5
+J: <center>あ<start>劍に <red>風のエレメント<colorEnd>の力を やどした！<BR><BR><DEL><select><name>
+K: <center>あ<start>劍に <red>風のエレメント<colorEnd>の力を やどした！<BR><BR><DEL><select><name>
+
+#6
+J: <center>あ<start><red>ホワイトソ○ド<colorEnd>が 4つのエレメントの 力を やどして<BR>4人に 分身できる <red>フォ○ソ○ド<colorEnd>に なった！<BR>劍に 力をためて <blue>ビ○ム<colorEnd>を 干とう！<BR><blue>魔人の呪い<colorEnd>で 石にされた人を もとに戾せる！<start>
+K: <center>あ<start><red>ホワイトソ○ド<colorEnd>が 4つのエレメントの 力を やどして<BR>4人に 分身できる <red>フォ○ソ○ド<colorEnd>に なった！<BR>劍に 力をためて <blue>ビ○ム<colorEnd>を 干とう！<BR><blue>魔人の呪い<colorEnd>で 石にされた人を もとに戾せる！<start>
+
+#7
+J: <center>あ口{01}ボムぶくろ<colorEnd>を もらった！<BR><BR>オマケに <red>バクダン<colorEnd>10コ入り！<BR>いろんな物を ふきとばせ！<start>
+K: <center>あ口{01}ボムぶくろ<colorEnd>を もらった！<BR><BR>オマケに <red>バクダン<colorEnd>10コ入り！<BR>いろんな物を ふきとばせ！<start>
+
+#8
+J: <center>あ口{01}リモコンバクダン<colorEnd>を 手に入れた！<BR><BR>バクダンを おいて もう一度 ボタンを押すと<BR>バクハツするぞ<start>
+K: <center>あ口{01}リモコンバクダン<colorEnd>を 手に入れた！<BR><BR>バクダンを おいて もう一度 ボタンを押すと<BR>バクハツするぞ<start>
+
+#9
+J: <center>あ口{01}弓矢<colorEnd>を 手に入れた！<BR>はなれた てきを ねらい干ち！<start>
+K: <center>あ口{01}弓矢<colorEnd>を 手に入れた！<BR>はなれた てきを ねらい干ち！<start>
+
+#10
+J: <red>光の弓矢<colorEnd>を 手に入れた！<BR>聖なる光を たたえる 强力な 矢が干てる！<start>
+K: <red>光の弓矢<colorEnd>を 手に入れた！<BR>聖なる光を たたえる 强力な 矢が干てる！<start>
+
+#11
+J: <red>ブ○メラン<colorEnd>を 手に入れた！<BR>投げても 戾ってくる スグレもの！<start>
+K: <red>ブ○メラン<colorEnd>を 手に入れた！<BR>投げても 戾ってくる スグレもの！<start>
+
+#12
+J: <red>マジカルブ○メラン<colorEnd>を 手に入れた！<BR><BR>投げたら ボタンを押したまま◇！<BR>とんで行く 方向が 變えられるぞ！<start>
+K: <red>マジカルブ○メラン<colorEnd>を 手に入れた！<BR><BR>投げたら ボタンを押したまま◇！<BR>とんで行く 方向が 變えられるぞ！<start>
+
+#13
+J: <center>あ<start>ゼルダ姬から <red>小さな盾<colorEnd>を もらった！<BR><BR>ボタンを 押しているあいだ かまえることができる！<BR><BR>······ なんだか ちょっぴり てれくさい<start>
+K: <center>あ<start>ゼルダ姬から <red>小さな盾<colorEnd>を もらった！<BR><BR>ボタンを 押しているあいだ かまえることができる！<BR><BR>······ なんだか ちょっぴり てれくさい<start>
+
+#14
+J: <center>あ<start><red>ミラ○シ○ルド<colorEnd>を 手に入れた！<BR><BR>かがみの ようにかがやく 强力な盾<BR>魔物の こうげきを ビシバシ はねかえそう！<start>
+K: <center>あ<start><red>ミラ○シ○ルド<colorEnd>を 手に入れた！<BR><BR>かがみの ようにかがやく 强力な盾<BR>魔物の こうげきを ビシバシ はねかえそう！<start>
+
+#15
+J: <red>炎のカンテラ<colorEnd>を 手に入れた！<BR><BR>闇を てらす たのもしいアイテム！<BR>ボタンを 押すたび つけたり 消したりできる<start>
+K: <red>炎のカンテラ<colorEnd>を 手に入れた！<BR><BR>闇を てらす たのもしいアイテム！<BR>ボタンを 押すたび つけたり 消したりできる<start>
+
+#16
+J: 「炎のカンテラ（火）」<BR>「アイテム畵面」で {0C00}か ⓐに そうびして 使おう！<start>
+K: 「炎のカンテラ（火）」<BR>「アイテム畵面」で {0C00}か ⓐに そうびして 使おう！<start>
+
+#17
+J: <center>あ口{01}魔法のつぼ<colorEnd>を 手に入れた！<BR><BR>ボタンを押し續けて すいこもう<BR>いっぱいすって うちはなて！<BR><blue>アイテム畵面<colorEnd>で {0C00}か ⓐに そうびして 使おう！<start>
+K: <center>あ口{01}魔法のつぼ<colorEnd>を 手に入れた！<BR><BR>ボタンを押し續けて すいこもう<BR>いっぱいすって うちはなて！<BR><blue>アイテム畵面<colorEnd>で {0C00}か ⓐに そうびして 使おう！<start>
+
+#18
+J: <center>あ口{01}パッチのつえ<colorEnd>を 手に入れた！<BR><BR>パチンとひっくり返せる ふしぎなつえ<BR>穴に エネルギ○をためて とびのることもできるぞ！<start>
+K: <center>あ口{01}パッチのつえ<colorEnd>を 手に入れた！<BR><BR>パチンとひっくり返せる ふしぎなつえ<BR>穴に エネルギ○をためて とびのることもできるぞ！<start>
+
+#19
+J: <center>あ口{01}モグラグロ○ブ<colorEnd>を 手に入れた！<BR>ほって ほって ほりまくれ！<start>
+K: <center>あ口{01}モグラグロ○ブ<colorEnd>を 手に入れた！<BR>ほって ほって ほりまくれ！<start>
+
+#20
+J: <center>あ口{01}はねマント<colorEnd>を 手に入れた！<BR><BR>フワっと どこでも ひとっとび！<BR>ボタンを押し續けると 遠くまでとべるぞ<start>
+K: <center>あ口{01}はねマント<colorEnd>を 手に入れた！<BR><BR>フワっと どこでも ひとっとび！<BR>ボタンを押し續けると 遠くまでとべるぞ<start>
+
+#21
+J: <center>あ口{01}ペガサスのくつ<colorEnd>を 手に入れた！<BR>ボタンを押し續けて 風よりも 速くはしれ！<start>
+K: <center>あ口{01}ペガサスのくつ<colorEnd>を 手に入れた！<BR>ボタンを押し續けて 風よりも 速くはしれ！<start>
+
+#22
+J: <center>あ口{01}ファイアロッド<colorEnd>を 手に入れた！<BR>强力な炎を うてる ふしぎなつえだ<start>
+K: <center>あ口{01}ファイアロッド<colorEnd>を 手に入れた！<BR>强力な炎を うてる ふしぎなつえだ<start>
+
+#23
+J: <center>あ口{01}風のオカリナ<colorEnd>を 手に入れた！<BR>東西南北 ひとっとび！<start>
+K: <center>あ口{01}風のオカリナ<colorEnd>を 手に入れた！<BR>東西南北 ひとっとび！<start>
+
+#24
+J: <red>ハ○トのかけら<colorEnd>を 手に入れた！<BR><BR>4つのかけらで 1つのうつわ<BR>うつわがふえれば <blue>ライフが ふえる<colorEnd>！<start>
+K: <red>ハ○トのかけら<colorEnd>を 手に入れた！<BR><BR>4つのかけらで 1つのうつわ<BR>うつわがふえれば <blue>ライフが ふえる<colorEnd>！<start>
+
+#25
+J: <red>ハ○トのかけら<colorEnd>を 手に入れた！<BR><BR>今 持っているかけらは 2コ<BR><blue>あと2コ <colorEnd>手に入れると ライフが ふえる！<start>
+K: <red>ハ○トのかけら<colorEnd>を 手に入れた！<BR><BR>今 持っているかけらは 2コ<BR><blue>あと2コ <colorEnd>手に入れると ライフが ふえる！<start>
+
+#26
+J: <red>ハ○トのかけら<colorEnd>を 手に入れた！<BR><BR>今 持っているかけらは 3コ<BR><blue>あと1コ<colorEnd>で ライフが ふえる！<start>
+K: <red>ハ○トのかけら<colorEnd>を 手に入れた！<BR><BR>今 持っているかけらは 3コ<BR><blue>あと1コ<colorEnd>で ライフが ふえる！<start>
+
+#27
+J: <red>ハ○トのかけら<colorEnd>を 手に入れた！<BR><BR>かけらが4コで うつわが かんせい！<BR><blue>ライフが アップ<colorEnd>して 全回復！<start>
+K: <red>ハ○トのかけら<colorEnd>を 手に入れた！<BR><BR>かけらが4コで うつわが かんせい！<BR><blue>ライフが アップ<colorEnd>して 全回復！<start>
+
+#28
+J: <red>バクダン<colorEnd>に こうかん してもらった！<start>
+K: <red>バクダン<colorEnd>に こうかん してもらった！<start>
+
+#29
+J: <red>小さな盾<colorEnd>を かった！<start>
+K: <red>小さな盾<colorEnd>を かった！<start>
+
+#30
+J: <start>
+K: <start>
+
+#31
+J: <start>
+K: <start>
+
+#32
+J: <red>空きビン<colorEnd>を 手に入れた！<BR>いろんなモノが 入れられる！ <start>
+K: <red>空きビン<colorEnd>を 手に入れた！<BR>いろんなモノが 入れられる！ <start>
+
+#33
+J: ロンロンミルクが <red>バタ○<colorEnd>になった！<BR>とっても しんせん おいしいよ！<start>
+K: ロンロンミルクが <red>バタ○<colorEnd>になった！<BR>とっても しんせん おいしいよ！<start>
+
+#34
+J: <center>あ口{01}ロンロンミルク<colorEnd>を 手に入れた！<start>
+K: <center>あ口{01}ロンロンミルク<colorEnd>を 手に入れた！<start>
+
+#35
+J: <start>
+K: <start>
+
+#36
+J: <center>あ口{01}赤いクスリ<colorEnd>を 手に入れた！<BR>のめば ライフが 全回復！<start>
+K: <center>あ口{01}赤いクスリ<colorEnd>を 手に入れた！<BR>のめば ライフが 全回復！<start>
+
+#37
+J: <center>あ口{01}靑いクスリ<colorEnd>を 手に入れた！<BR>のめば ライフが回復するぞ！<start>
+K: <center>あ口{01}靑いクスリ<colorEnd>を 手に入れた！<BR>のめば ライフが回復するぞ！<start>
+
+#38
+J: ビンに <red>水<colorEnd>を入れた！<BR>いろんなところに かけてみよう！<start>
+K: ビンに <red>水<colorEnd>を入れた！<BR>いろんなところに かけてみよう！<start>
+
+#39
+J: <center>あ口{01}ゴングル山の水<colorEnd> を手に入れた！<BR>ゴングル山にだけ わいている ふしぎな水だ！<start>
+K: <center>あ口{01}ゴングル山の水<colorEnd> を手に入れた！<BR>ゴングル山にだけ わいている ふしぎな水だ！<start>
+
+#40
+J: <red>妖精<colorEnd>を ビンにつめた！<BR>倒れた持に 助けてくれる たのもしい なかま<start>
+K: <red>妖精<colorEnd>を ビンにつめた！<BR>倒れた持に 助けてくれる たのもしい なかま<start>
+
+#41
+J: <center>あ口{01}チロップ·赤<colorEnd> を手に入れた！<BR>のめば <red>ハ○ト<colorEnd>が たくさん 見つかるかも！<start>
+K: <center>あ口{01}チロップ·赤<colorEnd> を手に入れた！<BR>のめば <red>ハ○ト<colorEnd>が たくさん 見つかるかも！<start>
+
+#42
+J: <center>あ口{01}チロップ·オレンジ<colorEnd> を手に入れた！<BR>のめば <red>妖精さん<colorEnd>が たくさん 見つかるかも！<start>
+K: <center>あ口{01}チロップ·オレンジ<colorEnd> を手に入れた！<BR>のめば <red>妖精さん<colorEnd>が たくさん 見つかるかも！<start>
+
+#43
+J: <center>あ口{01}チロップ·黃<colorEnd> を手に入れた！<BR>のめば <red>ルピ○<colorEnd>が たくさん 見つかるかも！<start>
+K: <center>あ口{01}チロップ·黃<colorEnd> を手に入れた！<BR>のめば <red>ルピ○<colorEnd>が たくさん 見つかるかも！<start>
+
+#44
+J: <center>あ口{01}チロップ·綠<colorEnd> を手に入れた！<BR>のめば <red>ヒミツのかいがら<colorEnd>が たくさん 見つかるかも！<start>
+K: <center>あ口{01}チロップ·綠<colorEnd> を手に入れた！<BR>のめば <red>ヒミツのかいがら<colorEnd>が たくさん 見つかるかも！<start>
+
+#45
+J: <center>あ口{01}チロップ·靑<colorEnd> を手に入れた！<BR>のめば アイテムが たくさん 見つかるかも！<start>
+K: <center>あ口{01}チロップ·靑<colorEnd> を手に入れた！<BR>のめば アイテムが たくさん 見つかるかも！<start>
+
+#46
+J: <center>あ口{01}チロップ·白<colorEnd> を手に入れた！<BR>のめば <red>しあわせのカケラ<colorEnd>が たくさん 見つかるかも！<start>
+K: <center>あ口{01}チロップ·白<colorEnd> を手に入れた！<BR>のめば <red>しあわせのカケラ<colorEnd>が たくさん 見つかるかも！<start>
+
+#47
+J: <center>あ口{01}ネ○ルのお守り<colorEnd> を手に入れた！<BR>少しのあいだ 守りが かたくなる！<start>
+K: <center>あ口{01}ネ○ルのお守り<colorEnd> を手に入れた！<BR>少しのあいだ 守りが かたくなる！<start>
+
+#48
+J: <center>あ口{01}フロルのお守り<colorEnd> を手に入れた！<BR>少しのあいだ 力と守りが ちょっと高くなる！<start>
+K: <center>あ口{01}フロルのお守り<colorEnd> を手に入れた！<BR>少しのあいだ 力と守りが ちょっと高くなる！<start>
+
+#49
+J: <center>あ口{01}ディンのお守り<colorEnd> を手に入れた！<BR>少しのあいだ 力が 强くなる！<start>
+K: <center>あ口{01}ディンのお守り<colorEnd> を手に入れた！<BR>少しのあいだ 力が 强くなる！<start>
+
+#50
+J: <start>
+K: <start>
+
+#51
+J: <start>
+K: <start>
+
+#52
+J: <center>あ口{01}スミスの劍<colorEnd>を あずかった！<BR><BR>大事な 大事な とどけもの<BR>なくさないように 氣をつけよう<start>
+K: <center>あ口{01}スミスの劍<colorEnd>を あずかった！<BR><BR>大事な 大事な とどけもの<BR>なくさないように 氣をつけよう<start>
+
+#53
+J: <center>あⓑ{01}折れたピッコルの劍<colorEnd>を あずかった！<BR><BR>あたらしい 聖劍を作るのに 必要な 劍の一部<BR>なくさないよう しまっておこう<start>
+K: <center>あⓑ{01}折れたピッコルの劍<colorEnd>を あずかった！<BR><BR>あたらしい 聖劍を作るのに 必要な 劍の一部<BR>なくさないよう しまっておこう<start>
+
+#54
+J: <center>あ口{01}ドッグフ○ド<colorEnd>を 手に入れた！<BR>さっそく おつかいに でかけよう！<start>
+K: <center>あ口{01}ドッグフ○ド<colorEnd>を 手に入れた！<BR>さっそく おつかいに でかけよう！<start>
+
+#55
+J: <center>あ口{01}牧場のカギ<colorEnd>を 手に入れた！<BR>これで ドアを 開けられる！<start>
+K: <center>あ口{01}牧場のカギ<colorEnd>を 手に入れた！<BR>これで ドアを 開けられる！<start>
+
+#56
+J: <center>あ口{01}めざましキノコ<colorEnd>を 手に入れた！<BR>きょうれつな においで ねむ氣 スッキリ！ <start>
+K: <center>あ口{01}めざましキノコ<colorEnd>を 手に入れた！<BR>きょうれつな においで ねむ氣 スッキリ！ <start>
+
+#57
+J: <center>あ{0EF4}しょかんの本 <red>「動物ずかん」<colorEnd>を 手に入れた！<start>
+K: <center>あ{0EF4}しょかんの本 <red>「動物ずかん」<colorEnd>を 手に入れた！<start>
+
+#58
+J: <center>あ{0EF4}しょかんの本 <red>「ピッコル傳說」<colorEnd>を 手に入れた！<start>
+K: <center>あ{0EF4}しょかんの本 <red>「ピッコル傳說」<colorEnd>を 手に入れた！<start>
+
+#59
+J: <center>あ{0EF4}しょかんの本 <red>「お面のすべて」<colorEnd>を 手に入れた！<start>
+K: <center>あ{0EF4}しょかんの本 <red>「お面のすべて」<colorEnd>を 手に入れた！<start>
+
+#60
+J: <center>あ口{01}墓場のカギ<colorEnd>を 手に入れた！<BR>これで 墓場の トビラを あけられる<start>
+K: <center>あ口{01}墓場のカギ<colorEnd>を 手に入れた！<BR>これで 墓場の トビラを あけられる<start>
+
+#61
+J: <center>あ口{01}墓場のカギ<colorEnd>を 取り返した！<BR>やっと 墓場のトビラを 開けられる！<start>
+K: <center>あ口{01}墓場のカギ<colorEnd>を 取り返した！<BR>やっと 墓場のトビラを 開けられる！<start>
+
+#62
+J: <red>ヒミツのかいがら<colorEnd> を 手に入れた！<BR>何に 使うかわからないが 大事に しまっておこう<start>
+K: <red>ヒミツのかいがら<colorEnd> を 手に入れた！<BR>何に 使うかわからないが 大事に しまっておこう<start>
+
+#63
+J: <red>ヒミツのかいがら<colorEnd> {0601}コを 手に入れた！<BR>何に 使うかわからないが 大事に しまっておこう<start>
+K: <red>ヒミツのかいがら<colorEnd> {0601}コを 手に入れた！<BR>何に 使うかわからないが 大事に しまっておこう<start>
+
+#64
+J: <center>あ口{01}大地のエレメント<colorEnd>を 手に入れた！<BR><BR>大地から わき出る 力は 全ての みなもと<blue><BR><red>大地のエレメント<colorEnd>は その けっしょうだ！<start>
+K: <center>あ口{01}大地のエレメント<colorEnd>を 手に入れた！<BR><BR>大地から わき出る 力は 全ての みなもと<blue><BR><red>大地のエレメント<colorEnd>は その けっしょうだ！<start>
+
+#65
+J: <center>あ<start><red>炎のエレメント<colorEnd>を 手に入れた！<BR><BR>炎は くらやみを てらし あたたかさを もたらす 力<blue><BR><red>炎のエレメント<colorEnd>は その けっしょうだ<start>
+K: <center>あ<start><red>炎のエレメント<colorEnd>を 手に入れた！<BR><BR>炎は くらやみを てらし あたたかさを もたらす 力<blue><BR><red>炎のエレメント<colorEnd>は その けっしょうだ<start>
+
+#66
+J: <center>あ口{01}しずくのエレメント<colorEnd>を 手に入れた！<BR><BR>しずくは かわきを うるおし いやす 力<blue><BR><red>しずくのエレメント<colorEnd>は その けっしょうだ<start>
+K: <center>あ口{01}しずくのエレメント<colorEnd>を 手に入れた！<BR><BR>しずくは かわきを うるおし いやす 力<blue><BR><red>しずくのエレメント<colorEnd>は その けっしょうだ<start>
+
+#67
+J: <center>あ口{01}風のエレメント<colorEnd>を 手に入れた！<BR><BR>風は 草花を はこび 實りをもたらす 力<blue><BR><red>風のエレメント<colorEnd>は その けっしょうだ<start>
+K: <center>あ口{01}風のエレメント<colorEnd>を 手に入れた！<BR><BR>風は 草花を はこび 實りをもたらす 力<blue><BR><red>風のエレメント<colorEnd>は その けっしょうだ<start>
+
+#68
+J: <center>あ口{01}グリップリング<colorEnd>を 手に入れた！<BR><BR>これで 今まで のぼれなかった がけも<BR>いつでも ドンドン のぼれるぞ<start>
+K: <center>あ口{01}グリップリング<colorEnd>を 手に入れた！<BR><BR>これで 今まで のぼれなかった がけも<BR>いつでも ドンドン のぼれるぞ<start>
+
+#69
+J: <center>あ口{01}パワ○リスト<colorEnd>を 手に入れた！<BR>これで 小さな體でも パワ○がモリモリ！<start>
+K: <center>あ口{01}パワ○リスト<colorEnd>を 手に入れた！<BR>これで 小さな體でも パワ○がモリモリ！<start>
+
+#70
+J: <red>水かき<colorEnd>を 手に入れた！<BR>{0C00}で スイスイ！ ⓐで もぐる！<start>
+K: <red>水かき<colorEnd>を 手に入れた！<BR>{0C00}で スイスイ！ ⓐで もぐる！<start>
+
+#71
+J: <center>あ口{01}ハイラルの地圖<colorEnd>を もらった！<BR>これで 道には まよわない！ <start>
+K: <center>あ口{01}ハイラルの地圖<colorEnd>を もらった！<BR>これで 道には まよわない！ <start>
+
+#72
+J: <center>あ口{01}秘傳 回轉斬り<colorEnd>を おぼえた！<BR>テッシン ししょうから 敎わった さいしょの劍技だ！<start>
+K: <center>あ口{01}秘傳 回轉斬り<colorEnd>を おぼえた！<BR>テッシン ししょうから 敎わった さいしょの劍技だ！<start>
+
+#73
+J: <center>あ口{01}秘傳 回轉突き<colorEnd>を おぼえた！<BR>一干ヒッサツ！ ねらって はなて！！<start>
+K: <center>あ口{01}秘傳 回轉突き<colorEnd>を おぼえた！<BR>一干ヒッサツ！ ねらって はなて！！<start>
+
+#74
+J: <center>あ口{01}秘傳 ダッシュ斬り<colorEnd>を おぼえた！<BR>風のように はしる！ 斬る！！<start>
+K: <center>あ口{01}秘傳 ダッシュ斬り<colorEnd>を おぼえた！<BR>風のように はしる！ 斬る！！<start>
+
+#75
+J: <center>あ口{01}秘傳 岩くだき<colorEnd>を おぼえた！<BR>岩でも ツボでも 一干でくだけるぞ！<start>
+K: <center>あ口{01}秘傳 岩くだき<colorEnd>を おぼえた！<BR>岩でも ツボでも 一干でくだけるぞ！<start>
+
+#76
+J: <center>あ口{01}秘傳 劍ビ○ム<colorEnd>を おぼえた！<BR><BR>劍の先から ビビッと ビ○ム！！<BR>ライフが まんたんの持しか 使えない<start>
+K: <center>あ口{01}秘傳 劍ビ○ム<colorEnd>を おぼえた！<BR><BR>劍の先から ビビッと ビ○ム！！<BR>ライフが まんたんの持しか 使えない<start>
+
+#77
+J: <center>あ口{01}秘傳 大回轉斬り<colorEnd>を おぼえた！<BR>これぞ キュウキョクの 劍技なり！！<start>
+K: <center>あ口{01}秘傳 大回轉斬り<colorEnd>を おぼえた！<BR>これぞ キュウキョクの 劍技なり！！<start>
+
+#78
+J: <center>あ口{01}秘傳 下突き<colorEnd>を おぼえた！<BR>空中から 一氣に 突き下ろす 大技だ！！<start>
+K: <center>あ口{01}秘傳 下突き<colorEnd>を おぼえた！<BR>空中から 一氣に 突き下ろす 大技だ！！<start>
+
+#79
+J: <center>あ口{01}秘傳 こんじょうビ○ム<colorEnd>を おぼえた！<BR><BR>劍の先から ビビッと ビ○ム！！<BR>いざという持 たよりになる技！！<start>
+K: <center>あ口{01}秘傳 こんじょうビ○ム<colorEnd>を おぼえた！<BR><BR>劍の先から ビビッと ビ○ム！！<BR>いざという持 たよりになる技！！<start>
+
+#80
+J: <center>あ口{01}ダンジョンマップ<colorEnd>を 手に入れた！<BR><blue>マップ畵面<colorEnd>を 見てみよう<BR>靑い部屋は 行った場所<BR>点滅するのは 今いる部屋<BR>◇上下で フロアをえらぶ<start>
+K: <center>あ口{01}ダンジョンマップ<colorEnd>を 手に入れた！<BR><blue>マップ畵面<colorEnd>を 見てみよう<BR>靑い部屋は 行った場所<BR>点滅するのは 今いる部屋<BR>◇上下で フロアをえらぶ<start>
+
+#81
+J: <red>コンパス<colorEnd>を 手に入れた！<BR>ダンジョンに かくされた いろんな物の場所が分かる！<blue><BR><colorEnd>スタ○トボタンを押し ⓑⓛで<BR>マップ畵面を 見てみよう<start>
+K: <red>コンパス<colorEnd>を 手に入れた！<BR>ダンジョンに かくされた いろんな物の場所が分かる！<blue><BR><colorEnd>スタ○トボタンを押し ⓑⓛで<BR>マップ畵面を 見てみよう<start>
+
+#82
+J: <red>大きなカギ<colorEnd>を 手に入れた！<BR>大きなトビラを 開けられるように なった！<start>
+K: <red>大きなカギ<colorEnd>を 手に入れた！<BR>大きなトビラを 開けられるように なった！<start>
+
+#83
+J: <red>小さなカギ<colorEnd>を 手に入れた！<BR><BR>カギのかかった トビラやブロックを 開くことができる！<BR>このダンジョンでしか 使えません<start>
+K: <red>小さなカギ<colorEnd>を 手に入れた！<BR><BR>カギのかかった トビラやブロックを 開くことができる！<BR>このダンジョンでしか 使えません<start>
+
+#84
+J: 綠の <red>1ルピ○<colorEnd>を 手に入れた！<BR>むだづかい きんし！<start>
+K: 綠の <red>1ルピ○<colorEnd>を 手に入れた！<BR>むだづかい きんし！<start>
+
+#85
+J: 靑い <red>5ルピ○<colorEnd>を 手に入れた！<BR>ちょっぴり うれしい<start>
+K: 靑い <red>5ルピ○<colorEnd>を 手に入れた！<BR>ちょっぴり うれしい<start>
+
+#86
+J: 赤い <red>20ルピ○<colorEnd>を 手に入れた！<BR>なかなか うれしい<start>
+K: 赤い <red>20ルピ○<colorEnd>を 手に入れた！<BR>なかなか うれしい<start>
+
+#87
+J: 大きな 綠の <red>50ルピ○<colorEnd>を 手に入れた！<BR>かなり うれしい！<start>
+K: 大きな 綠の <red>50ルピ○<colorEnd>を 手に入れた！<BR>かなり うれしい！<start>
+
+#88
+J: 大きな 靑い <red>100ルピ○<colorEnd>を 手に入れた！<BR>とっても ウレシイ！<start>
+K: 大きな 靑い <red>100ルピ○<colorEnd>を 手に入れた！<BR>とっても ウレシイ！<start>
+
+#89
+J: 大きな 赤い <red>200ルピ○<colorEnd>を 手に入れた！<BR>かおが ニヤける···！<start>
+K: 大きな 赤い <red>200ルピ○<colorEnd>を 手に入れた！<BR>かおが ニヤける···！<start>
+
+#90
+J: <start>
+K: <start>
+
+#91
+J: <center>あ口{01}ペララの實<colorEnd>を 手に入れた！<BR>たべれば <green>ピッコル<colorEnd>と 話ができるぞ！<start>
+K: <center>あ口{01}ペララの實<colorEnd>を 手に入れた！<BR>たべれば <green>ピッコル<colorEnd>と 話ができるぞ！<start>
+
+#92
+J: <red>しあわせのカケラ<colorEnd>を 手に入れた！<BR>しあわせを まねくと言われる ふしぎな石のカケラ<start>
+K: <red>しあわせのカケラ<colorEnd>を 手に入れた！<BR>しあわせを まねくと言われる ふしぎな石のカケラ<start>
+
+#93
+J: <red>バクダン<colorEnd>を 5コ 手に入れた！<BR>ボムぶくろに 入れておこう！<start>
+K: <red>バクダン<colorEnd>を 5コ 手に入れた！<BR>ボムぶくろに 入れておこう！<start>
+
+#94
+J: <red>矢<colorEnd>を 5本 手に入れた！<BR>矢づつに さしておこう！<start>
+K: <red>矢<colorEnd>を 5本 手に入れた！<BR>矢づつに さしておこう！<start>
+
+#95
+J: <red>ハ○ト<colorEnd>を 手に入れた！<BR>ライフが 少し回復するぞ<start>
+K: <red>ハ○ト<colorEnd>を 手に入れた！<BR>ライフが 少し回復するぞ<start>
+
+#96
+J: <red>妖精<colorEnd>を 見つけた！<BR>ライフを 回復してくれる たのもしい なかま！<start>
+K: <red>妖精<colorEnd>を 見つけた！<BR>ライフを 回復してくれる たのもしい なかま！<start>
+
+#97
+J: <start>
+K: <start>
+
+#98
+J: <red>ハ○トのうつわ<colorEnd>を 手に入れた！<BR>ライフが ふえて 全回復！<start>
+K: <red>ハ○トのうつわ<colorEnd>を 手に入れた！<BR>ライフが ふえて 全回復！<start>
+
+#99
+J: <red>大きなボムぶくろ<colorEnd>を 手に入れた！<BR>持てる バクダンの數が ふえた！<start>
+K: <red>大きなボムぶくろ<colorEnd>を 手に入れた！<BR>持てる バクダンの數が ふえた！<start>
+
+#100
+J: <red>大きなサイフ<colorEnd>を 手に入れた！<BR>持てる ルピ○のかずが ふえた！<start>
+K: <red>大きなサイフ<colorEnd>を 手に入れた！<BR>持てる ルピ○のかずが ふえた！<start>
+
+#101
+J: <center>あ<start><red>ボムぶくろ<colorEnd>を もらった！<BR><BR>持てる バクダンの數が ふえた！<BR>もっと ドンドン ふきとばせ！<start>
+K: <center>あ<start><red>ボムぶくろ<colorEnd>を もらった！<BR><BR>持てる バクダンの數が ふえた！<BR>もっと ドンドン ふきとばせ！<start>
+
+#102
+J: <red>大きな矢づつ<colorEnd>を 手に入れた！<BR>持てる 矢の數が ふえた！<start>
+K: <red>大きな矢づつ<colorEnd>を 手に入れた！<BR>持てる 矢の數が ふえた！<start>
+
+#103
+J: <center>あ口{01}カケラぶくろ<colorEnd>を もらった！<BR><red>しあわせのカケラ<colorEnd>を ふくろに 入れて 持ち步ける<BR>スタ○トボタンを押して<BR>コレクト畵面から なかみを 見れるぞ<start>
+K: <center>あ口{01}カケラぶくろ<colorEnd>を もらった！<BR><red>しあわせのカケラ<colorEnd>を ふくろに 入れて 持ち步ける<BR>スタ○トボタンを押して<BR>コレクト畵面から なかみを 見れるぞ<start>
+
+#104
+J: <red>ふっくらパン<colorEnd>を かった！<BR>ふっくら ほかほか かなり ウマそう！<start>
+K: <red>ふっくらパン<colorEnd>を かった！<BR>ふっくら ほかほか かなり ウマそう！<start>
+
+#105
+J: <red>ねじねじパン<colorEnd>を かった！<BR>ねじれぐあいが とっても おいしそう！<start>
+K: <red>ねじねじパン<colorEnd>を かった！<BR>ねじれぐあいが とっても おいしそう！<start>
+
+#106
+J: <red>さんかくパイ<colorEnd>を かった！<BR>かんだら お口の中が パラダイス！<start>
+K: <red>さんかくパイ<colorEnd>を かった！<BR>かんだら お口の中が パラダイス！<start>
+
+#107
+J: <red>やまがたパン<colorEnd>を かった！<BR>おニクと ヤサイの みわくの 取り合わせ！<start>
+K: <red>やまがたパン<colorEnd>を かった！<BR>おニクと ヤサイの みわくの 取り合わせ！<start>
+
+#108
+J: <red>バクダン<colorEnd>を 10コ 手に入れた！<BR>ボムぶくろに 入れておこう！<start>
+K: <red>バクダン<colorEnd>を 10コ 手に入れた！<BR>ボムぶくろに 入れておこう！<start>
+
+#109
+J: <red>バクダン<colorEnd>を 30コ 手に入れた！<BR>ボムぶくろに 入れておこう！<start>
+K: <red>バクダン<colorEnd>を 30コ 手に入れた！<BR>ボムぶくろに 入れておこう！<start>
+
+#110
+J: <red>矢<colorEnd>を 10本 手に入れた！<BR>矢づつに さしておこう！<start>
+K: <red>矢<colorEnd>を 10本 手に入れた！<BR>矢づつに さしておこう！<start>
+
+#111
+J: <red>矢<colorEnd>を 30本 手に入れた！<BR>矢づつに さしておこう！<start>
+K: <red>矢<colorEnd>を 30本 手に入れた！<BR>矢づつに さしておこう！<start>
+
+#112
+J: <red>しあわせ ちょうちょう<colorEnd>を つかまえた！<BR>今までより ビュンビュンと 弓を 干てるようになった！<start>
+K: <red>しあわせ ちょうちょう<colorEnd>を つかまえた！<BR>今までより ビュンビュンと 弓を 干てるようになった！<start>
+
+#113
+J: <red>しあわせ ちょうちょう<colorEnd>を つかまえた！<BR>今までより ザクザクと ほれるように なった！<start>
+K: <red>しあわせ ちょうちょう<colorEnd>を つかまえた！<BR>今までより ザクザクと ほれるように なった！<start>
+
+#114
+J: <red>しあわせ ちょうちょう<colorEnd>を つかまえた！<BR>今までより スイスイ 早く およげるようになった！<start>
+K: <red>しあわせ ちょうちょう<colorEnd>を つかまえた！<BR>今までより スイスイ 早く およげるようになった！<start>
+
+#115
+J: これぞ！ <red>回轉斬り ためスピ○ドアップ<colorEnd>！<BR>ボタンを押している 持間が みじかくなるぞ！<start>
+K: これぞ！ <red>回轉斬り ためスピ○ドアップ<colorEnd>！<BR>ボタンを押している 持間が みじかくなるぞ！<start>
+
+#116
+J: これぞ！ <red>分身メ○タ○ スピ○ドアップ<colorEnd>！<BR>劍のゲ○ジに 力が たまるのが 早くなるぞ！<start>
+K: これぞ！ <red>分身メ○タ○ スピ○ドアップ<colorEnd>！<BR>劍のゲ○ジに 力が たまるのが 早くなるぞ！<start>
+
+#117
+J: これぞ！ <red>大回轉斬り 回轉持間アップ<colorEnd>！<BR>グルグル まわって ビシバシ 攻干！<start>
+K: これぞ！ <red>大回轉斬り 回轉持間アップ<colorEnd>！<BR>グルグル まわって ビシバシ 攻干！<start>
+
+#118
+J: <red>ヒミツのかいがら<colorEnd> {0601}コを 手に入れた！<start>
+K: <red>ヒミツのかいがら<colorEnd> {0601}コを 手に入れた！<start>
+
+#119
+J: <red>ヒミツのかいがら<colorEnd> を 手に入れた！<start>
+K: <red>ヒミツのかいがら<colorEnd> を 手に入れた！<start>
+
+#120
+J: <red>盾<colorEnd>を うばわれた！<BR><start>
+K: <red>盾<colorEnd>を うばわれた！<BR><start>
+
+#121
+J: <red>盾<colorEnd>を とりかえした！<BR><start>
+K: <red>盾<colorEnd>を とりかえした！<BR><start>
+
+#122
+J: <start>
+K: <start>
+
+#123
+J: <center>あ{0E7C}うこそ 冒險者のいずみへ···<BR><BR>今 わたしには たくさんの ルピ○が 必要です<BR>どうか あなたが 持っている すべての ルピ○を<BR>この いずみに 投げ入れて くれませんか？<BR><select><select>よわかりました <select><select>ヨムリです<start>
+K: <center>あ{0E7C}うこそ 冒險者のいずみへ···<BR><BR>今 わたしには たくさんの ルピ○が 必要です<BR>どうか あなたが 持っている すべての ルピ○を<BR>この いずみに 投げ入れて くれませんか？<BR><select><select>よわかりました <select><select>ヨムリです<start>
+
+#124
+J: <center>あ折あ{0EFE}んとうですか？<BR><BR>そんなことを したら あなたのルピ○は <BR>0 になって しまうのですよ？<BR>本當に すべてのルピ○を 投げ入れて くれるのですか？<BR><select><select>んはい  <select><select>ヨやっぱり やめとく<start>
+K: <center>あ折あ{0EFE}んとうですか？<BR><BR>そんなことを したら あなたのルピ○は <BR>0 になって しまうのですよ？<BR>本當に すべてのルピ○を 投げ入れて くれるのですか？<BR><select><select>んはい  <select><select>ヨやっぱり やめとく<start>
+
+#125
+J: <center>あ折あ{0EEA}うですか<BR>では また おとずれる 冒險者を まちましょう···<start>
+K: <center>あ折あ{0EEA}うですか<BR>では また おとずれる 冒險者を まちましょう···<start>
+
+#126
+J: <center>あ女なたは しんせつな 人間です<BR>ルピ○は 必要ありません<BR>そんな こころ やさしい<BR>あなたの 冒險に 力を かしましょう<start>
+K: <center>あ女なたは しんせつな 人間です<BR>ルピ○は 必要ありません<BR>そんな こころ やさしい<BR>あなたの 冒險に 力を かしましょう<start>
+
+#127
+J: <center>あ女なたの 冒險に 光あれ···<start>
+K: <center>あ女なたの 冒險に 光あれ···<start>
+
+#128
+J: <center>あ{0E7C}うこそ 冒險者のいずみへ···<BR><BR>あなたが 投げ入れたのは この<red>金のバクダン<colorEnd>ですか？<BR>それとも この <red>銀のバクダン<colorEnd>ですか？<BR><select><select>ナ金のバクダンです  <select><select>ナ銀のバクダンです<BR><select><select>にいえ どちらでも ありません<start>
+K: <center>あ{0E7C}うこそ 冒險者のいずみへ···<BR><BR>あなたが 投げ入れたのは この<red>金のバクダン<colorEnd>ですか？<BR>それとも この <red>銀のバクダン<colorEnd>ですか？<BR><select><select>ナ金のバクダンです  <select><select>ナ銀のバクダンです<BR><select><select>にいえ どちらでも ありません<start>
+
+#129
+J: <center>あ女なたは ウソを つきましたね<BR><BR>ウソつきは バツとして<BR>バクダンを 0にして あげましょう<start>
+K: <center>あ女なたは ウソを つきましたね<BR><BR>ウソつきは バツとして<BR>バクダンを 0にして あげましょう<start>
+
+#130
+J: <center>あ女なたは しょうじき者 ですね<BR>そんな あなたの冒險に 力を かしましょう<start>
+K: <center>あ女なたは しょうじき者 ですね<BR>そんな あなたの冒險に 力を かしましょう<start>
+
+#131
+J: <center>あ{0E7C}うこそ 冒險者のいずみへ···<BR><BR>わたしに あなたの 冒險のきおくを<BR>聞かせて くれませんか？<BR><select>ホいいよ  <select>ホやめときます<start>
+K: <center>あ{0E7C}うこそ 冒險者のいずみへ···<BR><BR>わたしに あなたの 冒險のきおくを<BR>聞かせて くれませんか？<BR><select>ホいいよ  <select>ホやめときます<start>
+
+#132
+J: <center>あ女なたが さいしょに 手に入れた エレメントは<BR>炎の エレメントですね？<BR><select><select>まはい <select><select>みいいえ<start>
+K: <center>あ女なたが さいしょに 手に入れた エレメントは<BR>炎の エレメントですね？<BR><select><select>まはい <select><select>みいいえ<start>
+
+#133
+J: <center>あ女なたの おじいさんの 名前は スミヌさんですね？<BR><select><select>まはい <select><select>ミいいえ<start>
+K: <center>あ女なたの おじいさんの 名前は スミヌさんですね？<BR><select><select>まはい <select><select>ミいいえ<start>
+
+#134
+J: <center>あ{0EAE}ングル山に いる メルタおやかたの 弟子は<BR>7人ですか？<BR><select><select>むはい <select><select>まいいえ<start>
+K: <center>あ{0EAE}ングル山に いる メルタおやかたの 弟子は<BR>7人ですか？<BR><select><select>むはい <select><select>まいいえ<start>
+
+#135
+J: <center>あ{0EEC}べると ピッコルの ことばが わかるように なるのは<BR>ペラペラの實 でしたか？<BR><select><select>まはい <select><select>ムいいえ <start>
+K: <center>あ{0EEC}べると ピッコルの ことばが わかるように なるのは<BR>ペラペラの實 でしたか？<BR><select><select>まはい <select><select>ムいいえ <start>
+
+#136
+J: <center>あ{0EAB}んざいの ハイラル王 ダルタスの マントの色は<BR>白ですね？<BR><select><select>まはい <select><select>マいいえ <start>
+K: <center>あ{0EAB}んざいの ハイラル王 ダルタスの マントの色は<BR>白ですね？<BR><select><select>まはい <select><select>マいいえ <start>
+
+#137
+J: <center>あ女りがとう では わたしの しつもんに <BR>こたえて いってください<BR><DEL><select>○<start>
+K: <center>あ女りがとう では わたしの しつもんに <BR>こたえて いってください<BR><DEL><select>○<start>
+
+#138
+J: <center>あ女なたは ウソを つきましたね<BR>ウソつきは バツとして 矢を 0にして あげましょう<start>
+K: <center>あ女なたは ウソを つきましたね<BR>ウソつきは バツとして 矢を 0にして あげましょう<start>
+
+#139
+J: <center>あ女なたの 冒險のきおくは よくわかりました<BR>しっかりと いろんなことを おぼえている<BR>そんな あなたの冒險に 力を かしましょう<start>
+K: <center>あ女なたの 冒險のきおくは よくわかりました<BR>しっかりと いろんなことを おぼえている<BR>そんな あなたの冒險に 力を かしましょう<start>
+
+#140
+J: <center>あ{0E80}るほど わかりました<BR>では つぎの しつもんです<BR><DEL><select>…<start>
+K: <center>あ{0E80}るほど わかりました<BR>では つぎの しつもんです<BR><DEL><select>…<start>
+
+#141
+J: <center>あ{0E80}るほど わかりました<BR>では つぎの しつもんです<BR><DEL><select>ね<start>
+K: <center>あ{0E80}るほど わかりました<BR>では つぎの しつもんです<BR><DEL><select>ね<start>
+
+#142
+J: <center>あ{0E80}るほど わかりました<BR>では つぎの しつもんです<BR><DEL><select>ネ<start>
+K: <center>あ{0E80}るほど わかりました<BR>では つぎの しつもんです<BR><DEL><select>ネ<start>
+
+#143
+J: <center>あ{0E80}るほど わかりました<BR>では つぎの しつもんです<BR><DEL><select>の<start>
+K: <center>あ{0E80}るほど わかりました<BR>では つぎの しつもんです<BR><DEL><select>の<start>
+
+#144
+J: <center>あ{0E7C}うこそ 冒險者のいずみへ···<BR>たびの つかれを いやして あげましょう<start>
+K: <center>あ{0E7C}うこそ 冒險者のいずみへ···<BR>たびの つかれを いやして あげましょう<start>
+
+#145
+J: <red>バクダン<colorEnd>を 10コ かった！<start>
+K: <red>バクダン<colorEnd>を 10コ かった！<start>
+
+#146
+J: <red>バクダン<colorEnd>を 30コ かった！<start>
+K: <red>バクダン<colorEnd>を 30コ かった！<start>
+
+#147
+J: <red>矢<colorEnd>を 10本 かった！<start>
+K: <red>矢<colorEnd>を 10本 かった！<start>
+
+#148
+J: <red>矢<colorEnd>を 30本 かった！<start>
+K: <red>矢<colorEnd>を 30本 かった！<start>
+
+#149
+J: <red>チンクルトロフィ○<colorEnd>を 手に入れた！<start>
+K: <red>チンクルトロフィ○<colorEnd>を 手に入れた！<start>
+
+#150
+J: <red>ニテンどうゴ○ルドメダル<colorEnd>を 手に入れた！<start>ホホホホホホホホホホホホら
+K: <red>ニテンどうゴ○ルドメダル<colorEnd>を 手に入れた！<start>ホホホホホホホホホホホホら
+

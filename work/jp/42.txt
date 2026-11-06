@@ -1,0 +1,97 @@
+# block 42 · 23 msgs · minish_cap 한글화 워크스페이스
+# 규칙: 'J:' = 일본어 원문(수정 금지, 참고용). 'K:' 줄만 번역으로 수정.
+#       줄바꿈=<BR>, 색/제어 태그(<green> 등)·원시코드({0309} 등)는 그대로 유지.
+#       빈/제어전용 메시지는 K를 건드리지 말 것(원문 그대로 왕복됨).
+
+#0
+J: <start>
+K: <start>
+
+#1
+J: ほしいッピ？<BR>  <select>ホはい  <select>）<select>いいえ<start>
+K: ほしいッピ？<BR>  <select>ホはい  <select>）<select>いいえ<start>
+
+#2
+J: まいどあり○ッピ！<BR><start>
+K: まいどあり○ッピ！<BR><start>
+
+#3
+J: <red>ルピ○<colorEnd>が 足りないっピ！<BR>出なおすッピ！<start>
+K: <red>ルピ○<colorEnd>が 足りないっピ！<BR>出なおすッピ！<start>
+
+#4
+J: それ以上 持てないッピよ<BR>出なおすッピ<start>
+K: それ以上 持てないッピよ<BR>出なおすッピ<start>
+
+#5
+J: ピ○！<BR>そんなら歸るッピ！<start>
+K: ピ○！<BR>そんなら歸るッピ！<start>
+
+#6
+J: <start>
+K: <start>
+
+#7
+J: <start>
+K: <start>
+
+#8
+J: <start>
+K: <start>
+
+#9
+J: <start>
+K: <start>
+
+#10
+J: <start>
+K: <start>
+
+#11
+J: まいったピ○！<BR><BR>おわびに <red>バクダン<colorEnd>を うるッピ○！<BR>10コで {0601}ルピ○だピ○！<BR><DEL>）{01}<start>
+K: まいったピ○！<BR><BR>おわびに <red>バクダン<colorEnd>を うるッピ○！<BR>10コで {0601}ルピ○だピ○！<BR><DEL>）{01}<start>
+
+#12
+J: まいったピ○！<BR><BR>おわびに 山のぼりには さいてき！<BR>ゴツゴツした壁を ドンドンのぼれる ようになる<BR><red>グリップリング<colorEnd>を うるッピ○！<BR>{0601}ルピ○だピ○！<BR><DEL>）{01}<start>
+K: まいったピ○！<BR><BR>おわびに 山のぼりには さいてき！<BR>ゴツゴツした壁を ドンドンのぼれる ようになる<BR><red>グリップリング<colorEnd>を うるッピ○！<BR>{0601}ルピ○だピ○！<BR><DEL>）{01}<start>
+
+#13
+J: まいったピ○！<BR><BR>おわびに <red>しあわせのカケラ<colorEnd>を うるッピ○！<BR>{0601}ルピ○だピ○！<BR><DEL>）{01}<start>
+K: まいったピ○！<BR><BR>おわびに <red>しあわせのカケラ<colorEnd>を うるッピ○！<BR>{0601}ルピ○だピ○！<BR><DEL>）{01}<start>
+
+#14
+J: まいったピ○！<BR><BR>おわびに <red>矢<colorEnd>を うるッピ○！<BR>30本で {0601}ルピ○だピ○！<BR><DEL>）{01}<start>
+K: まいったピ○！<BR><BR>おわびに <red>矢<colorEnd>を うるッピ○！<BR>30本で {0601}ルピ○だピ○！<BR><DEL>）{01}<start>
+
+#15
+J: <red>矢<colorEnd>を うりたいけど<BR>オマエ <red>弓<colorEnd>を 持ってないッピ！<BR>出なおして くるッピ！<BR><start>
+K: <red>矢<colorEnd>を うりたいけど<BR>オマエ <red>弓<colorEnd>を 持ってないッピ！<BR>出なおして くるッピ！<BR><start>
+
+#16
+J: まいったピ○！<BR>おわびに 中に いろんな ものを入れて 持ち步ける<BR>とっても べんりな <red>ビン<colorEnd>を うるッピ○！<BR>ゴングル山に のぼるには ひつようだッピよ<BR>{0601}ルピ○ だッピ！<BR><DEL>）{01}<start>
+K: まいったピ○！<BR>おわびに 中に いろんな ものを入れて 持ち步ける<BR>とっても べんりな <red>ビン<colorEnd>を うるッピ○！<BR>ゴングル山に のぼるには ひつようだッピよ<BR>{0601}ルピ○ だッピ！<BR><DEL>）{01}<start>
+
+#17
+J: もう うるものは ないッピ！<start>
+K: もう うるものは ないッピ！<start>
+
+#18
+J: まいったピ○！<BR>おわびに いいことおしえるッピ○！<BR><DEL>）イ<start>
+K: まいったピ○！<BR>おわびに いいことおしえるッピ○！<BR><DEL>）イ<start>
+
+#19
+J: おいらの ともだちが <green>ベ○レ高原の南の洞窟<colorEnd>で<BR>とっても ベンリなどうぐを うってるッピ！<BR><green>ゴングル山<colorEnd>にのぼるなら ぜったい おすすめッピ○！<BR>探してみると いいッピよ<start>
+K: おいらの ともだちが <green>ベ○レ高原の南の洞窟<colorEnd>で<BR>とっても ベンリなどうぐを うってるッピ！<BR><green>ゴングル山<colorEnd>にのぼるなら ぜったい おすすめッピ○！<BR>探してみると いいッピよ<start>
+
+#20
+J: まいったピ○！<BR><BR>おわびに <blue>カケラあわせ<colorEnd>を してやるッピ○！<BR>{0601}ルピ○だピ○！<BR><DEL>）を<start>
+K: まいったピ○！<BR><BR>おわびに <blue>カケラあわせ<colorEnd>を してやるッピ○！<BR>{0601}ルピ○だピ○！<BR><DEL>）を<start>
+
+#21
+J: するッピ？<BR>  <select>）{02F6}い  <select>）<select>いいえ<start>
+K: するッピ？<BR>  <select>）{02F6}い  <select>）<select>いいえ<start>
+
+#22
+J: <blue>カケラあわせ<colorEnd> しないッピ？<start>ホホホホホホホホホホホ<center>
+K: <blue>カケラあわせ<colorEnd> しないッピ？<start>ホホホホホホホホホホホ<center>
+

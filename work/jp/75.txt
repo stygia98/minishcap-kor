@@ -1,0 +1,165 @@
+# block 75 · 40 msgs · minish_cap 한글화 워크스페이스
+# 규칙: 'J:' = 일본어 원문(수정 금지, 참고용). 'K:' 줄만 번역으로 수정.
+#       줄바꿈=<BR>, 색/제어 태그(<green> 등)·원시코드({0309} 등)는 그대로 유지.
+#       빈/제어전용 메시지는 K를 건드리지 말 것(원문 그대로 왕복됨).
+
+#0
+J: <start>
+K: <start>
+
+#1
+J: {0301}ヘチョット チョット！ タイヘン タイヘン！<BR>ニンゲンが <blue>本を かりていっちゃった<colorEnd>から<BR><green>ブクタ長老<colorEnd>の トコロに <BR>歸ることが できないので ございます！<BR><green>長老<colorEnd>ったら ヒトリでコマッて ないでしょうか！？<BR>ああ しんぱいだ···<BR>ニンゲンが かりていった 本のことなら<BR><green>としょかん<colorEnd>の <green>おねえさん<colorEnd>が 知ってるだろうけど<BR>ピッコルの ボクには どうしようもないですよ<start>
+K: {0301}ヘチョット チョット！ タイヘン タイヘン！<BR>ニンゲンが <blue>本を かりていっちゃった<colorEnd>から<BR><green>ブクタ長老<colorEnd>の トコロに <BR>歸ることが できないので ございます！<BR><green>長老<colorEnd>ったら ヒトリでコマッて ないでしょうか！？<BR>ああ しんぱいだ···<BR>ニンゲンが かりていった 本のことなら<BR><green>としょかん<colorEnd>の <green>おねえさん<colorEnd>が 知ってるだろうけど<BR>ピッコルの ボクには どうしようもないですよ<start>
+
+#2
+J: <start>
+K: <start>
+
+#3
+J: {0301}ヘチョット チョット！ タイヘン タイヘン！<BR><red>本<colorEnd>が ドサッと もどって きたのですよ！！<BR>ホントに ホントに！ ヨカッタ ヨカッタ！<BR>これで <green>ブクタ長老<colorEnd>のところに もどれます！<BR>キミが <red>本<colorEnd>を 集めて きてくれたのでしょう？<BR>ありがとネ！<BR><DEL>J<center><start>
+K: {0301}ヘチョット チョット！ タイヘン タイヘン！<BR><red>本<colorEnd>が ドサッと もどって きたのですよ！！<BR>ホントに ホントに！ ヨカッタ ヨカッタ！<BR>これで <green>ブクタ長老<colorEnd>のところに もどれます！<BR>キミが <red>本<colorEnd>を 集めて きてくれたのでしょう？<BR>ありがとネ！<BR><DEL>J<center><start>
+
+#4
+J: {0301}ほカンシャの しるしに <red>コレ<colorEnd>を<BR>さしあげますですよ！<start>
+K: {0301}ほカンシャの しるしに <red>コレ<colorEnd>を<BR>さしあげますですよ！<start>
+
+#5
+J: {0302}<start>ワタクシも <green>ブクタ長老<colorEnd>の<BR>トコロに もどります！<BR><red>本<colorEnd>の <blue>せびょうしが のぼれる<colorEnd> ようになってますからね<start>
+K: {0302}<start>ワタクシも <green>ブクタ長老<colorEnd>の<BR>トコロに もどります！<BR><red>本<colorEnd>の <blue>せびょうしが のぼれる<colorEnd> ようになってますからね<start>
+
+#6
+J: {0302}<select>そのせつは おせわサマ でした∼！<start>
+K: {0302}<select>そのせつは おせわサマ でした∼！<start>
+
+#7
+J: KOBITO＿HONDANA＿007<start>
+K: KOBITO＿HONDANA＿007<start>
+
+#8
+J: KOBITO＿HONDANA＿008<start>
+K: KOBITO＿HONDANA＿008<start>
+
+#9
+J: {0301}ハ名物コンビ！<BR><green>ブクタ長老<colorEnd>と <green>ジョッシュ<colorEnd>に 會いに行くの？<BR><green>ブクタ長老<colorEnd>の うさんくさい 冒險バナシ！<BR>サイコ○に スリリングだよね！<BR>キミも カレらのトコロを たずねるなら<BR>でこぼこの 本のせびょうしを のぼって 行くといいよ！ <start>
+K: {0301}ハ名物コンビ！<BR><green>ブクタ長老<colorEnd>と <green>ジョッシュ<colorEnd>に 會いに行くの？<BR><green>ブクタ長老<colorEnd>の うさんくさい 冒險バナシ！<BR>サイコ○に スリリングだよね！<BR>キミも カレらのトコロを たずねるなら<BR>でこぼこの 本のせびょうしを のぼって 行くといいよ！ <start>
+
+#10
+J: KOBITO＿HONDANA＿010<start>
+K: KOBITO＿HONDANA＿010<start>
+
+#11
+J: {0301}ひニンゲンが <red>本<colorEnd>を かりてっちゃったせいで<BR>上に のぼることが できないんだよ！<BR>これじゃあ <green>ブクタ長老<colorEnd>の<BR>冒險バナシが きけない∼！ エ○ン！<start>
+K: {0301}ひニンゲンが <red>本<colorEnd>を かりてっちゃったせいで<BR>上に のぼることが できないんだよ！<BR>これじゃあ <green>ブクタ長老<colorEnd>の<BR>冒險バナシが きけない∼！ エ○ン！<start>
+
+#12
+J: {0301}ヒ本が ほんだなに おさまってるって<BR>キモチいいね♪<start>
+K: {0301}ヒ本が ほんだなに おさまってるって<BR>キモチいいね♪<start>
+
+#13
+J: KOBITO＿HONDANA＿013<start>
+K: KOBITO＿HONDANA＿013<start>
+
+#14
+J: KOBITO＿HONDANA＿014<start>
+K: KOBITO＿HONDANA＿014<start>
+
+#15
+J: KOBITO＿HONDANA＿015<start>
+K: KOBITO＿HONDANA＿015<start>
+
+#16
+J: KOBITO＿HONDANA＿016<start>
+K: KOBITO＿HONDANA＿016<start>
+
+#17
+J: {0302}<select>ワタクシ <green>ブクタ長老<colorEnd>の 弟子であります<BR><green>ジョッシュ<colorEnd>と いいますです！<BR><green>ブクタ長老<colorEnd>の 冒險話は···<BR><BR>{0301}ヘサイコ○○○○！！！<BR>で ありますですよ<BR>ワタクシ ズノウは のピッコルですから<BR>たくましい オトコに アコガレを いだくんでございます！<start>
+K: {0302}<select>ワタクシ <green>ブクタ長老<colorEnd>の 弟子であります<BR><green>ジョッシュ<colorEnd>と いいますです！<BR><green>ブクタ長老<colorEnd>の 冒險話は···<BR><BR>{0301}ヘサイコ○○○○！！！<BR>で ありますですよ<BR>ワタクシ ズノウは のピッコルですから<BR>たくましい オトコに アコガレを いだくんでございます！<start>
+
+#18
+J: KOBITO＿HONDANA＿018<start>
+K: KOBITO＿HONDANA＿018<start>
+
+#19
+J: {0301}ヘお！ <green>ブクタ長老<colorEnd>の 使っていた<BR>ステキな どうぐを いただいたのでありますか？！<BR>うらやましい であります！<BR>ワタクシは カラダを 動かすのは ニガテで···<BR>キミも 冒險に でられるのなら<BR><green>ブクタ長老<colorEnd>を みならって<BR>オトコらしく！ ゆうかんに！<BR>ファイヤ○ッ！ でありますよ！！<start>
+K: {0301}ヘお！ <green>ブクタ長老<colorEnd>の 使っていた<BR>ステキな どうぐを いただいたのでありますか？！<BR>うらやましい であります！<BR>ワタクシは カラダを 動かすのは ニガテで···<BR>キミも 冒險に でられるのなら<BR><green>ブクタ長老<colorEnd>を みならって<BR>オトコらしく！ ゆうかんに！<BR>ファイヤ○ッ！ でありますよ！！<start>
+
+#20
+J: KOBITO＿HONDANA＿020<start>
+K: KOBITO＿HONDANA＿020<start>
+
+#21
+J: KOBITO＿HONDANA＿021<start>
+K: KOBITO＿HONDANA＿021<start>
+
+#22
+J: KOBITO＿HONDANA＿022<start>
+K: KOBITO＿HONDANA＿022<start>
+
+#23
+J: KOBITO＿HONDANA＿023<start>
+K: KOBITO＿HONDANA＿023<start>
+
+#24
+J: KOBITO＿HONDANA＿024<start>
+K: KOBITO＿HONDANA＿024<start>
+
+#25
+J: {0302}右ょほほほ！ <BR>この <green>ブクタ<colorEnd>に 何か ようかのう？<BR>いや！ 用けんを きくまえに ワシの じこしょうかいじゃ！<BR>にょほほほ∼∼<BR>う うおっほん！ うえっへん！<BR><BR>ワシの ナマエは <green>ブクタ<colorEnd>！ <BR>ねんれいは··· わすれてしまったワイ！<BR>ワカイころは うみ 越え 山越え <BR>大冒險を したもんじゃて<BR>今は ここで こうして デシをとり<BR>いんきょセイカツを たのしんでおるじゃワイ！<start>
+K: {0302}右ょほほほ！ <BR>この <green>ブクタ<colorEnd>に 何か ようかのう？<BR>いや！ 用けんを きくまえに ワシの じこしょうかいじゃ！<BR>にょほほほ∼∼<BR>う うおっほん！ うえっへん！<BR><BR>ワシの ナマエは <green>ブクタ<colorEnd>！ <BR>ねんれいは··· わすれてしまったワイ！<BR>ワカイころは うみ 越え 山越え <BR>大冒險を したもんじゃて<BR>今は ここで こうして デシをとり<BR>いんきょセイカツを たのしんでおるじゃワイ！<start>
+
+#26
+J: {0302}石{0218}寶ハンタ○の <green>ブクタ<colorEnd>」 と言ったら<BR>たいそう ユウメイ だったんじゃぞ∼い！<start>
+K: {0302}石{0218}寶ハンタ○の <green>ブクタ<colorEnd>」 と言ったら<BR>たいそう ユウメイ だったんじゃぞ∼い！<start>
+
+#27
+J: KOBITO＿HONDANA＿027<start>
+K: KOBITO＿HONDANA＿027<start>
+
+#28
+J: KOBITO＿HONDANA＿028<start>
+K: KOBITO＿HONDANA＿028<start>
+
+#29
+J: KOBITO＿HONDANA＿029<start>
+K: KOBITO＿HONDANA＿029<start>
+
+#30
+J: KOBITO＿HONDANA＿030<start>
+K: KOBITO＿HONDANA＿030<start>
+
+#31
+J: KOBITO＿HONDANA＿031<start>
+K: KOBITO＿HONDANA＿031<start>
+
+#32
+J: KOBITO＿HONDANA＿032<start>
+K: KOBITO＿HONDANA＿032<start>
+
+#33
+J: KOBITO＿HONDANA＿033<start>
+K: KOBITO＿HONDANA＿033<start>
+
+#34
+J: {0302}右ょほほ！ お！？<BR>ひさしぶりの おきゃくさんじゃな！<BR>最近 <green>ジョッシュ<colorEnd>も 出て行ったきりで<BR>サミシイおもいを しておったのよ∼ おヨヨヨ···<BR>···して おぬし 何のようじゃな？<BR><BR>にょほ？ <green>しずくの神殿<colorEnd>？<BR><BR>なるほど あそこへ 行きたいと もうすのじゃな？<BR>よかろう··· ひさしぶりに あらわれた 勇者よ<BR>後ろの よつばのクロ○バ○のところに たちなされ<start>
+K: {0302}右ょほほ！ お！？<BR>ひさしぶりの おきゃくさんじゃな！<BR>最近 <green>ジョッシュ<colorEnd>も 出て行ったきりで<BR>サミシイおもいを しておったのよ∼ おヨヨヨ···<BR>···して おぬし 何のようじゃな？<BR><BR>にょほ？ <green>しずくの神殿<colorEnd>？<BR><BR>なるほど あそこへ 行きたいと もうすのじゃな？<BR>よかろう··· ひさしぶりに あらわれた 勇者よ<BR>後ろの よつばのクロ○バ○のところに たちなされ<start>
+
+#35
+J: {0302}其？<BR>なんじゃ なんじゃ？！<BR>もったいぶらずに <green>しずくの神殿<colorEnd>への<BR>行き方を おしえて ほしいとな？<start>
+K: {0302}其？<BR>なんじゃ なんじゃ？！<BR>もったいぶらずに <green>しずくの神殿<colorEnd>への<BR>行き方を おしえて ほしいとな？<start>
+
+#36
+J: {0302}長あ まあ そう あわてるな<BR>そこに 立っておれ！<start>
+K: {0302}長あ まあ そう あわてるな<BR>そこに 立っておれ！<start>
+
+#37
+J: にょほほ○○○っ！！！<BR>ひらけ∼！ <blue>びっくりパネル<colorEnd>！<start>
+K: にょほほ○○○っ！！！<BR>ひらけ∼！ <blue>びっくりパネル<colorEnd>！<start>
+
+#38
+J: にょほほほほ∼っ！ うまく おちて行った！<BR><BR>さてさて··· あの<blue>シカケ<colorEnd>を といて<BR>ブジに <red>お寶<colorEnd>を 手に入れることが できるか···<BR>たのしみじゃワ∼イ！<start>
+K: にょほほほほ∼っ！ うまく おちて行った！<BR><BR>さてさて··· あの<blue>シカケ<colorEnd>を といて<BR>ブジに <red>お寶<colorEnd>を 手に入れることが できるか···<BR>たのしみじゃワ∼イ！<start>
+
+#39
+J: {0302}的ぬしは みどころが あるワイ！<BR>ワシの ワカイころに クリソツじゃっ！<start>ホホホホホホホホホホホヴ
+K: {0302}的ぬしは みどころが あるワイ！<BR>ワシの ワカイころに クリソツじゃっ！<start>ホホホホホホホホホホホヴ
+

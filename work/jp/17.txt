@@ -1,0 +1,465 @@
+# block 17 · 115 msgs · minish_cap 한글화 워크스페이스
+# 규칙: 'J:' = 일본어 원문(수정 금지, 참고용). 'K:' 줄만 번역으로 수정.
+#       줄바꿈=<BR>, 색/제어 태그(<green> 등)·원시코드({0309} 등)는 그대로 유지.
+#       빈/제어전용 메시지는 K를 건드리지 말 것(원문 그대로 왕복됨).
+
+#0
+J: <start>
+K: <start>
+
+#1
+J: <sound>ラこんにちは <green>スミスおじさま<start>
+K: <sound>ラこんにちは <green>スミスおじさま<start>
+
+#2
+J: <sound>ドおやおや これは <green>ゼルダさま<BR><colorEnd><BR>お城を 拔け出して こんなところまで<BR>お一人で きなすったのか<BR>大臣が また心配して おおさわぎ しますぞ！<start>
+K: <sound>ドおやおや これは <green>ゼルダさま<BR><colorEnd><BR>お城を 拔け出して こんなところまで<BR>お一人で きなすったのか<BR>大臣が また心配して おおさわぎ しますぞ！<start>
+
+#3
+J: 平氣よ！ それより <name>はどこ？<BR><BR>町は 年に一度の<blue>ピッコルまつり<colorEnd>で<BR>すごく にぎわっているわ！<BR>ふたりで 見に行こうと思って よびにきたの<BR>いっしょに 行っても いいかしら？<start>
+K: 平氣よ！ それより <name>はどこ？<BR><BR>町は 年に一度の<blue>ピッコルまつり<colorEnd>で<BR>すごく にぎわっているわ！<BR>ふたりで 見に行こうと思って よびにきたの<BR>いっしょに 行っても いいかしら？<start>
+
+#4
+J: おお そうですか<BR><BR><name>のやつは きのう おそくまで<BR>ワシの 手傳いを してくれてましてな<BR>まだ ねておりますが もう そろそろ おきてくると<BR>おもいます<BR>お城に おつかいも あるし<BR>いっしょに 行ってもらえば ちょうどいい<BR><DEL>あ<select><BR><start>
+K: おお そうですか<BR><BR><name>のやつは きのう おそくまで<BR>ワシの 手傳いを してくれてましてな<BR>まだ ねておりますが もう そろそろ おきてくると<BR>おもいます<BR>お城に おつかいも あるし<BR>いっしょに 行ってもらえば ちょうどいい<BR><DEL>あ<select><BR><start>
+
+#5
+J: お○い！ <name>や！<start>
+K: お○い！ <name>や！<start>
+
+#6
+J: <start>
+K: <start>
+
+#7
+J: <start>
+K: <start>
+
+#8
+J: <start>
+K: <start>
+
+#9
+J: <center>あ<start>おお <name><BR><BR>いっしょに <blue>ピッコルまつり<colorEnd>を 見に行こうと<BR><green>ゼルダさま<colorEnd>が おいでに なっているぞ<start>
+K: <center>あ<start>おお <name><BR><BR>いっしょに <blue>ピッコルまつり<colorEnd>を 見に行こうと<BR><green>ゼルダさま<colorEnd>が おいでに なっているぞ<start>
+
+#10
+J: こんにちは <name><BR>いっしょに おまつりに 行きましょうよ！<BR>今 <green>スミスおじさま<colorEnd>にも おゆるしを もらったわ！<BR><start>
+K: こんにちは <name><BR>いっしょに おまつりに 行きましょうよ！<BR>今 <green>スミスおじさま<colorEnd>にも おゆるしを もらったわ！<BR><start>
+
+#11
+J: <center>あ<start>うむ せっかくの <blue>おまつり<colorEnd>だ<BR><green>ゼルダさま<colorEnd>と いっしょに 見に行ってくるといい<BR>その ついでに と言っては なんだが···<BR><BR>たのまれていた <red>劍<colorEnd>が ちょうど 今できあがってな<BR>これを ハイラル城の<green>大臣<colorEnd>に わたして きてほしいのだ<BR>本當は ワシが わたしに 行かねば ならんのだが<BR>別の しごとがあって どうしても ダメなのだ<start>
+K: <center>あ<start>うむ せっかくの <blue>おまつり<colorEnd>だ<BR><green>ゼルダさま<colorEnd>と いっしょに 見に行ってくるといい<BR>その ついでに と言っては なんだが···<BR><BR>たのまれていた <red>劍<colorEnd>が ちょうど 今できあがってな<BR>これを ハイラル城の<green>大臣<colorEnd>に わたして きてほしいのだ<BR>本當は ワシが わたしに 行かねば ならんのだが<BR>別の しごとがあって どうしても ダメなのだ<start>
+
+#12
+J: <center>あ<start>その劍は 武術大會の 優勝者に おくられる劍じゃ<BR>なくさぬようにな<BR>それと いくらおまえと おさななじみと 言っても<BR><DEL>あ聞
+K: <center>あ<start>その劍は 武術大會の 優勝者に おくられる劍じゃ<BR>なくさぬようにな<BR>それと いくらおまえと おさななじみと 言っても<BR><DEL>あ聞
+
+#13
+J: だいじょうぶよ おじさま<BR>さあ <name> おまつりを見に 町へ行きましょう！<start>
+K: だいじょうぶよ おじさま<BR>さあ <name> おまつりを見に 町へ行きましょう！<start>
+
+#14
+J: <center>あ<start><green>ゼルダさま<colorEnd>は ハイラルの 姬さまじゃ<BR>あぶない目に あわせないよう 氣を つけるんだぞ<start>
+K: <center>あ<start><green>ゼルダさま<colorEnd>は ハイラルの 姬さまじゃ<BR>あぶない目に あわせないよう 氣を つけるんだぞ<start>
+
+#15
+J: <start>
+K: <start>
+
+#16
+J: <sound>らこっちよ <name>！<BR><start>
+K: <sound>らこっちよ <name>！<BR><start>
+
+#17
+J: さあ <name><BR><green>お城<colorEnd>に いそぎましょう<start>
+K: さあ <name><BR><green>お城<colorEnd>に いそぎましょう<start>
+
+#18
+J: <sound>ラ<name>！<BR>早く 行きましょう！<start>
+K: <sound>ラ<name>！<BR>早く 行きましょう！<start>
+
+#19
+J: こっち こっち！<BR>早く 早く！<start>
+K: こっち こっち！<BR>早く 早く！<start>
+
+#20
+J: さあ <green>ハイラルの町<colorEnd>に ついたわよ<start>
+K: さあ <green>ハイラルの町<colorEnd>に ついたわよ<start>
+
+#21
+J: <start>
+K: <start>
+
+#22
+J: <start>
+K: <start>
+
+#23
+J: <start>
+K: <start>
+
+#24
+J: <start>
+K: <start>
+
+#25
+J: <start>
+K: <start>
+
+#26
+J: <start>
+K: <start>
+
+#27
+J: <start>
+K: <start>
+
+#28
+J: <start>
+K: <start>
+
+#29
+J: <start>
+K: <start>
+
+#30
+J: <start>
+K: <start>
+
+#31
+J: <start>
+K: <start>
+
+#32
+J: <start>
+K: <start>
+
+#33
+J: 大アタリ∼！！<BR><start>
+K: 大アタリ∼！！<BR><start>
+
+#34
+J: すごい！<BR>クジびき 大アタリですよ <green>ゼルダ姬さま<colorEnd>！<BR>さあ さあ  <BR>おすきな モノを えらんで くださいな！<start>
+K: すごい！<BR>クジびき 大アタリですよ <green>ゼルダ姬さま<colorEnd>！<BR>さあ さあ  <BR>おすきな モノを えらんで くださいな！<start>
+
+#35
+J: まずは！<BR><red>ハ○トの かたちの 石<colorEnd>！<BR>續きまして···<BR><start>
+K: まずは！<BR><red>ハ○トの かたちの 石<colorEnd>！<BR>續きまして···<BR><start>
+
+#36
+J: <red>大きくて キレイな 寶石<colorEnd>！<BR>で 最後は···<start>
+K: <red>大きくて キレイな 寶石<colorEnd>！<BR>で 最後は···<start>
+
+#37
+J: <red>ちっちゃな 盾<colorEnd> でございます<start>
+K: <red>ちっちゃな 盾<colorEnd> でございます<start>
+
+#38
+J: さあ どれになさいますか？<BR><BR>やっぱり 寶石 ですか？<BR>ハ○トのかたちの石も カワイイですよ！<BR>おすきなモノを おえらびくださいな！<BR><start>
+K: さあ どれになさいますか？<BR><BR>やっぱり 寶石 ですか？<BR>ハ○トのかたちの石も カワイイですよ！<BR>おすきなモノを おえらびくださいな！<BR><start>
+
+#39
+J: わたしは この<BR><red>小さな 盾<colorEnd> を いただくわ<start>
+K: わたしは この<BR><red>小さな 盾<colorEnd> を いただくわ<start>
+
+#40
+J: どうして！？  どうして！？<BR>なぜなんですか∼！？<BR>そんな 盾なんか キレイでも かわいくも ないですよ∼！<BR><BR>ほら こっちの ハ○トの石！ かわいいでしょ！？<BR><BR>ほら こっちの 大きな寶石！ キレイでしょ！？<BR><BR>盾なんかより こっちの方が ずっと いいですよ！<BR><start>
+K: どうして！？  どうして！？<BR>なぜなんですか∼！？<BR>そんな 盾なんか キレイでも かわいくも ないですよ∼！<BR><BR>ほら こっちの ハ○トの石！ かわいいでしょ！？<BR><BR>ほら こっちの 大きな寶石！ キレイでしょ！？<BR><BR>盾なんかより こっちの方が ずっと いいですよ！<BR><start>
+
+#41
+J: いいえ わたしは <red>この盾<colorEnd>が ほしいの<BR>いただけるかしら？<start>
+K: いいえ わたしは <red>この盾<colorEnd>が ほしいの<BR>いただけるかしら？<start>
+
+#42
+J: 姬さまも かわってますわねぇ<BR>じゃあ···<BR>はい <red>ちっちゃな盾<colorEnd>を どうぞ<BR><start>
+K: 姬さまも かわってますわねぇ<BR>じゃあ···<BR>はい <red>ちっちゃな盾<colorEnd>を どうぞ<BR><start>
+
+#43
+J: はい！ わたしからの プレゼント！<BR><BR>この<red>盾<colorEnd> <name>に にあうんじゃない？<BR><start>
+K: はい！ わたしからの プレゼント！<BR><BR>この<red>盾<colorEnd> <name>に にあうんじゃない？<BR><start>
+
+#44
+J: うん 思ったとおり！ カッコイイわよ<BR><BR>わたしに 何かあったら それで守ってね！<BR><BR>あっ そうだ！<BR>そろそろ おじさまの<blue>劍を お城にとどけなきゃ<colorEnd>！<BR>行きましょう <name><start>
+K: うん 思ったとおり！ カッコイイわよ<BR><BR>わたしに 何かあったら それで守ってね！<BR><BR>あっ そうだ！<BR>そろそろ おじさまの<blue>劍を お城にとどけなきゃ<colorEnd>！<BR>行きましょう <name><start>
+
+#45
+J: <start>
+K: <start>
+
+#46
+J: <start>
+K: <start>
+
+#47
+J: <start>
+K: <start>
+
+#48
+J: <start>
+K: <start>
+
+#49
+J: <start>
+K: <start>
+
+#50
+J: <start>
+K: <start>
+
+#51
+J: <start>
+K: <start>
+
+#52
+J: <start>
+K: <start>
+
+#53
+J: <start>
+K: <start>
+
+#54
+J: <center>あⓛ<start>ぐおお <name>くん！<BR>キミが 劍を 持ってきてくれたのじゃな<BR>では 劍は ハイラル國の 大臣 この <green>テンガロ<colorEnd>が<BR>たしかに うけとった<BR>ちょうど あと少しで <BR>ひょうしょう式が はじまるところじゃ<start>
+K: <center>あⓛ<start>ぐおお <name>くん！<BR>キミが 劍を 持ってきてくれたのじゃな<BR>では 劍は ハイラル國の 大臣 この <green>テンガロ<colorEnd>が<BR>たしかに うけとった<BR>ちょうど あと少しで <BR>ひょうしょう式が はじまるところじゃ<start>
+
+#55
+J: <sound>ら<center>あ{0C23}たしも じゅんびが あるから お部屋に もどるわね<BR><BR>じゃあ またあとでね <name><BR>おまつり たのしかったわ！<start>
+K: <sound>ら<center>あ{0C23}たしも じゅんびが あるから お部屋に もどるわね<BR><BR>じゃあ またあとでね <name><BR>おまつり たのしかったわ！<start>
+
+#56
+J: せっかくじゃから <name>くんも<BR>ひょうしょう式を 見ていっては どうじゃな？<start>
+K: せっかくじゃから <name>くんも<BR>ひょうしょう式を 見ていっては どうじゃな？<start>
+
+#57
+J: <name>くんは <red>あの劍<colorEnd>のコトを 知っておるかな？<BR><BR>あれは<red>ピッコルの劍<colorEnd>と いって その昔 <green>ピッコル<colorEnd>によって<BR>人間に さずけられたと 言われる 傳說の聖劍じゃ<BR>どんな魔物も たちどころに倒す とても すごい<BR>劍だったと いわれておるんじゃよ <BR>言い傳えでは あの寶箱には 劍の力で たくさんの<BR>魔物が 封印されて おるとも いわれておる<BR>そんな すごい劍の前で 武術大會の優勝者は<BR>ハイラル王から スミスどのの 劍を さずかるのじゃから<BR>とても メイヨなこと じゃな<start>
+K: <name>くんは <red>あの劍<colorEnd>のコトを 知っておるかな？<BR><BR>あれは<red>ピッコルの劍<colorEnd>と いって その昔 <green>ピッコル<colorEnd>によって<BR>人間に さずけられたと 言われる 傳說の聖劍じゃ<BR>どんな魔物も たちどころに倒す とても すごい<BR>劍だったと いわれておるんじゃよ <BR>言い傳えでは あの寶箱には 劍の力で たくさんの<BR>魔物が 封印されて おるとも いわれておる<BR>そんな すごい劍の前で 武術大會の優勝者は<BR>ハイラル王から スミスどのの 劍を さずかるのじゃから<BR>とても メイヨなこと じゃな<start>
+
+#58
+J: {0301}てそれでは ただ今から ひょうしょう式を はじめる！<BR><BR>優勝者 <green>グフ○<colorEnd>よ！ 入るがよい！<start>
+K: {0301}てそれでは ただ今から ひょうしょう式を はじめる！<BR><BR>優勝者 <green>グフ○<colorEnd>よ！ 入るがよい！<start>
+
+#59
+J: <sound>グあ！ ゼルダ姬さま！！<BR>いつの間に お城を 出られたのですか！？<start>
+K: <sound>グあ！ ゼルダ姬さま！！<BR>いつの間に お城を 出られたのですか！？<start>
+
+#60
+J: <sound>グ<green>ハイラル城<colorEnd>へ ようこそ！<start>
+K: <sound>グ<green>ハイラル城<colorEnd>へ ようこそ！<start>
+
+#61
+J: ひょうしょう式の じゅんび中で あります！<BR>ココは 通れませんよ<start>
+K: ひょうしょう式の じゅんび中で あります！<BR>ココは 通れませんよ<start>
+
+#62
+J: ひょうしょう式の じゅんび中で あります！<start>
+K: ひょうしょう式の じゅんび中で あります！<start>
+
+#63
+J: <green>グフ○<colorEnd>を そうさく中であります<BR>この先には 入れないであります！<start>
+K: <green>グフ○<colorEnd>を そうさく中であります<BR>この先には 入れないであります！<start>
+
+#64
+J: スミスさんの 劍なら 城の入口に 立っている<BR><green>テンガロ大臣<colorEnd>に わたして ください<start>
+K: スミスさんの 劍なら 城の入口に 立っている<BR><green>テンガロ大臣<colorEnd>に わたして ください<start>
+
+#65
+J: <start>
+K: <start>
+
+#66
+J: <start>
+K: <start>
+
+#67
+J: フッフッフ···<BR><BR>これほど うまくいくとは···<BR><BR>ハイラルの王家に 傳わる<BR><red>ピッコルの劍<colorEnd>と 封印の寶箱···<BR>その中に封印されているモノこそ<BR>ワタシの 探しもとめているものに ちがいない···<BR>寶箱の中身は もらって行きますよ<start>
+K: フッフッフ···<BR><BR>これほど うまくいくとは···<BR><BR>ハイラルの王家に 傳わる<BR><red>ピッコルの劍<colorEnd>と 封印の寶箱···<BR>その中に封印されているモノこそ<BR>ワタシの 探しもとめているものに ちがいない···<BR>寶箱の中身は もらって行きますよ<start>
+
+#68
+J: <sound>レクックックッ<BR>ジャマは させませんよ···<BR><red>ピッコルの劍<colorEnd>と 封印の寶箱に<BR>お目にかかれるのは 武術大會の 優勝者だけ···<BR>ワタシは この持を 待っていたのだから！<start>
+K: <sound>レクックックッ<BR>ジャマは させませんよ···<BR><red>ピッコルの劍<colorEnd>と 封印の寶箱に<BR>お目にかかれるのは 武術大會の 優勝者だけ···<BR>ワタシは この持を 待っていたのだから！<start>
+
+#69
+J: 何者です！？ なぜ こんなことを！<start>
+K: 何者です！？ なぜ こんなことを！<start>
+
+#70
+J: <blue>光の力<colorEnd>を 持つ姬···<BR>ハイラルの王女が 持っていると いわれる<BR>ふしぎな力 という ヤツですか···<BR>そんな力を 持った者を ほうっておいて<BR>後● ジャマをされたら 大變ですね···<start>
+K: <blue>光の力<colorEnd>を 持つ姬···<BR>ハイラルの王女が 持っていると いわれる<BR>ふしぎな力 という ヤツですか···<BR>そんな力を 持った者を ほうっておいて<BR>後● ジャマをされたら 大變ですね···<start>
+
+#71
+J: ワタシの <blue>魔人の呪い<colorEnd>で 石になるがいい！<start>
+K: ワタシの <blue>魔人の呪い<colorEnd>で 石になるがいい！<start>
+
+#72
+J: <name>！ あぶない！<BR>{09}<start><start>
+K: <name>！ あぶない！<BR>{09}<start><start>
+
+#73
+J: ···！？<BR><BR>何と言うことだ！<BR><BR>この寶箱が ただ魔物たちを 封印していた だけとは！<BR><BR>······<BR>まあ よいでしょう···<BR><red>フォ○ス<colorEnd>が この世界に あるのは わかっています<BR>ゆっくりと 探すと しましょう<BR><sound>レフッフッフッフ···<start>
+K: ···！？<BR><BR>何と言うことだ！<BR><BR>この寶箱が ただ魔物たちを 封印していた だけとは！<BR><BR>······<BR>まあ よいでしょう···<BR><red>フォ○ス<colorEnd>が この世界に あるのは わかっています<BR>ゆっくりと 探すと しましょう<BR><sound>レフッフッフッフ···<start>
+
+#74
+J: フッフッフ···<BR>ワタシの ジャマをする者は みな こうなるのです<BR>さて 寶箱のなかみを いただくと しましょうか···<start>
+K: フッフッフ···<BR>ワタシの ジャマをする者は みな こうなるのです<BR>さて 寶箱のなかみを いただくと しましょうか···<start>
+
+#75
+J: キャ○○○<start>
+K: キャ○○○<start>
+
+#76
+J: <start>
+K: <start>
+
+#77
+J: <start>
+K: <start>
+
+#78
+J: <start>
+K: <start>
+
+#79
+J: <start>
+K: <start>
+
+#80
+J: <sound>ョみなの者も 知ってのとおりだ<BR><BR><green>グフ○<colorEnd>という おとこが<BR>ゼルダに <blue>魔人の呪い<colorEnd>をかけ 石にしてしまったのだ！<BR>聖劍 <red>ピッコルの劍 <colorEnd>の 聖なる力が あれば<BR><blue>魔人の呪い<colorEnd>を 解くことも できただろうが<BR>これも グフ○に 折られてしまった<BR><BR>しかし ワシは あきらめては おらん<BR>そなたたち <green>ピッコル<colorEnd>を 知っておるか？<start>
+K: <sound>ョみなの者も 知ってのとおりだ<BR><BR><green>グフ○<colorEnd>という おとこが<BR>ゼルダに <blue>魔人の呪い<colorEnd>をかけ 石にしてしまったのだ！<BR>聖劍 <red>ピッコルの劍 <colorEnd>の 聖なる力が あれば<BR><blue>魔人の呪い<colorEnd>を 解くことも できただろうが<BR>これも グフ○に 折られてしまった<BR><BR>しかし ワシは あきらめては おらん<BR>そなたたち <green>ピッコル<colorEnd>を 知っておるか？<start>
+
+#81
+J: <green>ピッコル<colorEnd>？<BR><BR>あの傳說に出てくる おや指ほどの 小さな 體の<BR>しゅぞく <green>ピッコルたち <colorEnd>で ございますか？<start>
+K: <green>ピッコル<colorEnd>？<BR><BR>あの傳說に出てくる おや指ほどの 小さな 體の<BR>しゅぞく <green>ピッコルたち <colorEnd>で ございますか？<start>
+
+#82
+J: うむ そうだ<BR><BR>しかし <green>ピッコル <colorEnd>は 傳說などでは ない<BR>たしかに そんざいするのだ<BR>王家の者しか 知らぬヒミツ ゆえ<BR>そなたたちが 知らないのも ムリはない<BR>ピッコルたちは <green>チロリアの森<colorEnd>に すんでおる<BR>ピッコルの劍を 作ったのも 彼ら<green>ピッコル<colorEnd>だ<BR>彼らなら 折れた<red>ピッコルの劍<colorEnd>を もとにして<BR>あたらしい聖劍を 作ることが できるはずだ<start>
+K: うむ そうだ<BR><BR>しかし <green>ピッコル <colorEnd>は 傳說などでは ない<BR>たしかに そんざいするのだ<BR>王家の者しか 知らぬヒミツ ゆえ<BR>そなたたちが 知らないのも ムリはない<BR>ピッコルたちは <green>チロリアの森<colorEnd>に すんでおる<BR>ピッコルの劍を 作ったのも 彼ら<green>ピッコル<colorEnd>だ<BR>彼らなら 折れた<red>ピッコルの劍<colorEnd>を もとにして<BR>あたらしい聖劍を 作ることが できるはずだ<start>
+
+#83
+J: な な なんと！<BR>では 兵士たちを そこへ つかわせて···<start>
+K: な な なんと！<BR>では 兵士たちを そこへ つかわせて···<start>
+
+#84
+J: いや··· 兵士では ダメなのじゃ<BR><BR>大人では ピッコルの すがたを 見ることは できぬ<BR>どうやっても ピッコルを 見つけることが できんのじゃ<start>
+K: いや··· 兵士では ダメなのじゃ<BR><BR>大人では ピッコルの すがたを 見ることは できぬ<BR>どうやっても ピッコルを 見つけることが できんのじゃ<start>
+
+#85
+J: なるほど···<BR><BR>そういうことなら <name><BR>オマエが 行ってみてはどうだ？<start>
+K: なるほど···<BR><BR>そういうことなら <name><BR>オマエが 行ってみてはどうだ？<start>
+
+#86
+J: {0301}ソ<name>が もう だいじょうぶなのなら<BR>ワシからも たのみたい<BR>どうか ゼルダにかけられた <blue>魔人の呪い<colorEnd>を 解き<BR>もとの すがたに 戾してやってくれ···<BR>あたらしい<red>聖劍<colorEnd>を 作る方法は<BR><green>ピッコル<colorEnd>たちが 知っておろう<BR>行くさきで キケンなことが あっては いかん<BR><BR>折れた<red>ピッコルの劍<colorEnd>と ともに<BR>この劍を 持って行くが よい<start>
+K: {0301}ソ<name>が もう だいじょうぶなのなら<BR>ワシからも たのみたい<BR>どうか ゼルダにかけられた <blue>魔人の呪い<colorEnd>を 解き<BR>もとの すがたに 戾してやってくれ···<BR>あたらしい<red>聖劍<colorEnd>を 作る方法は<BR><green>ピッコル<colorEnd>たちが 知っておろう<BR>行くさきで キケンなことが あっては いかん<BR><BR>折れた<red>ピッコルの劍<colorEnd>と ともに<BR>この劍を 持って行くが よい<start>
+
+#87
+J: よし 兵士たちは 解きはなたれた 魔物から町を守れ！<BR>殘りは <green>グフ○<colorEnd>を 探すのだ！<start>
+K: よし 兵士たちは 解きはなたれた 魔物から町を守れ！<BR>殘りは <green>グフ○<colorEnd>を 探すのだ！<start>
+
+#88
+J: <green>チロリアの森<colorEnd> の おくには<BR><green>森のほこら<colorEnd> というものが ある<BR>その昔 人間と ピッコルが 使っていたものだ<BR>まずは その<green>森のほこら<colorEnd>を めざすのがいいだろう<start>
+K: <green>チロリアの森<colorEnd> の おくには<BR><green>森のほこら<colorEnd> というものが ある<BR>その昔 人間と ピッコルが 使っていたものだ<BR>まずは その<green>森のほこら<colorEnd>を めざすのがいいだろう<start>
+
+#89
+J: この<red>地圖<colorEnd>を 持って行くといい<BR><BR><DEL>あゆ<start>
+K: この<red>地圖<colorEnd>を 持って行くといい<BR><BR><DEL>あゆ<start>
+
+#90
+J: <green>チロリアの森<colorEnd>は ハイラルの町の南東<BR>ちょうど <name>くんの家の 東のほうがくじゃな<start>
+K: <green>チロリアの森<colorEnd>は ハイラルの町の南東<BR>ちょうど <name>くんの家の 東のほうがくじゃな<start>
+
+#91
+J: おお <name> 氣がついたか<BR>もう だいじょうぶなのか？<BR>今から ハイラル王の お話がある<BR>おまえも いっしょに きくのだ<start>
+K: おお <name> 氣がついたか<BR>もう だいじょうぶなのか？<BR>今から ハイラル王の お話がある<BR>おまえも いっしょに きくのだ<start>
+
+#92
+J: では <name> よ <blue>魔人の呪い<colorEnd>を解き ゼルダを<BR>助けてやってくれ よろしくたのむぞ<start>
+K: では <name> よ <blue>魔人の呪い<colorEnd>を解き ゼルダを<BR>助けてやってくれ よろしくたのむぞ<start>
+
+#93
+J: <start>
+K: <start>
+
+#94
+J: 森へ 行くのに まよったら スタ○トボタンを押して<BR>ⓑやⓛで 地圖を 見てみるのだ<BR>森のところに 印が ついておる<BR>氣をつけて 行くのだぞ<start>
+K: 森へ 行くのに まよったら スタ○トボタンを押して<BR>ⓑやⓛで 地圖を 見てみるのだ<BR>森のところに 印が ついておる<BR>氣をつけて 行くのだぞ<start>
+
+#95
+J: よかった！<BR>氣が つかれたのですね<BR><DEL>あ’<start>
+K: よかった！<BR>氣が つかれたのですね<BR><DEL>あ’<start>
+
+#96
+J: <green>スミスさま<colorEnd>も 王さまのところに こられていますよ<start>
+K: <green>スミスさま<colorEnd>も 王さまのところに こられていますよ<start>
+
+#97
+J: どうか <green>ゼルダ姬さま<colorEnd>の <blue>魔人の呪い<colorEnd>を<BR>解いてさしあげて<start>
+K: どうか <green>ゼルダ姬さま<colorEnd>の <blue>魔人の呪い<colorEnd>を<BR>解いてさしあげて<start>
+
+#98
+J: どうか お氣をつけて！<start>
+K: どうか お氣をつけて！<start>
+
+#99
+J: 步きながら ⓛ を 押すと 轉がることが できる<BR>すばやく 動くことが できるから 覺えて おくんだよ<BR>あと 冒險のとちゅうで <blue>セ○ブ<colorEnd> したくなったら<BR><blue>スタ○トボタン<colorEnd>を押して<BR><blue>アイテム畵面<colorEnd> か <blue>コレクト畵面<colorEnd>で “セ○ブ” を<BR>えらぶんだよ<start>
+K: 步きながら ⓛ を 押すと 轉がることが できる<BR>すばやく 動くことが できるから 覺えて おくんだよ<BR>あと 冒險のとちゅうで <blue>セ○ブ<colorEnd> したくなったら<BR><blue>スタ○トボタン<colorEnd>を押して<BR><blue>アイテム畵面<colorEnd> か <blue>コレクト畵面<colorEnd>で “セ○ブ” を<BR>えらぶんだよ<start>
+
+#100
+J: 城のそとは 魔物で いっぱいだ<BR><BR>魔物と 出會ったら <red>盾<colorEnd>で身を 守りながら<BR>近づいて <red>劍<colorEnd>で 一氣に やっつけるんだぞ  <start>
+K: 城のそとは 魔物で いっぱいだ<BR><BR>魔物と 出會ったら <red>盾<colorEnd>で身を 守りながら<BR>近づいて <red>劍<colorEnd>で 一氣に やっつけるんだぞ  <start>
+
+#101
+J: <start>
+K: <start>
+
+#102
+J: {0301}こアイタタタ···<BR><BR>あれは お城の兵士たちが 言っていた<BR><green>アキンドナッツ<colorEnd>ね<BR>通行人に イタズラばかりする <BR>こまったデクナッツだって 言ってたわ<BR><name> なんとか してよ∼<BR>これじゃ お城に 歸れない！<BR><blue>あの タネを<colorEnd> ふせげれば なんとかなるに ちがいないわ！<start>
+K: {0301}こアイタタタ···<BR><BR>あれは お城の兵士たちが 言っていた<BR><green>アキンドナッツ<colorEnd>ね<BR>通行人に イタズラばかりする <BR>こまったデクナッツだって 言ってたわ<BR><name> なんとか してよ∼<BR>これじゃ お城に 歸れない！<BR><blue>あの タネを<colorEnd> ふせげれば なんとかなるに ちがいないわ！<start>
+
+#103
+J: きっと <blue>あのタネ<colorEnd>を ふせげれば なんとか<BR>なるに ちがいないわ！<start>
+K: きっと <blue>あのタネ<colorEnd>を ふせげれば なんとか<BR>なるに ちがいないわ！<start>
+
+#104
+J: アキンドナッツって あんがい カワイそうかもね<BR>でも タネをぶつけられたのは イタかったんだから！<BR>さあ 早く お城に 劍をとどけに行きましょう！<start>
+K: アキンドナッツって あんがい カワイそうかもね<BR>でも タネをぶつけられたのは イタかったんだから！<BR>さあ 早く お城に 劍をとどけに行きましょう！<start>
+
+#105
+J: どこに 行くのよ <name>！<BR>早く なんとかしてよ∼<start>
+K: どこに 行くのよ <name>！<BR>早く なんとかしてよ∼<start>
+
+#106
+J: まいったピ○！<BR><BR><blue>おまつり<colorEnd>が あるって言うから <green>町<colorEnd>に しょうばいを<BR>しようと おもって きたッピが<BR>オイラたちは ことばより さきに「ナッツ」が<BR>出てしまう タチなんで<BR>みんな こわがって 近くに きてくれないッピ！<BR><BR>これじゃ しょうばいに ならないから<BR>また くらい 洞窟に 戾るッピ<start>
+K: まいったピ○！<BR><BR><blue>おまつり<colorEnd>が あるって言うから <green>町<colorEnd>に しょうばいを<BR>しようと おもって きたッピが<BR>オイラたちは ことばより さきに「ナッツ」が<BR>出てしまう タチなんで<BR>みんな こわがって 近くに きてくれないッピ！<BR><BR>これじゃ しょうばいに ならないから<BR>また くらい 洞窟に 戾るッピ<start>
+
+#107
+J: <start>
+K: <start>
+
+#108
+J: さあ <green>お城<colorEnd>へ いそぎましょう！<start>
+K: さあ <green>お城<colorEnd>へ いそぎましょう！<start>
+
+#109
+J: <start>
+K: <start>
+
+#110
+J: <start>
+K: <start>
+
+#111
+J: <start>
+K: <start>
+
+#112
+J: <start>
+K: <start>
+
+#113
+J: <blue>魔人の呪い<colorEnd>を かけられて 目を 見開いたまま<BR>石になってしまっている<BR>早く 助けてあげないと···<start>
+K: <blue>魔人の呪い<colorEnd>を かけられて 目を 見開いたまま<BR>石になってしまっている<BR>早く 助けてあげないと···<start>
+
+#114
+J: <start>へ
+K: <start>へ
+

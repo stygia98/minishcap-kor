@@ -1,0 +1,601 @@
+# block 03 · 149 msgs · minish_cap 한글화 워크스페이스
+# 규칙: 'J:' = 일본어 원문(수정 금지, 참고용). 'K:' 줄만 번역으로 수정.
+#       줄바꿈=<BR>, 색/제어 태그(<green> 등)·원시코드({0309} 등)는 그대로 유지.
+#       빈/제어전용 메시지는 K를 건드리지 말 것(원문 그대로 왕복됨).
+
+#0
+J: NPCの名前<start>
+K: NPCの名前<start>
+
+#1
+J: ふしぎな 雲<start>
+K: ふしぎな 雲<start>
+
+#2
+J: ふしぎな せきぞう<start>
+K: ふしぎな せきぞう<start>
+
+#3
+J: 水源の とびら<start>
+K: 水源の とびら<start>
+
+#4
+J: ポエムン<start>
+K: ポエムン<start>
+
+#5
+J: ふしぎな 壁<start>
+K: ふしぎな 壁<start>
+
+#6
+J: ベルタ<start>
+K: ベルタ<start>
+
+#7
+J: <start>
+K: <start>
+
+#8
+J: 町にきた おじさん<start>
+K: 町にきた おじさん<start>
+
+#9
+J: ディン<start>
+K: ディン<start>
+
+#10
+J: フロル<start>
+K: フロル<start>
+
+#11
+J: ネ○ル<start>
+K: ネ○ル<start>
+
+#12
+J: テッシン<start>
+K: テッシン<start>
+
+#13
+J: トッシン<start>
+K: トッシン<start>
+
+#14
+J: ハッシン<start>
+K: ハッシン<start>
+
+#15
+J: クッシン<start>
+K: クッシン<start>
+
+#16
+J: しょだいテッシン<start>
+K: しょだいテッシン<start>
+
+#17
+J: 長老 ジェンタ<start>
+K: 長老 ジェンタ<start>
+
+#18
+J: しさい フェスタ<start>
+K: しさい フェスタ<start>
+
+#19
+J: おやかた メルタ<start>
+K: おやかた メルタ<start>
+
+#20
+J: 町の長老 ブクタ<start>
+K: 町の長老 ブクタ<start>
+
+#21
+J: 森の ピッコル<start>
+K: 森の ピッコル<start>
+
+#22
+J: 山の ピッコル<start>
+K: 山の ピッコル<start>
+
+#23
+J: 町の ピッコル<start>
+K: 町の ピッコル<start>
+
+#24
+J: 里の ピッコル<start>
+K: 里の ピッコル<start>
+
+#25
+J: としょかんの ピッコル<start>
+K: としょかんの ピッコル<start>
+
+#26
+J: <start>
+K: <start>
+
+#27
+J: ゴロンぞく<start>
+K: ゴロンぞく<start>
+
+#28
+J: アキンドナッツ<start>
+K: アキンドナッツ<start>
+
+#29
+J: ズラリ○<start>
+K: ズラリ○<start>
+
+#30
+J: <start>
+K: <start>
+
+#31
+J: ダンペイ<start>
+K: ダンペイ<start>
+
+#32
+J: シロップ<start>
+K: シロップ<start>
+
+#33
+J: <start>
+K: <start>
+
+#34
+J: ヤンタン<start>
+K: ヤンタン<start>
+
+#35
+J: ショ○ル<start>
+K: ショ○ル<start>
+
+#36
+J: ジュン<start>
+K: ジュン<start>
+
+#37
+J: キリ○<start>
+K: キリ○<start>
+
+#38
+J: ゲッポ<start>
+K: ゲッポ<start>
+
+#39
+J: フレクト<start>
+K: フレクト<start>
+
+#40
+J: マサ<start>
+K: マサ<start>
+
+#41
+J: マ○プル<start>
+K: マ○プル<start>
+
+#42
+J: エドモンド<start>
+K: エドモンド<start>
+
+#43
+J: ムソ○<start>
+K: ムソ○<start>
+
+#44
+J: ニヤリ○<start>
+K: ニヤリ○<start>
+
+#45
+J: ガッツ<start>
+K: ガッツ<start>
+
+#46
+J: マッチ<start>
+K: マッチ<start>
+
+#47
+J: <start>
+K: <start>
+
+#48
+J: ヂル<start>
+K: ヂル<start>
+
+#49
+J: ベッコ<start>
+K: ベッコ<start>
+
+#50
+J: キャンディ<start>
+K: キャンディ<start>
+
+#51
+J: <start>
+K: <start>
+
+#52
+J: ゴングルせんにん<start>
+K: ゴングルせんにん<start>
+
+#53
+J: <start>
+K: <start>
+
+#54
+J: ニ○ス<start>
+K: ニ○ス<start>
+
+#55
+J: ネコロン<start>
+K: ネコロン<start>
+
+#56
+J: イヌスキ○<start>
+K: イヌスキ○<start>
+
+#57
+J: <start>
+K: <start>
+
+#58
+J: ママン<start>
+K: ママン<start>
+
+#59
+J: ドリッパ<start>
+K: ドリッパ<start>
+
+#60
+J: モカ<start>
+K: モカ<start>
+
+#61
+J: チ○ノ<start>
+K: チ○ノ<start>
+
+#62
+J: オ○レ<start>
+K: オ○レ<start>
+
+#63
+J: ブルマン<start>
+K: ブルマン<start>
+
+#64
+J: キリマン<start>
+K: キリマン<start>
+
+#65
+J: <start>
+K: <start>
+
+#66
+J: ムト○<start>
+K: ムト○<start>
+
+#67
+J: キュ○ちゃん<start>
+K: キュ○ちゃん<start>
+
+#68
+J: ヘ○ちゃん<start>
+K: ヘ○ちゃん<start>
+
+#69
+J: トメちゃん<start>
+K: トメちゃん<start>
+
+#70
+J: ガリちゃん<start>
+K: ガリちゃん<start>
+
+#71
+J: <start>
+K: <start>
+
+#72
+J: テリ○<start>
+K: テリ○<start>
+
+#73
+J: プルナ<start>
+K: プルナ<start>
+
+#74
+J: ロッコリ○<start>
+K: ロッコリ○<start>
+
+#75
+J: <start>
+K: <start>
+
+#76
+J: タキさん<start>
+K: タキさん<start>
+
+#77
+J: リュック<start>
+K: リュック<start>
+
+#78
+J: コパック<start>
+K: コパック<start>
+
+#79
+J: <start>
+K: <start>
+
+#80
+J: チンミン<start>
+K: チンミン<start>
+
+#81
+J: ミンミン<start>
+K: ミンミン<start>
+
+#82
+J: ジョエル<start>
+K: ジョエル<start>
+
+#83
+J: ハリスン<start>
+K: ハリスン<start>
+
+#84
+J: エリック<start>
+K: エリック<start>
+
+#85
+J: ジム<start>
+K: ジム<start>
+
+#86
+J: ベリ○<start>
+K: ベリ○<start>
+
+#87
+J: レイラ<start>
+K: レイラ<start>
+
+#88
+J: <start>
+K: <start>
+
+#89
+J: アンジュ<start>
+K: アンジュ<start>
+
+#90
+J: ゴ○マン<start>
+K: ゴ○マン<start>
+
+#91
+J: シマロ<start>
+K: シマロ<start>
+
+#92
+J: ベ○キン<start>
+K: ベ○キン<start>
+
+#93
+J: パウダ<start>
+K: パウダ<start>
+
+#94
+J: <start>
+K: <start>
+
+#95
+J: レフト<start>
+K: レフト<start>
+
+#96
+J: レム<start>
+K: レム<start>
+
+#97
+J: <start>
+K: <start>
+
+#98
+J: スタンプ<start>
+K: スタンプ<start>
+
+#99
+J: メル<start>
+K: メル<start>
+
+#100
+J: <start>
+K: <start>
+
+#101
+J: 靑ジイ<start>
+K: 靑ジイ<start>
+
+#102
+J: フェミ○ユ<start>
+K: フェミ○ユ<start>
+
+#103
+J: コスメ<start>
+K: コスメ<start>
+
+#104
+J: <start>
+K: <start>
+
+#105
+J: ハガ○<start>
+K: ハガ○<start>
+
+#106
+J: <start>
+K: <start>
+
+#107
+J: マキマキ<start>
+K: マキマキ<start>
+
+#108
+J: サン<start>
+K: サン<start>
+
+#109
+J: カプリス<start>
+K: カプリス<start>
+
+#110
+J: ハル<start>
+K: ハル<start>
+
+#111
+J: ノ○ス<start>
+K: ノ○ス<start>
+
+#112
+J: ガスト○じいさん<start>
+K: ガスト○じいさん<start>
+
+#113
+J: <start>
+K: <start>
+
+#114
+J: お城の めしつかい<start>
+K: お城の めしつかい<start>
+
+#115
+J: 兵士<start>
+K: 兵士<start>
+
+#116
+J: 兵士の たいちょう<start>
+K: 兵士の たいちょう<start>
+
+#117
+J: テンガロ<start>
+K: テンガロ<start>
+
+#118
+J: ダルタス<start>
+K: ダルタス<start>
+
+#119
+J: <start>
+K: <start>
+
+#120
+J: スミス<start>
+K: スミス<start>
+
+#121
+J: <start>
+K: <start>
+
+#122
+J: エポナ<start>
+K: エポナ<start>
+
+#123
+J: モ○ケン<start>
+K: モ○ケン<start>
+
+#124
+J: ワウ<start>
+K: ワウ<start>
+
+#125
+J: マウ<start>
+K: マウ<start>
+
+#126
+J: ギニャ○<start>
+K: ギニャ○<start>
+
+#127
+J: ミニャ○<start>
+K: ミニャ○<start>
+
+#128
+J: コッコ<start>
+K: コッコ<start>
+
+#129
+J: ブラウン コッコ<start>
+K: ブラウン コッコ<start>
+
+#130
+J: ヒヨコッコ<start>
+K: ヒヨコッコ<start>
+
+#131
+J: カウホル<start>
+K: カウホル<start>
+
+#132
+J: <start>
+K: <start>
+
+#133
+J: チンクル<start>
+K: チンクル<start>
+
+#134
+J: アンクル<start>
+K: アンクル<start>
+
+#135
+J: ナックル<start>
+K: ナックル<start>
+
+#136
+J: デイビッドjr．<start>
+K: デイビッドjr．<start>
+
+#137
+J: <start>
+K: <start>
+
+#138
+J: ポスト<start>
+K: ポスト<start>
+
+#139
+J: <start>
+K: <start>
+
+#140
+J: <start>
+K: <start>
+
+#141
+J: ギ○ニャ<start>
+K: ギ○ニャ<start>
+
+#142
+J: ブリ○ズ<start>
+K: ブリ○ズ<start>
+
+#143
+J: ポストマン<start>
+K: ポストマン<start>
+
+#144
+J: タロン<start>
+K: タロン<start>
+
+#145
+J: マロン<start>
+K: マロン<start>
+
+#146
+J: イネ○<start>
+K: イネ○<start>
+
+#147
+J: モミ○<start>
+K: モミ○<start>
+
+#148
+J: カケラぶくろさん<start>ホホホホホホホヴ
+K: カケラぶくろさん<start>ホホホホホホホヴ
+

@@ -1,0 +1,413 @@
+# block 80 · 102 msgs · minish_cap 한글화 워크스페이스
+# 규칙: 'J:' = 일본어 원문(수정 금지, 참고용). 'K:' 줄만 번역으로 수정.
+#       줄바꿈=<BR>, 색/제어 태그(<green> 등)·원시코드({0309} 등)는 그대로 유지.
+#       빈/제어전용 메시지는 K를 건드리지 말 것(원문 그대로 왕복됨).
+
+#0
+J: みんな くつろいでんだ<BR>それは いいことさ<BR>いつも くつろげる場所<BR>それが オレの りそうのカフェだ<start>
+K: みんな くつろいでんだ<BR>それは いいことさ<BR>いつも くつろげる場所<BR>それが オレの りそうのカフェだ<start>
+
+#1
+J: いつも くつろげる場所<BR>それが オレの りそうのカフェだ<start>
+K: いつも くつろげる場所<BR>それが オレの りそうのカフェだ<start>
+
+#2
+J: ここには <blue>いろいろなウワサ<colorEnd>が 集まるの<BR>ちょくちょく かおを見せてね<start>
+K: ここには <blue>いろいろなウワサ<colorEnd>が 集まるの<BR>ちょくちょく かおを見せてね<start>
+
+#3
+J: ゆっくりしてってね∼<BR>うふふ···<start>
+K: ゆっくりしてってね∼<BR>うふふ···<start>
+
+#4
+J: ひとりで くつろぐ<BR><BR>オレは そんなオレが すきだ<start>
+K: ひとりで くつろぐ<BR><BR>オレは そんなオレが すきだ<start>
+
+#5
+J: だれも氣にせず グラスをかたむけた持<BR>持のナガレをも しはいできる<start>
+K: だれも氣にせず グラスをかたむけた持<BR>持のナガレをも しはいできる<start>
+
+#6
+J: いいこと 敎えてやろうかのぅ<BR>タンスやなんかは <blue>動かせる<colorEnd>んじゃぞ<BR>ほかにも <blue>押したり引いたり<colorEnd> たくさんあるが<BR>何にしても わかいうちは ためしてみることじゃ<start>
+K: いいこと 敎えてやろうかのぅ<BR>タンスやなんかは <blue>動かせる<colorEnd>んじゃぞ<BR>ほかにも <blue>押したり引いたり<colorEnd> たくさんあるが<BR>何にしても わかいうちは ためしてみることじゃ<start>
+
+#7
+J: あたしゃ もの知りだよ<start>
+K: あたしゃ もの知りだよ<start>
+
+#8
+J: カンパ○イ カンパ○イ<BR>ミルクで カンパ○イ<BR>ばんごはん<BR>何に しようかしら···<start>
+K: カンパ○イ カンパ○イ<BR>ミルクで カンパ○イ<BR>ばんごはん<BR>何に しようかしら···<start>
+
+#9
+J: ばんごはん<BR>何に しようかしら···<start>
+K: ばんごはん<BR>何に しようかしら···<start>
+
+#10
+J: みんな くつろいでんだ<BR>それは いいことさ<BR>くつろぎ いやされる場所<BR>それが オレの りそうのカフェだ<start>
+K: みんな くつろいでんだ<BR>それは いいことさ<BR>くつろぎ いやされる場所<BR>それが オレの りそうのカフェだ<start>
+
+#11
+J: くつろぎ いやされる場所<BR>それが オレの りそうのカフェだ<start>
+K: くつろぎ いやされる場所<BR>それが オレの りそうのカフェだ<start>
+
+#12
+J: いらっしゃ∼い<BR>よくきたわね<start>
+K: いらっしゃ∼い<BR>よくきたわね<start>
+
+#13
+J: えいきを やしなってってね∼<BR>うふふ···<start>
+K: えいきを やしなってってね∼<BR>うふふ···<start>
+
+#14
+J: ひとときのやすらぎ···<BR><BR>コ○ヒ○ いっぱいで ゆめごこちさ<start>
+K: ひとときのやすらぎ···<BR><BR>コ○ヒ○ いっぱいで ゆめごこちさ<start>
+
+#15
+J: きょうは コ○ヒ○じゃ<BR>ないけどな<start>
+K: きょうは コ○ヒ○じゃ<BR>ないけどな<start>
+
+#16
+J: <green>王さま<colorEnd>が <red>フォ○ス<colorEnd>を探せって<BR>兵士に めいれいした そうだよ <BR><red>フォ○ス<colorEnd>は なんでも ねがいが かなうって ウワサだけど<BR>あたしゃ 信じてないよ  <start>
+K: <green>王さま<colorEnd>が <red>フォ○ス<colorEnd>を探せって<BR>兵士に めいれいした そうだよ <BR><red>フォ○ス<colorEnd>は なんでも ねがいが かなうって ウワサだけど<BR>あたしゃ 信じてないよ  <start>
+
+#17
+J: あたしゃ じょうほうツウだよ<start>
+K: あたしゃ じょうほうツウだよ<start>
+
+#18
+J: カンパ○イ カンパ○イ<BR>ミルクで カンパ○イ<BR>きのうの ばんごはんと<BR>きょうの ばんごはんって<BR>變えないと いけないのかしら<start>
+K: カンパ○イ カンパ○イ<BR>ミルクで カンパ○イ<BR>きのうの ばんごはんと<BR>きょうの ばんごはんって<BR>變えないと いけないのかしら<start>
+
+#19
+J: きのうの ばんごはんと<BR>きょうの ばんごはんって<BR>變えないと いけないのかしら<start>
+K: きのうの ばんごはんと<BR>きょうの ばんごはんって<BR>變えないと いけないのかしら<start>
+
+#20
+J: {0301}ひこのみせは すごく にぎやかなんだ<BR>たくさん人が 集まるから いろんな話も きけるしね<start>
+K: {0301}ひこのみせは すごく にぎやかなんだ<BR>たくさん人が 集まるから いろんな話も きけるしね<start>
+
+#21
+J: {0301}ひにぎやか ずきの ボクたちには ちょうどいいかな<start>
+K: {0301}ひにぎやか ずきの ボクたちには ちょうどいいかな<start>
+
+#22
+J: {0301}ひ人が多いぶん ふまれないように するって たいへん<start>
+K: {0301}ひ人が多いぶん ふまれないように するって たいへん<start>
+
+#23
+J: {0301}ひ人間の大人には <green>ピッコル<colorEnd>のすがたは 見えないしね<start>
+K: {0301}ひ人間の大人には <green>ピッコル<colorEnd>のすがたは 見えないしね<start>
+
+#24
+J: みんな くつろいでんだ<BR>それは いいことさ<BR>くつろいで くつろいで くつろぎまくればいいんだ<BR>それが オレの りそうのカフェさ<start>
+K: みんな くつろいでんだ<BR>それは いいことさ<BR>くつろいで くつろいで くつろぎまくればいいんだ<BR>それが オレの りそうのカフェさ<start>
+
+#25
+J: くつろいで くつろいで くつろぎまくればいいんだ<BR>それが オレの りそうのカフェさ<start>
+K: くつろいで くつろいで くつろぎまくればいいんだ<BR>それが オレの りそうのカフェさ<start>
+
+#26
+J: いらっしゃ∼い<BR>きたわね∼<start>
+K: いらっしゃ∼い<BR>きたわね∼<start>
+
+#27
+J: のんびり してってね∼<BR>うふふ···<start>
+K: のんびり してってね∼<BR>うふふ···<start>
+
+#28
+J: ひとりで かたらう<BR><BR>ゆうべんなる ちんもくさ<start>
+K: ひとりで かたらう<BR><BR>ゆうべんなる ちんもくさ<start>
+
+#29
+J: ちょっと むつかしいかな<start>
+K: ちょっと むつかしいかな<start>
+
+#30
+J: <green>ハイラル王<colorEnd>は とてもやさしい 王さまだったのに<BR>最近は いばりちらして いるらしいよ <BR>まったく どうしちまったん だろうね<BR>トッホホホ···<start>
+K: <green>ハイラル王<colorEnd>は とてもやさしい 王さまだったのに<BR>最近は いばりちらして いるらしいよ <BR>まったく どうしちまったん だろうね<BR>トッホホホ···<start>
+
+#31
+J: ひょっとしたら <green>ハイラル王<colorEnd>には 魔物が <BR>とりついて いるのかもしれないねぇ ホッホホ···<start>
+K: ひょっとしたら <green>ハイラル王<colorEnd>には 魔物が <BR>とりついて いるのかもしれないねぇ ホッホホ···<start>
+
+#32
+J: カンパ○イ カンパ○イ<BR>ミルクで カンパ○イ<BR>おとといの バンごはんと<BR>きょうの バンごはんを<BR>いっしょの メニュ○にしたら<BR>氣づかないかしら<start>
+K: カンパ○イ カンパ○イ<BR>ミルクで カンパ○イ<BR>おとといの バンごはんと<BR>きょうの バンごはんを<BR>いっしょの メニュ○にしたら<BR>氣づかないかしら<start>
+
+#33
+J: おとといの バンごはんと<BR>きょうの バンごはんを<BR>いっしょの メニュ○にしたら<BR>氣づかないかしら<start>
+K: おとといの バンごはんと<BR>きょうの バンごはんを<BR>いっしょの メニュ○にしたら<BR>氣づかないかしら<start>
+
+#34
+J: {0301}ひいらっしゃい<BR>ゆっくりしてってね<start>
+K: {0301}ひいらっしゃい<BR>ゆっくりしてってね<start>
+
+#35
+J: {0301}ひこの家の前の おばさん<BR>ミルクばっかり のんでるの<start>
+K: {0301}ひこの家の前の おばさん<BR>ミルクばっかり のんでるの<start>
+
+#36
+J: みんな くつろいでんだ<BR>それは いいことさ<BR>くつろぎすぎて 歸らない<BR>それも オレの りそうのカフェさ<start>
+K: みんな くつろいでんだ<BR>それは いいことさ<BR>くつろぎすぎて 歸らない<BR>それも オレの りそうのカフェさ<start>
+
+#37
+J: くつろぎすぎて 歸らない<BR>それも オレの りそうのカフェさ<start>
+K: くつろぎすぎて 歸らない<BR>それも オレの りそうのカフェさ<start>
+
+#38
+J: いらっしゃ∼い<BR>ようこそ∼<start>
+K: いらっしゃ∼い<BR>ようこそ∼<start>
+
+#39
+J: きょうも ゲンキ∼？<BR>うふふ···<start>
+K: きょうも ゲンキ∼？<BR>うふふ···<start>
+
+#40
+J: カベに 心で話しかける<BR><BR>けどカベは こたえてくれない<start>
+K: カベに 心で話しかける<BR><BR>けどカベは こたえてくれない<start>
+
+#41
+J: そりゃそうだ と 思うウチは<BR>まだ アマちゃんさ<start>
+K: そりゃそうだ と 思うウチは<BR>まだ アマちゃんさ<start>
+
+#42
+J: <green>王家の谷<colorEnd>に 行くのかい？<BR>あそこにゃ ユウレイが たくさんでるって話だよ<BR><green>ハイラル平原<colorEnd>に ひみつの 入口があるって<BR>きいたことが あるけどねぇ<start>
+K: <green>王家の谷<colorEnd>に 行くのかい？<BR>あそこにゃ ユウレイが たくさんでるって話だよ<BR><green>ハイラル平原<colorEnd>に ひみつの 入口があるって<BR>きいたことが あるけどねぇ<start>
+
+#43
+J: あそこは ひるでも くらいからねぇ<BR>くらいとこにゃ ユウレイが でるんだよ ホッホホ···<start>
+K: あそこは ひるでも くらいからねぇ<BR>くらいとこにゃ ユウレイが でるんだよ ホッホホ···<start>
+
+#44
+J: カンパ○イ カンパ○イ<BR>ミルクで カンパ○イ<BR>きょうの バンごはん<BR>ミルクじゃ ダメかしら<start>
+K: カンパ○イ カンパ○イ<BR>ミルクで カンパ○イ<BR>きょうの バンごはん<BR>ミルクじゃ ダメかしら<start>
+
+#45
+J: きょうの バンごはん<BR>ミルクじゃ ダメかしら<start>
+K: きょうの バンごはん<BR>ミルクじゃ ダメかしら<start>
+
+#46
+J: {0301}ひいらっしゃい よくきたね<start>
+K: {0301}ひいらっしゃい よくきたね<start>
+
+#47
+J: {0301}ひ<green>ピッコル<colorEnd>は とっても なかよしなの<start>
+K: {0301}ひ<green>ピッコル<colorEnd>は とっても なかよしなの<start>
+
+#48
+J: みんな くつろいでんだ<BR>それは いいことさ<BR>くつろぎすぎて 何も チュウモンしない<BR>それはそれで オレの りそうのカフェさ<start>
+K: みんな くつろいでんだ<BR>それは いいことさ<BR>くつろぎすぎて 何も チュウモンしない<BR>それはそれで オレの りそうのカフェさ<start>
+
+#49
+J: くつろぎすぎて 何も チュウモンしない<BR>それはそれで オレの りそうのカフェさ<start>
+K: くつろぎすぎて 何も チュウモンしない<BR>それはそれで オレの りそうのカフェさ<start>
+
+#50
+J: いらっしゃ∼い<BR>きたわね∼<start>
+K: いらっしゃ∼い<BR>きたわね∼<start>
+
+#51
+J: りりしく なったわね∼<BR>うふふ···<start>
+K: りりしく なったわね∼<BR>うふふ···<start>
+
+#52
+J: 實は 立てない リユウがある<BR><BR>と言ったら どうする？<start>
+K: 實は 立てない リユウがある<BR><BR>と言ったら どうする？<start>
+
+#53
+J: 何が シンジツか··· それが分かる持<BR>シンジツは 持をこえる<start>
+K: 何が シンジツか··· それが分かる持<BR>シンジツは 持をこえる<start>
+
+#54
+J: <green>水の源流<colorEnd>って いえば きまってるよ<BR><green>町<colorEnd>に流れてる川も <green>湖<colorEnd>に流れてる川も もとは1つ<BR>川を さかのぼってみるんだねぇ <BR>ホッ ホホ···<start>
+K: <green>水の源流<colorEnd>って いえば きまってるよ<BR><green>町<colorEnd>に流れてる川も <green>湖<colorEnd>に流れてる川も もとは1つ<BR>川を さかのぼってみるんだねぇ <BR>ホッ ホホ···<start>
+
+#55
+J: <green>源流<colorEnd>を さがすんなら しっかり じゅんびしてから<BR>行くんだよ ホッホホ···<start>
+K: <green>源流<colorEnd>を さがすんなら しっかり じゅんびしてから<BR>行くんだよ ホッホホ···<start>
+
+#56
+J: カンパ○イ カンパ○イ<BR>ミルクで カンパ○イ<BR>そもそも バンごはんって いるのかしら<start>
+K: カンパ○イ カンパ○イ<BR>ミルクで カンパ○イ<BR>そもそも バンごはんって いるのかしら<start>
+
+#57
+J: そもそも バンごはんって いるのかしら<start>
+K: そもそも バンごはんって いるのかしら<start>
+
+#58
+J: {0301}ひいらっしゃ∼い ようこそ！<start>
+K: {0301}ひいらっしゃ∼い ようこそ！<start>
+
+#59
+J: {0301}ひ人間の家って <green>ピッコル<colorEnd>が 住むには<BR>すっごく ベンリなんだよね<start>
+K: {0301}ひ人間の家って <green>ピッコル<colorEnd>が 住むには<BR>すっごく ベンリなんだよね<start>
+
+#60
+J: みんな くつろいでんだ<BR>それは いいことさ<BR>そとで 何がおころうと かんけいなく くつろぐ<BR>それも オレの りそうのカフェさ<start>
+K: みんな くつろいでんだ<BR>それは いいことさ<BR>そとで 何がおころうと かんけいなく くつろぐ<BR>それも オレの りそうのカフェさ<start>
+
+#61
+J: そとで 何がおころうと かんけいなく くつろぐ<BR>それも オレの りそうのカフェさ<start>
+K: そとで 何がおころうと かんけいなく くつろぐ<BR>それも オレの りそうのカフェさ<start>
+
+#62
+J: ハ○イ<BR>いらっしゃ∼い<start>
+K: ハ○イ<BR>いらっしゃ∼い<start>
+
+#63
+J: ぼうや きっと ナイスガイになるわよ∼<BR>うふふ···<start>
+K: ぼうや きっと ナイスガイになるわよ∼<BR>うふふ···<start>
+
+#64
+J: まったく 目立たない オレに 話しかける<BR><BR>そんなオレは ビクトリ○で<BR>キミは ウィナ○だ<start>
+K: まったく 目立たない オレに 話しかける<BR><BR>そんなオレは ビクトリ○で<BR>キミは ウィナ○だ<start>
+
+#65
+J: いつか 分かる持が くるさ<start>
+K: いつか 分かる持が くるさ<start>
+
+#66
+J: この前 <red>フォ○ス<colorEnd>さがしを サボっていた 兵士が<BR>ろうやに 入れられたんだ そうな<BR>もう <green>ハイラル王<colorEnd>は 昔の やさしかった王さまでは<BR>なくなって しまったんじゃ<start>
+K: この前 <red>フォ○ス<colorEnd>さがしを サボっていた 兵士が<BR>ろうやに 入れられたんだ そうな<BR>もう <green>ハイラル王<colorEnd>は 昔の やさしかった王さまでは<BR>なくなって しまったんじゃ<start>
+
+#67
+J: おっと <green>ハイラル王<colorEnd>の 惡口を 言ってると<BR>アタシも 兵士に つれて行かれちまうかもね<start>
+K: おっと <green>ハイラル王<colorEnd>の 惡口を 言ってると<BR>アタシも 兵士に つれて行かれちまうかもね<start>
+
+#68
+J: カンパ○イ カンパ○イ<BR>ミルクで カンパ○イ<BR>ばんごはん つくらなかったら<BR>ハキョクを むかえるのかしら<start>
+K: カンパ○イ カンパ○イ<BR>ミルクで カンパ○イ<BR>ばんごはん つくらなかったら<BR>ハキョクを むかえるのかしら<start>
+
+#69
+J: ばんごはん つくらなかったら<BR>ハキョクを むかえるのかしら<start>
+K: ばんごはん つくらなかったら<BR>ハキョクを むかえるのかしら<start>
+
+#70
+J: みんな くつろいでんだ<BR>それは いいことさ<BR>たとえ せいきまつを むかえようと くつろぐ<BR>それが オレの りそうのカフェさ<start>
+K: みんな くつろいでんだ<BR>それは いいことさ<BR>たとえ せいきまつを むかえようと くつろぐ<BR>それが オレの りそうのカフェさ<start>
+
+#71
+J: たとえ せいきまつを むかえようと くつろぐ<BR>それが オレの りそうのカフェさ<start>
+K: たとえ せいきまつを むかえようと くつろぐ<BR>それが オレの りそうのカフェさ<start>
+
+#72
+J: ハ○イ<BR>ごきげんさ∼ん<start>
+K: ハ○イ<BR>ごきげんさ∼ん<start>
+
+#73
+J: ぼうや たよりにしてるわよ∼<BR>うふふ···<start>
+K: ぼうや たよりにしてるわよ∼<BR>うふふ···<start>
+
+#74
+J: はじまりがあるから おわりがある<BR><BR>言いかえれば はじまった持から<BR>おわりに 向かっている<start>
+K: はじまりがあるから おわりがある<BR><BR>言いかえれば はじまった持から<BR>おわりに 向かっている<start>
+
+#75
+J: しゅうまつは ちかい<BR>オレにも キミにもだ<start>
+K: しゅうまつは ちかい<BR>オレにも キミにもだ<start>
+
+#76
+J: <green>ハイラル城<colorEnd>は 闇におおわれて しまっているよ<BR>もう おしまいじゃ···<start>
+K: <green>ハイラル城<colorEnd>は 闇におおわれて しまっているよ<BR>もう おしまいじゃ···<start>
+
+#77
+J: アタシが いきてる間に こんなことに なるなんてね<BR>また <green>ピッコルさま<colorEnd>が あらわれて 助けて くれんかねぇ<start>
+K: アタシが いきてる間に こんなことに なるなんてね<BR>また <green>ピッコルさま<colorEnd>が あらわれて 助けて くれんかねぇ<start>
+
+#78
+J: カンパ○イ カンパ○イ<BR>ミルクで カンパ○イ<BR>バンごはん ひとつで<BR>たいへんな もんね<start>
+K: カンパ○イ カンパ○イ<BR>ミルクで カンパ○イ<BR>バンごはん ひとつで<BR>たいへんな もんね<start>
+
+#79
+J: バンごはん ひとつで<BR>たいへんな もんね<start>
+K: バンごはん ひとつで<BR>たいへんな もんね<start>
+
+#80
+J: ほんやくふよう<start>
+K: ほんやくふよう<start>
+
+#81
+J: まずは いろんな人と <blue>カケラあわせ<colorEnd>を してみることだ<BR><blue>カケラあわせ<colorEnd>を したがっている人は けっこう いるぞ<start>
+K: まずは いろんな人と <blue>カケラあわせ<colorEnd>を してみることだ<BR><blue>カケラあわせ<colorEnd>を したがっている人は けっこう いるぞ<start>
+
+#82
+J: 人だけではなく <blue>いがいな ヤツら<colorEnd>とも<BR>カケラあわせが できるかも しれないね<BR>まあ 先は長い じっくり 行くことだ<start>
+K: 人だけではなく <blue>いがいな ヤツら<colorEnd>とも<BR>カケラあわせが できるかも しれないね<BR>まあ 先は長い じっくり 行くことだ<start>
+
+#83
+J: 今までに <blue>行ったことがある場所<colorEnd>に もう一度<BR>行ってみることを オススメしよう！<BR>誰かと カケラあわせが できるかも しれないからね<BR><start>
+K: 今までに <blue>行ったことがある場所<colorEnd>に もう一度<BR>行ってみることを オススメしよう！<BR>誰かと カケラあわせが できるかも しれないからね<BR><start>
+
+#84
+J: <blue>カケラあわせ<colorEnd>で おトクな アイテムをゲット！<BR>チャンスを のがすなよ！<start>
+K: <blue>カケラあわせ<colorEnd>で おトクな アイテムをゲット！<BR>チャンスを のがすなよ！<start>
+
+#85
+J: <green>キレ○な おねえちゃんたち<colorEnd>が この町に<BR>きているようだね<BR><blue>カケラあわせ<colorEnd>で お近づきの チャンスを<BR>作ってみようかな··· ウッシッシ<start>
+K: <green>キレ○な おねえちゃんたち<colorEnd>が この町に<BR>きているようだね<BR><blue>カケラあわせ<colorEnd>で お近づきの チャンスを<BR>作ってみようかな··· ウッシッシ<start>
+
+#86
+J: <green>チロリアの森<colorEnd>には <blue>カケラあわせ<colorEnd>を することができる<BR>壁が あると きいたことがあるよ<BR>他にも 同じような 壁が 穴をほった先で<BR>見つけることが できるらしいよ<start>
+K: <green>チロリアの森<colorEnd>には <blue>カケラあわせ<colorEnd>を することができる<BR>壁が あると きいたことがあるよ<BR>他にも 同じような 壁が 穴をほった先で<BR>見つけることが できるらしいよ<start>
+
+#87
+J: <green>ゴロンの洞窟<colorEnd>を 知ってるかい？<BR><green>ゴロンぞく<colorEnd>が エッサホイサと ほっている 洞窟だ<BR>あの洞窟が いちばん おくまで ほられた持<BR><blue>カケラあわせ<colorEnd>を やりに行ってみると···<BR>おっと ここから先は 自分で たしかめてみてくれよ！<start>
+K: <green>ゴロンの洞窟<colorEnd>を 知ってるかい？<BR><green>ゴロンぞく<colorEnd>が エッサホイサと ほっている 洞窟だ<BR>あの洞窟が いちばん おくまで ほられた持<BR><blue>カケラあわせ<colorEnd>を やりに行ってみると···<BR>おっと ここから先は 自分で たしかめてみてくれよ！<start>
+
+#88
+J: <green>王家の墓<colorEnd>にいる <green>ユ○レイ<colorEnd>と<BR><blue>カケラあわせ<colorEnd>が できるらしいよ<BR>オレは 墓に行くのが こわいから<BR>ホントか どうか わからない けどね<start>
+K: <green>王家の墓<colorEnd>にいる <green>ユ○レイ<colorEnd>と<BR><blue>カケラあわせ<colorEnd>が できるらしいよ<BR>オレは 墓に行くのが こわいから<BR>ホントか どうか わからない けどね<start>
+
+#89
+J: じんせい 進むばかりじゃ ダメだ<BR>たまには もどってみることも ひつようだ<BR>ついでに <blue>カケラあわせ<colorEnd>も じゅうようだ！<BR>···なんてね<start>
+K: じんせい 進むばかりじゃ ダメだ<BR>たまには もどってみることも ひつようだ<BR>ついでに <blue>カケラあわせ<colorEnd>も じゅうようだ！<BR>···なんてね<start>
+
+#90
+J: <blue>カケラあわせ<colorEnd>は <red>ルピ○<colorEnd>が 手に入るだけではない<BR>持には 人をよび 町のすがたを變えたりする<BR>そこから キミに しあわせが おとずれる<BR>ことも あると 思うぞ<start>
+K: <blue>カケラあわせ<colorEnd>は <red>ルピ○<colorEnd>が 手に入るだけではない<BR>持には 人をよび 町のすがたを變えたりする<BR>そこから キミに しあわせが おとずれる<BR>ことも あると 思うぞ<start>
+
+#91
+J: <blue>カケラあわせ<colorEnd>を たのしんでるかい？<BR><BR><blue>カケラあわせ<colorEnd>で 自分も あいても<BR>しあわせに なれる！<BR>オレは そう 信じているよ<start>
+K: <blue>カケラあわせ<colorEnd>を たのしんでるかい？<BR><BR><blue>カケラあわせ<colorEnd>で 自分も あいても<BR>しあわせに なれる！<BR>オレは そう 信じているよ<start>
+
+#92
+J: 人●が持つ 全てのカケラを あわせた持<BR>何かの ゴホウビが あるかもしれないよね<start>
+K: 人●が持つ 全てのカケラを あわせた持<BR>何かの ゴホウビが あるかもしれないよね<start>
+
+#93
+J: <green>ハイラル城<colorEnd>も 闇に つつまれてしまった···<BR>もう <blue>カケラあわせ <colorEnd>なんて してる場合じゃないのかな？<start>
+K: <green>ハイラル城<colorEnd>も 闇に つつまれてしまった···<BR>もう <blue>カケラあわせ <colorEnd>なんて してる場合じゃないのかな？<start>
+
+#94
+J: ···しかし！ こんな持にこそ<BR><blue>カケラあわせ<colorEnd>で 人●に しあわせを もたらす<BR>それが マコトの カケラあわせの 道だな···<start>
+K: ···しかし！ こんな持にこそ<BR><blue>カケラあわせ<colorEnd>で 人●に しあわせを もたらす<BR>それが マコトの カケラあわせの 道だな···<start>
+
+#95
+J: <start>
+K: <start>
+
+#96
+J: <start>
+K: <start>
+
+#97
+J: <start>
+K: <start>
+
+#98
+J: <start>
+K: <start>
+
+#99
+J: <start>
+K: <start>
+
+#100
+J: <start>
+K: <start>
+
+#101
+J: <start>ホホホホホホホホホホホホホホホホホホホホホホホ<start>{0D00}<start><start><start><start><start><start><start><start><start><start><start><start><start>あ<center>あ<center>h<center>N<select>ち<select>で{0668}<center>h<center>h<center>h<center>あ<center>h<center>h<center>あ<center>N<select>h<center>h<center>h<center>あ<center>あ<center>あ<center>h<center>あ<center>h<center>あ<center>あ<center>ゾ<DEL>び<DEL><select>{08}勝あ<center>、{08}h<center>あ<center>あ<center>あ<center>あ<center>F{08}あ<center>あ<center>あ<center>あ<center>h<center>メ{08}あ<center>あ<center>あ<center>ケ{08}あ<center>ホ{08}あ<center>あ<center>あ<center>あ<center>あ<center>あ<center><DEL>{09}ぅ{09}h<center>f{09}あ<center><select><BR>9<BR>C<BR>q<BR>あ<center>あ<center>ね<BR>ぐ<BR>ぐ<BR>ビ<BR>そ<BR>{020B}{020B}あ<center>あ<center>あ<center>あ<center>エ{0B}{08}{0B}A{0B}M{0B}ユ{0B}k{0B}r{0B}ナ{0B}マ{0B}あ<center>あ<center>メ{0B}あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>h<center>h<center>あ<center>あ<center>あ<center>ル{0B}あ<center>ぱ{0B}コ{0B}あ<center>{020C}あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>M{0C5F}{0C10}<center>ン{0C10}<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>ね{0C10}<center>あ<center>ビ{0C10}<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>h<center>h<center>あ<center>あ<center>h<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>h<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>ぺ{0C10}<center>あ<center>あ<center>く{0C10}<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>コ{0C10}<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>N<select>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>
+K: <start>ホホホホホホホホホホホホホホホホホホホホホホホ<start>{0D00}<start><start><start><start><start><start><start><start><start><start><start><start><start>あ<center>あ<center>h<center>N<select>ち<select>で{0668}<center>h<center>h<center>h<center>あ<center>h<center>h<center>あ<center>N<select>h<center>h<center>h<center>あ<center>あ<center>あ<center>h<center>あ<center>h<center>あ<center>あ<center>ゾ<DEL>び<DEL><select>{08}勝あ<center>、{08}h<center>あ<center>あ<center>あ<center>あ<center>F{08}あ<center>あ<center>あ<center>あ<center>h<center>メ{08}あ<center>あ<center>あ<center>ケ{08}あ<center>ホ{08}あ<center>あ<center>あ<center>あ<center>あ<center>あ<center><DEL>{09}ぅ{09}h<center>f{09}あ<center><select><BR>9<BR>C<BR>q<BR>あ<center>あ<center>ね<BR>ぐ<BR>ぐ<BR>ビ<BR>そ<BR>{020B}{020B}あ<center>あ<center>あ<center>あ<center>エ{0B}{08}{0B}A{0B}M{0B}ユ{0B}k{0B}r{0B}ナ{0B}マ{0B}あ<center>あ<center>メ{0B}あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>h<center>h<center>あ<center>あ<center>あ<center>ル{0B}あ<center>ぱ{0B}コ{0B}あ<center>{020C}あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>M{0C5F}{0C10}<center>ン{0C10}<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>ね{0C10}<center>あ<center>ビ{0C10}<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>h<center>h<center>あ<center>あ<center>h<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>h<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>ぺ{0C10}<center>あ<center>あ<center>く{0C10}<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>コ{0C10}<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>N<select>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>あ<center>
+

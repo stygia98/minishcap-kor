@@ -1,0 +1,265 @@
+제어코드 전수 조사: jp vs kr
+종류        jp     kr
+  <04>           0     2
+  <blue>       500   486
+  <center>     143   135
+  <color>       17    17
+  <colorEnd>  1892  1825
+  <green>      657   624
+  <name>       198   197
+  <op01>       109   111
+  <op07>        71    71
+  <op09>         5     5
+  <red>        762   739
+  <select>     230   230
+  <sound>      799   800
+  <start>     3614  3613
+  <var>         76    77
+  {raw}          8     0
+불일치 메시지: 114
+
+블록2 #17
+   insert  jp[] -> kr[<green> <colorEnd>]
+블록4 #17
+   delete  jp[<blue>] -> kr[]
+블록6 #5
+   insert  jp[] -> kr[<center:1000>]
+블록6 #6
+   delete  jp[<center:1000>] -> kr[]
+블록6 #16
+   delete  jp[{0C00}] -> kr[]
+블록6 #17
+   delete  jp[{0C00}] -> kr[]
+블록6 #64
+   delete  jp[<blue>] -> kr[]
+블록6 #66
+   delete  jp[<blue>] -> kr[]
+블록6 #67
+   delete  jp[<blue>] -> kr[]
+블록6 #70
+   delete  jp[{0C00}] -> kr[]
+블록6 #81
+   delete  jp[<blue> <colorEnd>] -> kr[]
+블록6 #124
+   replace jp[<center:100E>] -> kr[<04>]
+블록6 #125
+   replace jp[<center:100E>] -> kr[<04>]
+블록6 #137
+   replace jp[<op07:0584>] -> kr[<op07:053F>]
+블록11 #0
+   replace jp[<center:100C> <center:06>] -> kr[<center:100F> <var:0F>]
+   insert  jp[] -> kr[<colorEnd>]
+블록13 #63
+   replace jp[<sound:0092>] -> kr[<sound:000B>]
+블록14 #0
+   delete  jp[<sound:0203>] -> kr[]
+블록14 #25
+   replace jp[<green>] -> kr[<op01:02>]
+블록14 #26
+   replace jp[<blue>] -> kr[<op01:03>]
+블록17 #106
+   insert  jp[] -> kr[<green> <colorEnd>]
+   delete  jp[<green> <colorEnd>] -> kr[]
+블록19 #3
+   delete  jp[<blue> <colorEnd>] -> kr[]
+블록19 #4
+   delete  jp[{0C00}] -> kr[]
+블록19 #23
+   delete  jp[<red> <colorEnd>] -> kr[]
+블록19 #25
+   insert  jp[] -> kr[<green> <colorEnd>]
+블록19 #93
+   replace jp[<red>] -> kr[<green>]
+블록21 #3
+   insert  jp[] -> kr[<red> <colorEnd>]
+   delete  jp[<red> <colorEnd>] -> kr[]
+블록22 #1
+   delete  jp[<red> <colorEnd> <blue> <colorEnd>] -> kr[]
+블록22 #6
+   delete  jp[<colorEnd>] -> kr[]
+블록23 #5
+   insert  jp[] -> kr[<sound:008E>]
+   delete  jp[<colorEnd> <red>] -> kr[]
+   delete  jp[<green> <colorEnd> <red> <colorEnd> <green> <colorEnd>] -> kr[]
+   delete  jp[<green> <colorEnd>] -> kr[]
+블록23 #45
+   delete  jp[<green> <colorEnd>] -> kr[]
+블록23 #47
+   insert  jp[] -> kr[<sound:01E9>]
+블록23 #67
+   delete  jp[<green> <colorEnd>] -> kr[]
+블록23 #69
+   delete  jp[<blue> <colorEnd>] -> kr[]
+블록23 #70
+   insert  jp[] -> kr[<sound:008D>]
+블록23 #71
+   replace jp[<sound:0092>] -> kr[<sound:008D>]
+블록23 #72
+   replace jp[<sound:0092>] -> kr[<sound:008D>]
+블록23 #78
+   delete  jp[<green> <colorEnd> <green> <colorEnd>] -> kr[]
+블록23 #79
+   delete  jp[<green> <colorEnd>] -> kr[]
+블록23 #89
+   delete  jp[<green> <colorEnd>] -> kr[]
+블록23 #90
+   delete  jp[<green> <colorEnd> <blue> <colorEnd>] -> kr[]
+블록23 #91
+   insert  jp[] -> kr[<sound:01E6>]
+   delete  jp[<red> <colorEnd> <green> <colorEnd> <red> <colorEnd> <red> <colorEnd>] -> kr[]
+블록23 #92
+   replace jp[<red> <colorEnd>] -> kr[<sound:01E6>]
+블록23 #93
+   replace jp[<red> <colorEnd>] -> kr[<sound:01E5>]
+블록23 #94
+   delete  jp[<red> <colorEnd> <green> <colorEnd> <green> <colorEnd> <red> <colorEnd>] -> kr[]
+블록23 #95
+   delete  jp[<green> <colorEnd> <blue> <colorEnd> <green> <colorEnd> <green> <colorEnd>] -> kr[]
+블록23 #100
+   replace jp[<sound:01DF>] -> kr[<sound:01E0>]
+블록24 #1
+   delete  jp[<colorEnd> <blue> <colorEnd> <blue> <colorEnd>] -> kr[]
+블록24 #2
+   replace jp[<colorEnd>] -> kr[<red>]
+   delete  jp[<colorEnd> <blue> <colorEnd>] -> kr[]
+   delete  jp[<colorEnd> <blue>] -> kr[]
+블록24 #5
+   delete  jp[<center>] -> kr[]
+블록25 #0
+   delete  jp[<center>] -> kr[]
+블록27 #3
+   replace jp[<blue>] -> kr[<red>]
+블록29 #3
+   delete  jp[<red> <colorEnd> <red> <colorEnd>] -> kr[]
+블록29 #5
+   delete  jp[<red> <colorEnd>] -> kr[]
+블록30 #12
+   delete  jp[<center>] -> kr[]
+블록33 #10
+   delete  jp[<blue> <colorEnd>] -> kr[]
+블록33 #12
+   delete  jp[<red> <colorEnd>] -> kr[]
+블록33 #17
+   insert  jp[] -> kr[<blue> <colorEnd>]
+   delete  jp[<colorEnd> <blue>] -> kr[]
+블록34 #3
+   replace jp[<sound:01FE>] -> kr[<sound:01F9>]
+블록34 #53
+   replace jp[<sound:01FE>] -> kr[<sound:010F>]
+블록35 #3
+   delete  jp[<blue> <colorEnd>] -> kr[]
+블록38 #12
+   delete  jp[<green> <colorEnd>] -> kr[]
+블록38 #13
+   delete  jp[<green> <colorEnd>] -> kr[]
+블록38 #14
+   delete  jp[<green> <colorEnd> <green> <colorEnd>] -> kr[]
+블록38 #15
+   delete  jp[<green> <colorEnd>] -> kr[]
+블록38 #17
+   delete  jp[<sound:00AD>] -> kr[]
+블록38 #19
+   delete  jp[<green> <colorEnd> <green> <colorEnd>] -> kr[]
+블록38 #20
+   delete  jp[<green> <colorEnd>] -> kr[]
+블록38 #23
+   delete  jp[<green> <colorEnd>] -> kr[]
+블록38 #28
+   delete  jp[<green> <colorEnd>] -> kr[]
+블록38 #29
+   delete  jp[<sound:00AA>] -> kr[]
+블록38 #32
+   insert  jp[] -> kr[<green> <colorEnd>]
+블록38 #35
+   delete  jp[<green> <colorEnd>] -> kr[]
+블록38 #39
+   replace jp[<green>] -> kr[<blue>]
+   delete  jp[<center>] -> kr[]
+블록39 #0
+   delete  jp[{08}] -> kr[]
+블록41 #2
+   delete  jp[<red> <colorEnd> <red> <colorEnd>] -> kr[]
+블록41 #4
+   insert  jp[] -> kr[<blue> <colorEnd> <blue> <colorEnd> <blue> <colorEnd> <blue> <colorEnd> <blue> <colorEnd>]
+블록41 #10
+   delete  jp[<red> <colorEnd> <name>] -> kr[]
+블록42 #20
+   delete  jp[<blue> <colorEnd>] -> kr[]
+블록42 #22
+   delete  jp[<blue> <colorEnd>] -> kr[]
+   delete  jp[<center>] -> kr[]
+블록44 #1
+   delete  jp[<red> <colorEnd>] -> kr[]
+블록44 #2
+   delete  jp[<red> <colorEnd>] -> kr[]
+블록44 #3
+   delete  jp[<red> <colorEnd>] -> kr[]
+블록44 #6
+   delete  jp[<red> <colorEnd>] -> kr[]
+블록49 #1
+   delete  jp[<blue> <colorEnd>] -> kr[]
+블록51 #11
+   delete  jp[{0C}] -> kr[]
+블록53 #60
+   delete  jp[<start>] -> kr[]
+블록54 #63
+   delete  jp[{0C}] -> kr[]
+블록55 #66
+   delete  jp[{08}] -> kr[]
+블록58 #29
+   delete  jp[<green> <colorEnd>] -> kr[]
+블록60 #12
+   delete  jp[<red> <colorEnd>] -> kr[]
+블록65 #4
+   delete  jp[<green> <colorEnd>] -> kr[]
+블록68 #21
+   delete  jp[<blue> <colorEnd> <blue> <colorEnd> <blue>] -> kr[]
+블록71 #3
+   insert  jp[] -> kr[<red>]
+블록71 #11
+   delete  jp[<red> <colorEnd>] -> kr[]
+블록71 #23
+   delete  jp[<blue> <colorEnd>] -> kr[]
+블록71 #36
+   delete  jp[<blue>] -> kr[]
+   insert  jp[] -> kr[<red>]
+블록71 #45
+   delete  jp[<blue>] -> kr[]
+   insert  jp[] -> kr[<red>]
+블록71 #54
+   delete  jp[<blue>] -> kr[]
+블록71 #59
+   delete  jp[<sound:00D0>] -> kr[]
+   delete  jp[<red> <colorEnd> <red> <colorEnd>] -> kr[]
+블록71 #63
+   delete  jp[<blue>] -> kr[]
+   insert  jp[] -> kr[<red>]
+블록71 #68
+   delete  jp[<red> <colorEnd> <red> <colorEnd>] -> kr[]
+블록71 #72
+   insert  jp[] -> kr[<blue> <colorEnd>]
+블록71 #73
+   insert  jp[] -> kr[<blue> <colorEnd>]
+블록71 #82
+   insert  jp[] -> kr[<blue> <colorEnd>]
+블록71 #83
+   insert  jp[] -> kr[<blue> <colorEnd>]
+블록71 #92
+   insert  jp[] -> kr[<blue> <colorEnd> <blue> <colorEnd>]
+블록71 #93
+   insert  jp[] -> kr[<blue> <colorEnd>]
+블록71 #94
+   delete  jp[<sound:00D0>] -> kr[]
+블록73 #1
+   delete  jp[<green> <colorEnd>] -> kr[]
+블록73 #2
+   delete  jp[<green> <colorEnd> <green> <colorEnd> <green> <colorEnd>] -> kr[]
+블록73 #3
+   delete  jp[<green> <colorEnd> <green> <colorEnd>] -> kr[]
+블록75 #5
+   delete  jp[<green> <colorEnd>] -> kr[]
+   insert  jp[] -> kr[<green> <colorEnd>]
+블록80 #17
+   insert  jp[] -> kr[<blue> <colorEnd>]
+블록80 #52
+   insert  jp[] -> kr[<blue> <colorEnd>]

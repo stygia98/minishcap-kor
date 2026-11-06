@@ -1,0 +1,505 @@
+# block 05 · 125 msgs · minish_cap 한글화 워크스페이스
+# 규칙: 'J:' = 일본어 원문(수정 금지, 참고용). 'K:' 줄만 번역으로 수정.
+#       줄바꿈=<BR>, 색/제어 태그(<green> 등)·원시코드({0309} 등)는 그대로 유지.
+#       빈/제어전용 메시지는 K를 건드리지 말 것(원문 그대로 왕복됨).
+
+#0
+J: （なし）<start>
+K: （なし）<start>
+
+#1
+J: スミスの劍<start>
+K: スミスの劍<start>
+
+#2
+J: ホワイトソ○ド<start>
+K: ホワイトソ○ド<start>
+
+#3
+J: ホワイトソ○ド（2人分身）<start>
+K: ホワイトソ○ド（2人分身）<start>
+
+#4
+J: ホワイトソ○ド（3人分身）<start>
+K: ホワイトソ○ド（3人分身）<start>
+
+#5
+J: <start>
+K: <start>
+
+#6
+J: フォ○ソ○ド<start>
+K: フォ○ソ○ド<start>
+
+#7
+J: バクダン<start>
+K: バクダン<start>
+
+#8
+J: リモコンバクダン<start>
+K: リモコンバクダン<start>
+
+#9
+J: 弓矢<start>
+K: 弓矢<start>
+
+#10
+J: 光の弓矢<start>
+K: 光の弓矢<start>
+
+#11
+J: ブ○メラン<start>
+K: ブ○メラン<start>
+
+#12
+J: マジカルブ○メラン<start>
+K: マジカルブ○メラン<start>
+
+#13
+J: 小さな盾<start>
+K: 小さな盾<start>
+
+#14
+J: ミラ○シ○ルド<start>
+K: ミラ○シ○ルド<start>
+
+#15
+J: 炎のカンテラ<start>
+K: 炎のカンテラ<start>
+
+#16
+J: 炎のカンテラ<start>
+K: 炎のカンテラ<start>
+
+#17
+J: 魔法のつぼ<start>
+K: 魔法のつぼ<start>
+
+#18
+J: パッチのつえ<start>
+K: パッチのつえ<start>
+
+#19
+J: モグラグロ○ブ<start>
+K: モグラグロ○ブ<start>
+
+#20
+J: はねマント<start>
+K: はねマント<start>
+
+#21
+J: ペガサスのくつ<start>
+K: ペガサスのくつ<start>
+
+#22
+J: ファイアロッド<start>
+K: ファイアロッド<start>
+
+#23
+J: 風のオカリナ<start>
+K: 風のオカリナ<start>
+
+#24
+J: （DEBUG）メガクラッシュ<start>
+K: （DEBUG）メガクラッシュ<start>
+
+#25
+J: （DEBUG）敵セット<start>
+K: （DEBUG）敵セット<start>
+
+#26
+J: （DEBUG）セルかきかえセット<start>
+K: （DEBUG）セルかきかえセット<start>
+
+#27
+J: パワ○リスト<start>
+K: パワ○リスト<start>
+
+#28
+J: 空きビン<start>
+K: 空きビン<start>
+
+#29
+J: 空きビン<start>
+K: 空きビン<start>
+
+#30
+J: 空きビン<start>
+K: 空きビン<start>
+
+#31
+J: 空きビン<start>
+K: 空きビン<start>
+
+#32
+J: 空きビン<start>
+K: 空きビン<start>
+
+#33
+J: ロンロンバタ○<start>
+K: ロンロンバタ○<start>
+
+#34
+J: ロンロンミルク まんたん<start>
+K: ロンロンミルク まんたん<start>
+
+#35
+J: ロンロンミルク はんぶん<start>
+K: ロンロンミルク はんぶん<start>
+
+#36
+J: 赤いクスリ<start>
+K: 赤いクスリ<start>
+
+#37
+J: 靑いクスリ<start>
+K: 靑いクスリ<start>
+
+#38
+J: 水<start>
+K: 水<start>
+
+#39
+J: ゴングル山の水<start>
+K: ゴングル山の水<start>
+
+#40
+J: 妖精<start>
+K: 妖精<start>
+
+#41
+J: チロップ·赤<start>
+K: チロップ·赤<start>
+
+#42
+J: チロップ·オレンジ<start>
+K: チロップ·オレンジ<start>
+
+#43
+J: チロップ·黃<start>
+K: チロップ·黃<start>
+
+#44
+J: チロップ·綠<start>
+K: チロップ·綠<start>
+
+#45
+J: チロップ·靑<start>
+K: チロップ·靑<start>
+
+#46
+J: チロップ·白<start>
+K: チロップ·白<start>
+
+#47
+J: ネ○ルのお守り<start>
+K: ネ○ルのお守り<start>
+
+#48
+J: フロルのお守り<start>
+K: フロルのお守り<start>
+
+#49
+J: ディンのお守り<start>
+K: ディンのお守り<start>
+
+#50
+J: <start>
+K: <start>
+
+#51
+J: <start>
+K: <start>
+
+#52
+J: スミスの劍<start>
+K: スミスの劍<start>
+
+#53
+J: 折れたピッコルの劍<start>
+K: 折れたピッコルの劍<start>
+
+#54
+J: ドッグフ○ド入りの ビン<start>
+K: ドッグフ○ド入りの ビン<start>
+
+#55
+J: 牧場のカギ<start>
+K: 牧場のカギ<start>
+
+#56
+J: めざましキノコ<start>
+K: めざましキノコ<start>
+
+#57
+J: としょかんの本 「動物ずかん」<start>
+K: としょかんの本 「動物ずかん」<start>
+
+#58
+J: としょかんの本 「ピッコル傳說」<start>
+K: としょかんの本 「ピッコル傳說」<start>
+
+#59
+J: としょかんの本 「お面のすべて」<start>
+K: としょかんの本 「お面のすべて」<start>
+
+#60
+J: 墓場のカギ<start>
+K: 墓場のカギ<start>
+
+#61
+J: チンクルトロフィ○<start>
+K: チンクルトロフィ○<start>
+
+#62
+J: ニテンどうゴ○ルドメダル<start>
+K: ニテンどうゴ○ルドメダル<start>
+
+#63
+J: ヒミツのかいがら<start>
+K: ヒミツのかいがら<start>
+
+#64
+J: 大地のエレメント<start>
+K: 大地のエレメント<start>
+
+#65
+J: 炎のエレメント<start>
+K: 炎のエレメント<start>
+
+#66
+J: しずくのエレメント<start>
+K: しずくのエレメント<start>
+
+#67
+J: 風のエレメント<start>
+K: 風のエレメント<start>
+
+#68
+J: グリップリング<start>
+K: グリップリング<start>
+
+#69
+J: パワ○リスト<start>
+K: パワ○リスト<start>
+
+#70
+J: 水かき<start>
+K: 水かき<start>
+
+#71
+J: ハイラルの地圖<start>
+K: ハイラルの地圖<start>
+
+#72
+J: 回轉斬り<start>
+K: 回轉斬り<start>
+
+#73
+J: 回轉つき<start>
+K: 回轉つき<start>
+
+#74
+J: ダッシュ斬り<start>
+K: ダッシュ斬り<start>
+
+#75
+J: 岩くだき<start>
+K: 岩くだき<start>
+
+#76
+J: 劍ビ○ム<start>
+K: 劍ビ○ム<start>
+
+#77
+J: 大回轉斬り<start>
+K: 大回轉斬り<start>
+
+#78
+J: 下突き<start>
+K: 下突き<start>
+
+#79
+J: こんじょうビ○ム<start>
+K: こんじょうビ○ム<start>
+
+#80
+J: ダンジョンマップ<start>
+K: ダンジョンマップ<start>
+
+#81
+J: コンパス<start>
+K: コンパス<start>
+
+#82
+J: 大きなカギ<start>
+K: 大きなカギ<start>
+
+#83
+J: 小さなカギ<start>
+K: 小さなカギ<start>
+
+#84
+J: 1ルピ○<start>
+K: 1ルピ○<start>
+
+#85
+J: 5ルピ○<start>
+K: 5ルピ○<start>
+
+#86
+J: 20ルピ○<start>
+K: 20ルピ○<start>
+
+#87
+J: 50ルピ○<start>
+K: 50ルピ○<start>
+
+#88
+J: 100ルピ○<start>
+K: 100ルピ○<start>
+
+#89
+J: 200ルピ○<start>
+K: 200ルピ○<start>
+
+#90
+J: <start>
+K: <start>
+
+#91
+J: ペララの實<start>
+K: ペララの實<start>
+
+#92
+J: しあわせのカケラ<start>
+K: しあわせのカケラ<start>
+
+#93
+J: バクダン 5コ<start>
+K: バクダン 5コ<start>
+
+#94
+J: 矢 5本<start>
+K: 矢 5本<start>
+
+#95
+J: ハ○ト<start>
+K: ハ○ト<start>
+
+#96
+J: 妖精<start>
+K: 妖精<start>
+
+#97
+J: <start>
+K: <start>
+
+#98
+J: ハ○トのうつわ<start>
+K: ハ○トのうつわ<start>
+
+#99
+J: ハ○トのかけら<start>
+K: ハ○トのかけら<start>
+
+#100
+J: 大きなサイフ<start>
+K: 大きなサイフ<start>
+
+#101
+J: 大きなボムぶくろ<start>
+K: 大きなボムぶくろ<start>
+
+#102
+J: 大きな矢づつ<start>
+K: 大きな矢づつ<start>
+
+#103
+J: カケラぶくろ<start>
+K: カケラぶくろ<start>
+
+#104
+J: ほそながパン<start>
+K: ほそながパン<start>
+
+#105
+J: やまがたパン<start>
+K: やまがたパン<start>
+
+#106
+J: ねじねじパン<start>
+K: ねじねじパン<start>
+
+#107
+J: もこもこパン<start>
+K: もこもこパン<start>
+
+#108
+J: バクダン 10コ<start>
+K: バクダン 10コ<start>
+
+#109
+J: バクダン 30コ<start>
+K: バクダン 30コ<start>
+
+#110
+J: 矢 10本<start>
+K: 矢 10本<start>
+
+#111
+J: 矢 30本<start>
+K: 矢 30本<start>
+
+#112
+J: 劍技のトラのまき<start>
+K: 劍技のトラのまき<start>
+
+#113
+J: <start>
+K: <start>
+
+#114
+J: <start>
+K: <start>
+
+#115
+J: セ○ブ畵面<start>
+K: セ○ブ畵面<start>
+
+#116
+J: スリ○プ畵面<start>
+K: スリ○プ畵面<start>
+
+#117
+J: 回轉斬り<BR><red>劍<colorEnd>をそうびした ボタンを 押しつづけ<BR>力が たまったら はなす！！ ぞよ！<BR>                          テッシン<start>
+K: 回轉斬り<BR><red>劍<colorEnd>をそうびした ボタンを 押しつづけ<BR>力が たまったら はなす！！ ぞよ！<BR>                          テッシン<start>
+
+#118
+J: 回轉突き<BR>ころがって おきあがる ちょくぜん に<BR><red>劍<colorEnd>を ふる！！ ぞよ！<BR>                           トッシン<start>
+K: 回轉突き<BR>ころがって おきあがる ちょくぜん に<BR><red>劍<colorEnd>を ふる！！ ぞよ！<BR>                           トッシン<start>
+
+#119
+J: ダッシュ斬り<BR><red>劍<colorEnd>を そうびして<BR>ひたすら はしる！！ ぞよ！<BR>                          テッシン<start>
+K: ダッシュ斬り<BR><red>劍<colorEnd>を そうびして<BR>ひたすら はしる！！ ぞよ！<BR>                          テッシン<start>
+
+#120
+J: 岩くだき<BR><red>劍<colorEnd>で いわを斬る！！ <BR>ぞよ！<BR>                          テッシン<start>
+K: 岩くだき<BR><red>劍<colorEnd>で いわを斬る！！ <BR>ぞよ！<BR>                          テッシン<start>
+
+#121
+J: 劍ビ○ム<BR>ハ○トが まんたんの持に <BR><red>劍<colorEnd>を ふる！！ ぞよ！<BR>                          クッシン<start>
+K: 劍ビ○ム<BR>ハ○トが まんたんの持に <BR><red>劍<colorEnd>を ふる！！ ぞよ！<BR>                          クッシン<start>
+
+#122
+J: 大回轉斬り<BR><red>回轉斬り<colorEnd>を 出したあと<BR>ボタンを れんだ！！ ぞよ！<BR>                 しょだい テッシン<start>
+K: 大回轉斬り<BR><red>回轉斬り<colorEnd>を 出したあと<BR>ボタンを れんだ！！ ぞよ！<BR>                 しょだい テッシン<start>
+
+#123
+J: 下突き<BR>ジャンプ中に <red>劍<colorEnd>をふる！！<BR>ぞよ！<BR>                          テッシン<start>
+K: 下突き<BR>ジャンプ中に <red>劍<colorEnd>をふる！！<BR>ぞよ！<BR>                          テッシン<start>
+
+#124
+J: こんじょうビ○ム<BR>ハ○トが のこり 1コを きった持に<BR><red>劍<colorEnd>を ふる！！ ぞよ！<BR>                          ハッシン<start>ホや
+K: こんじょうビ○ム<BR>ハ○トが のこり 1コを きった持に<BR><red>劍<colorEnd>を ふる！！ ぞよ！<BR>                          ハッシン<start>ホや
+

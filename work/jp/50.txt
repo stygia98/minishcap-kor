@@ -1,0 +1,209 @@
+# block 50 · 51 msgs · minish_cap 한글화 워크스페이스
+# 규칙: 'J:' = 일본어 원문(수정 금지, 참고용). 'K:' 줄만 번역으로 수정.
+#       줄바꿈=<BR>, 색/제어 태그(<green> 등)·원시코드({0309} 등)는 그대로 유지.
+#       빈/제어전용 메시지는 K를 건드리지 말 것(원문 그대로 왕복됨).
+
+#0
+J: <start>
+K: <start>
+
+#1
+J: よう ボウズ なに見てんだ？<BR><BR>オレは <green>ふどうさんやの ゴ○マンさま<colorEnd><BR>この家の 借り手を探してるんだ<BR>なかなか イカした 家だろう？<BR>ただし 女のコ專用だがな しかも1人だけだ<BR>何人も住まわすと よごしたり<BR>うるさかったりして いけねえ<BR><DEL>1<colorEnd>
+K: よう ボウズ なに見てんだ？<BR><BR>オレは <green>ふどうさんやの ゴ○マンさま<colorEnd><BR>この家の 借り手を探してるんだ<BR>なかなか イカした 家だろう？<BR>ただし 女のコ專用だがな しかも1人だけだ<BR>何人も住まわすと よごしたり<BR>うるさかったりして いけねえ<BR><DEL>1<colorEnd>
+
+#2
+J: 家を 探してる ヤツがいたら<BR>しょうかい しろよな<start>
+K: 家を 探してる ヤツがいたら<BR>しょうかい しろよな<start>
+
+#3
+J: えっ！ わたしに家を しょうかい してくれるの？<BR><select>ホはい <select>1{09}やめとく<start>
+K: えっ！ わたしに家を しょうかい してくれるの？<BR><select>ホはい <select>1{09}やめとく<start>
+
+#4
+J: お家を かしてくれる人を しょうかい してくれるの？<BR><select>ホはい <select>1<BR>やめとく<start>
+K: お家を かしてくれる人を しょうかい してくれるの？<BR><select>ホはい <select>1<BR>やめとく<start>
+
+#5
+J: 空いている家を しょうかい してくれるの？<BR><select>ホはい <select>1{0B}やめとく<start>
+K: 空いている家を しょうかい してくれるの？<BR><select>ホはい <select>1{0B}やめとく<start>
+
+#6
+J: ほんとに！ ありがとう<BR>さっそく たずねて みるわね<start>
+K: ほんとに！ ありがとう<BR>さっそく たずねて みるわね<start>
+
+#7
+J: ありがとう！ <BR>さっそく 言われた 場所に 行ってみよっと<start>
+K: ありがとう！ <BR>さっそく 言われた 場所に 行ってみよっと<start>
+
+#8
+J: サンキュ○！<BR>さっそく たずねてみるわ！<start>
+K: サンキュ○！<BR>さっそく たずねてみるわ！<start>
+
+#9
+J: そう···<BR>また いいお話が あったら 敎えてね<start>
+K: そう···<BR>また いいお話が あったら 敎えてね<start>
+
+#10
+J: え∼ 敎えてくれないの∼<BR>いい話が あったら ぜったい敎えてね きっとだよ！<start>
+K: え∼ 敎えてくれないの∼<BR>いい話が あったら ぜったい敎えてね きっとだよ！<start>
+
+#11
+J: あら あら 敎えてくれないの？ <BR>また いい話が あったら こえを かけてよね<start>
+K: あら あら 敎えてくれないの？ <BR>また いい話が あったら こえを かけてよね<start>
+
+#12
+J: 今度は ここに ぶったてよう<BR><start>
+K: 今度は ここに ぶったてよう<BR><start>
+
+#13
+J: よう ボウズ 良い家だろう？<BR>たちたて ホヤホヤだぜ<BR>前と同じく 女のコ專用だがな<BR>もちろん 住める 人數も 1人だ<BR><DEL>1聞
+K: よう ボウズ 良い家だろう？<BR>たちたて ホヤホヤだぜ<BR>前と同じく 女のコ專用だがな<BR>もちろん 住める 人數も 1人だ<BR><DEL>1聞
+
+#14
+J: また だれか いい娘がいたら しょうかい しろよ<start>
+K: また だれか いい娘がいたら しょうかい しろよ<start>
+
+#15
+J: えっ！ わたしに家を しょうかい してくれるの？<BR><select>ホはい <select>1{09}やめとく<start>
+K: えっ！ わたしに家を しょうかい してくれるの？<BR><select>ホはい <select>1{09}やめとく<start>
+
+#16
+J: お家を かしてくれる人を しょうかい してくれるの？<BR><select>ホはい <select>1<BR>やめとく<start>
+K: お家を かしてくれる人を しょうかい してくれるの？<BR><select>ホはい <select>1<BR>やめとく<start>
+
+#17
+J: 空いている家を しょうかい してくれるの？<BR><select>ホはい <select>1{0B}やめとく<start>
+K: 空いている家を しょうかい してくれるの？<BR><select>ホはい <select>1{0B}やめとく<start>
+
+#18
+J: まあ ホント？<BR>しかも 作ったばかりの あたらしい家 なんて ステキ！<start>
+K: まあ ホント？<BR>しかも 作ったばかりの あたらしい家 なんて ステキ！<start>
+
+#19
+J: わあ うれしい！<BR>しかも できたばっかりの お家なんて スゴイよ！<start>
+K: わあ うれしい！<BR>しかも できたばっかりの お家なんて スゴイよ！<start>
+
+#20
+J: やった○ たすかるわ！<BR>できた ばっかりの 家なんて ラッキ○よね<start>
+K: やった○ たすかるわ！<BR>できた ばっかりの 家なんて ラッキ○よね<start>
+
+#21
+J: やちんシュウニュウも カクホできたし<BR>次は ペットの ブリ○ダ○でもやるか<BR>がっはっは！<start>
+K: やちんシュウニュウも カクホできたし<BR>次は ペットの ブリ○ダ○でもやるか<BR>がっはっは！<start>
+
+#22
+J: あっ こんにちは <name><BR>おかげで とっても たのしく くらしているのよ<BR><DEL>1（<start>
+K: あっ こんにちは <name><BR>おかげで とっても たのしく くらしているのよ<BR><DEL>1（<start>
+
+#23
+J: <red>お守り<colorEnd> なくなったら<BR>また あげるから 言ってちょうだいね<start>
+K: <red>お守り<colorEnd> なくなったら<BR>また あげるから 言ってちょうだいね<start>
+
+#24
+J: <red>お守り<colorEnd>を <red>ビン<colorEnd>に 入れて あげましょうか？<BR><select>ホおねがいします <select>1ぁけっこうです<start>
+K: <red>お守り<colorEnd>を <red>ビン<colorEnd>に 入れて あげましょうか？<BR><select>ホおねがいします <select>1ぁけっこうです<start>
+
+#25
+J: はい！ <red>ビン<colorEnd>の中に 入れたわよ<BR>また いつでも どうぞ<start>
+K: はい！ <red>ビン<colorEnd>の中に 入れたわよ<BR>また いつでも どうぞ<start>
+
+#26
+J: そう？ また ほしくなったら 言ってね<start>
+K: そう？ また ほしくなったら 言ってね<start>
+
+#27
+J: あら <blue>空きビンが ない<colorEnd>みたいね<BR>また <red>ビン<colorEnd>が空いてる持に どうぞ<start>
+K: あら <blue>空きビンが ない<colorEnd>みたいね<BR>また <red>ビン<colorEnd>が空いてる持に どうぞ<start>
+
+#28
+J: いらっしゃい！ <name> <BR>この家 すっごく 氣に入っちゃった！<BR><DEL>1）<start>
+K: いらっしゃい！ <name> <BR>この家 すっごく 氣に入っちゃった！<BR><DEL>1）<start>
+
+#29
+J: <red>お守り<colorEnd> なくなったら<BR>また あげるから いつでも 言ってネ<start>
+K: <red>お守り<colorEnd> なくなったら<BR>また あげるから いつでも 言ってネ<start>
+
+#30
+J: <red>お守り<colorEnd>を <red>ビン<colorEnd>に 入れて あげましょうか？<BR><select>ホおねがいします <select>1 けっこうです<start>
+K: <red>お守り<colorEnd>を <red>ビン<colorEnd>に 入れて あげましょうか？<BR><select>ホおねがいします <select>1 けっこうです<start>
+
+#31
+J: はい！ <red>ビン<colorEnd>の中に 入れたよ∼<BR>また いつでも きてネ！<start>
+K: はい！ <red>ビン<colorEnd>の中に 入れたよ∼<BR>また いつでも きてネ！<start>
+
+#32
+J: そう？ また ほしくなったら きてネ！<start>
+K: そう？ また ほしくなったら きてネ！<start>
+
+#33
+J: <blue>空きビンが ない<colorEnd>みたいよ<BR>また <red>ビン<colorEnd>が空いてる持に きてネ<start>
+K: <blue>空きビンが ない<colorEnd>みたいよ<BR>また <red>ビン<colorEnd>が空いてる持に きてネ<start>
+
+#34
+J: あっ <name>！ あそびに きてくれたんだね<BR>おかげさまで すてきな家に 住むことが できたわ<BR><DEL>1、<start>
+K: あっ <name>！ あそびに きてくれたんだね<BR>おかげさまで すてきな家に 住むことが できたわ<BR><DEL>1、<start>
+
+#35
+J: <red>お守り<colorEnd>が なくなったら<BR>言ってくれれば また あげるからね<start>
+K: <red>お守り<colorEnd>が なくなったら<BR>言ってくれれば また あげるからね<start>
+
+#36
+J: <red>お守り<colorEnd>を <red>ビン<colorEnd>に 入れて あげようか？<BR><select>ホおねがいします <select>1ッけっこうです<start>
+K: <red>お守り<colorEnd>を <red>ビン<colorEnd>に 入れて あげようか？<BR><select>ホおねがいします <select>1ッけっこうです<start>
+
+#37
+J: はい！ <red>ビン<colorEnd>の中に 入れたよ<BR>いつでも もらいに きてよね！<start>
+K: はい！ <red>ビン<colorEnd>の中に 入れたよ<BR>いつでも もらいに きてよね！<start>
+
+#38
+J: そう？ ほしくなったら また 言ってよね<start>
+K: そう？ ほしくなったら また 言ってよね<start>
+
+#39
+J: おっと <blue>空きビンが ない<colorEnd>みたいね<BR>また <red>ビン<colorEnd>が空いてる持に どうぞ<start>
+K: おっと <blue>空きビンが ない<colorEnd>みたいね<BR>また <red>ビン<colorEnd>が空いてる持に どうぞ<start>
+
+#40
+J: <red>ビン<colorEnd>に 空きがあったら わたしが作った<BR><red>お守り<colorEnd>あげるから 言ってちょうだいね<start>
+K: <red>ビン<colorEnd>に 空きがあったら わたしが作った<BR><red>お守り<colorEnd>あげるから 言ってちょうだいね<start>
+
+#41
+J: <red>ビン<colorEnd>に 空きがあったら わたしが作った<BR><red>お守り<colorEnd>あげるから 言ってネ<start>
+K: <red>ビン<colorEnd>に 空きがあったら わたしが作った<BR><red>お守り<colorEnd>あげるから 言ってネ<start>
+
+#42
+J: <red>ビン<colorEnd>に 空きがあったら アタシが作った<BR><red>お守り<colorEnd>あげるから 言ってよね<start>
+K: <red>ビン<colorEnd>に 空きがあったら アタシが作った<BR><red>お守り<colorEnd>あげるから 言ってよね<start>
+
+#43
+J: <start>
+K: <start>
+
+#44
+J: <start>
+K: <start>
+
+#45
+J: <start>
+K: <start>
+
+#46
+J: <start>
+K: <start>
+
+#47
+J: <start>
+K: <start>
+
+#48
+J: <start>
+K: <start>
+
+#49
+J: <start>
+K: <start>
+
+#50
+J: <start>ホホホホホホホホホホホホ0
+K: <start>ホホホホホホホホホホホホ0
+

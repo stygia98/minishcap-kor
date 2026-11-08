@@ -1,5 +1,5 @@
-# [③] work/script.json 의 ko → resource/script-kor/rom_script_cut(k1.0).zip 갱신
-#   python tools/update_k10.py
+# [③] work/script.json 의 ko → resource/script-kor/rom_script_cut(k1.1).zip 갱신
+#   python tools/update_k.py
 #   검사: ko 인코딩(실패 시 중단) · 제어 토큰 jp 비교(경고) · 블록8 지명 폰트 글자(경고)
 #   ko 가 빈 메시지는 원본 k0.3 바이트 그대로
 #   zip 형식(k0.3과 같음): 0 = 마스터(80개 시작 주소) / 1~80 = 블록 시작~마지막 <END> / K = 마스터+블록(각 16바이트 FF 정렬)
@@ -13,7 +13,7 @@ SRC = os.path.join(R, "work", "script.json")
 KTBL = os.path.join(R, "resource", "script-kor", "kor-table.tbl")
 ATBL = os.path.join(R, "resource", "script-kor", "kor-area.tbl")
 K03 = os.path.join(R, "resource", "script-kor", "rom_script_cut(k0.3).zip")
-K10 = os.path.join(R, "resource", "script-kor", "rom_script_cut(k1.0).zip")
+K10 = os.path.join(R, "resource", "script-kor", "rom_script_cut(k1.1).zip")
 
 # 원시 {0B..}~{0F..} 는 J 폰트 글자(B버튼 아이콘 등)라 제어 비교에서 제외
 TOK = re.compile(r"<[^<>]+>|\{(?!0[B-Fb-f])[0-9A-Fa-f]{2,6}\}")
@@ -80,7 +80,7 @@ def main():
             print("    ... 외 %d건" % (len(warns) - 20))
     if fails:
         print("\n".join("  인코딩 실패 " + f for f in fails))
-        sys.exit("중단: 인코딩 실패 %d건 — script.json 수정 후 다시 실행(k1.0 zip은 그대로)" % len(fails))
+        sys.exit("중단: 인코딩 실패 %d건 — script.json 수정 후 다시 실행(k1.1 zip은 그대로)" % len(fails))
     master, whole = pack(blocks)
     tmp = K10 + ".tmp"
     with zipfile.ZipFile(tmp, "w", z3.infolist()[0].compress_type) as z:
@@ -89,7 +89,7 @@ def main():
             z.writestr(str(i), b)
         z.writestr("K", whole)
     os.replace(tmp, K10)
-    print("k1.0 갱신: 번역 %d메시지, 대사 %d바이트 -> %s" % (changed, len(whole), K10))
+    print("k1.1 갱신: 번역 %d메시지, 대사 %d바이트 -> %s" % (changed, len(whole), K10))
 
 if __name__ == "__main__":
     main()

@@ -18,9 +18,6 @@ dist/
 # 날짜 백업(git 이력으로 대체)
 upload/backup/
 
-# 롬 분석 메모(개인 자료)
-resource/rom address/
-
 # 외부 도구(에뮬레이터·그래픽 편집기)
 upload/Vba/
 upload/yy-chr2/

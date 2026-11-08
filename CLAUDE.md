@@ -19,7 +19,7 @@ resource/                           프로젝트 자료(git 추적)
     jp-table.tbl                    일본어 폰트 테이블(thingy, cp949) + 제어 토큰 항목(`03009B=<sound:009B>` 등)
   script-kor/
     rom_script_cut(k0.3).zip        원본 K해킹(Ver0.3) 대사 블록(`_ver0.3` `0xE60000`에서 추출, 블록76 디렉토리 보정, 2026-11-08 재생성·이름 변경) — 참고용
-    rom_script_cut(k1.0).zip        재번역 최종본 대사 블록(덤프된 `(K)_ver1.1.gba` `0xE60000`에서 추출, 2026-11-08, k0.3과 같은 형식) — 참고용
+    rom_script_cut(k1.1).zip        재번역 최종본 대사 블록(덤프된 `(K)_ver1.1.gba` `0xE60000`에서 추출, 2026-11-08, k0.3과 같은 형식) — 참고용
                                     make_script.py로 script.json 재생성 후 덤프한 롬과 바이트 완전 일치(2026-11-08)
                                     두 zip 공통 항목(확장자 없음): `0` = 마스터 블록(80개 시작 주소, 320B)
                                     / `1`~`80` = 각 블록 시작~마지막 메시지 `<END>`(뒤 FF 패딩 제외)
@@ -124,7 +124,7 @@ J롬 원본 대사/포인터는 그대로 두고, K롬은 대사를 **다른 주
 ```powershell
 # ── 전체 과정(2026-11-08~) ─────────────────────────────────────────────
 #  ① zip 3개 → script.json·review.html   ② review.html 수정·JSON 내보내기
-#  ③ script.json ko → k1.0 zip           ④ k1.0 zip → (K)_ver1.1.gba 대사 덤프   ⑤ exe 갱신
+#  ③ script.json ko → k1.1 zip           ④ k1.1 zip → (K)_ver1.1.gba 대사 덤프   ⑤ exe 갱신
 # 평소 번역 수정: ② → ③ → ④ → ⑤
 # 롬 개조(이름개조·버그픽스·R버튼 캡션)를 바꿨을 때: dump.py → ⑤
 # (K)_ver1.1.gba를 처음부터 만들 때: _ver0.3.gba를 (K)_ver1.1.gba로 직접 복사 → ④ → dump.py → ⑤
@@ -132,22 +132,22 @@ J롬 원본 대사/포인터는 그대로 두고, K롬은 대사를 **다른 주
 
 # ① 대사 zip 3개 → work/script.json 생성(덮어씀, 기존 파일은 upload/backup/에 자동 백업) + review.html 재생성
 python tools/script_review/make_script.py
-#   jp = rom_script_cut(j).zip / kr = rom_script_cut(k0.3).zip(블록8 #11~40은 +kor-area.tbl) / ko = rom_script_cut(k1.0).zip
-#   ⚠ ko는 k1.0 zip에서 오므로 ②에서 고치고 ③을 안 돌린 내용은 사라짐. 평소엔 ①을 다시 돌릴 일 없음
+#   jp = rom_script_cut(j).zip / kr = rom_script_cut(k0.3).zip(블록8 #11~40은 +kor-area.tbl) / ko = rom_script_cut(k1.1).zip
+#   ⚠ ko는 k1.1 zip에서 오므로 ②에서 고치고 ③을 안 돌린 내용은 사라짐. 평소엔 ①을 다시 돌릴 일 없음
 #   (옛 build_source.py[ko를 비워 버림]는 2026-11-08 삭제·이것으로 대체)
 #   review.html만 다시 만들 때: python tools/script_review/gen_review.py
 
 # ② work/review.html(더블클릭) 에서 번역/수정 → "JSON 내보내기" → work/script.json 덮어씀
 
-# ③ script.json의 ko → resource/script-kor/rom_script_cut(k1.0).zip 갱신
-python tools/update_k10.py
+# ③ script.json의 ko → resource/script-kor/rom_script_cut(k1.1).zip 갱신
+python tools/update_k.py
 #   검사: ko 인코딩(실패하면 중단, zip 안 바뀜) · 제어 토큰 jp 비교(경고) · 블록8 지명 폰트 글자(경고)
 #   ko 빈 메시지 = k0.3 원본 바이트. 블록 끝 = 마지막 <END>, 블록마다 16바이트 FF 정렬
 
-# ④ k1.0 zip → (K)_ver1.1.gba 대사 덤프 (script.json은 안 읽음)
+# ④ k1.1 zip → (K)_ver1.1.gba 대사 덤프 (script.json은 안 읽음)
 python tools/insert_kr.py
 #   (K)_ver1.1.gba를 읽어 대사 영역(0xE60000~)·지명 치환표(0xE57C00)만 다시 쓰고 같은 파일에 저장(대사 영역은 먼저 전부 FF로 지움)
-#   k1.0 zip `K` 항목을 0xE60000에 그대로 씀 + 지명 치환표(tbl 2개)
+#   k1.1 zip `K` 항목을 0xE60000에 그대로 씀 + 지명 치환표(tbl 2개)
 
 # 롬 개조 덤프: [2] 이름입력 한글개조 → [3] fix/ 7종(버그픽스 6 + 엔딩롤) → [4] R버튼 캡션 (대사는 안 건드림)
 python tools/dump.py
@@ -390,7 +390,7 @@ python tools/script_review/tr_dump.py 12 13      # 미번역 메시지: [화자]
 - **`work/script.json`이 유일한 번역 원본**. 초벌 번역용 `work/tr/*.tsv`·`tr_apply.py`는 검수 단계 진입 후 삭제(2026-10-31). git 저장소가 아니므로 큰 수정 전엔 **`upload/backup/`에 날짜 백업**을 만들 것.
 - **검수 블록 문체 규칙(2026-11-01, 사용자 수정 378건 분석 → 미검수 블록에 반영)**: `，`·`···` 뒤 띄어쓰기 / 대사 속 횟수·연도는 한글(`세 번`, `백 년`) / 색 태그는 어절 단위로 감싸기 / 말버릇은 어미를 살리고 띄어 쓰기(`고맙다 고로`, `팔겠다 삐`, `맛있다 음메`) / 에제로 권유형 `~세나`·`~게나` / ザマス=`~랍니다` / 용어: 대장(とうりょう·おやかた), 검술(劍技), 깃털 망토, 포스트맨, 시(포엠의 うた), 잠깨기 버섯, 마로 가게, 베이킹·파우더, `<green>픽콜<colorEnd>님`.
   - **고유명사 통일(2026-11-04, 1차 검수 후 전수 조사, 사용자 결정)**: 넬(ネール), 넉클(ナックル), 록코리(ロッコリー), 밍밍(ミンミン), 도시의 픽콜(町のピッコル; 里のピッコル=마을의 픽콜), 무덤 입구 열쇠(墓の入り口のカギ), 포스트맨, 포 소드, 잠깨기 버섯, 폭탄 주머니, 상인 넛츠(アキンドナッツ), 물의 원류(水の源流), 마로 가게. 1차 검수 완료본 = `upload/backup/script.review1_done_20261104_0212.json` **검수 완료 블록은 수정 금지**
-- 검수 수정: **review.html(검색→수정→JSON 내보내기) → `update_k10.py` → `insert_kr.py` → `rompatcher/build.py`**. 수정 후 검증은 `ctrl_census.py ko`(제어코드 jp 일치)·`mc_width.py`(줄 폭)로 직접 실행(삭제된 tr_apply가 하던 검사).
+- 검수 수정: **review.html(검색→수정→JSON 내보내기) → `update_k.py` → `insert_kr.py` → `rompatcher/build.py`**. 수정 후 검증은 `ctrl_census.py ko`(제어코드 jp 일치)·`mc_width.py`(줄 폭)로 직접 실행(삭제된 tr_apply가 하던 검사).
 - review.html: 불러오기/내보내기로 고른 파일을 IndexedDB에 기억 → 내보내기가 그 파일(`work/script.json`)에 바로 덮어씀. 블록 검수완료 체크(`reviewed`)는 2026-11-08 삭제(사용자 결정). `⇨ 한글 복사` = kr을 ko로 복사. 화면 배치(2026-11-04): `#번호 · 화자` = jp칸 위, `⇨ 한글 복사` = kr칸 위, `대사만 보기` = ko칸 위, 제어 태그 버튼 = 세 칸 아래. 번역 대상 = **첫 `<start>` 앞**에 글자가 있고 개발용 라벨(`KOBITO＿HONDANA＿007`·`MINKA＿019`·`DEMO＿2＿02＿022` 등 대문자+＿, 36개 — ko 비움, "(개발용 라벨)" 표시)이 아닌 것 → 진행률 2886/2886. 데이터는 생성 시점 script.json이 HTML에 내장됨 → `make_script.py`(①)가 끝에 review.html도 재생성(2026-11-08~, 이전엔 dump.py). 열 때 script.json 자동 재읽기도 함. **script.json을 바꾼 뒤엔 열린 review.html 탭을 새로고침(F5)하고 나서 수정·내보내기**(안 하면 옛 데이터로 덮어씀, 내보내기 전 변경 감지 경고 있음).
 - **2026-11-01 미검수 블록 다듬기**: 253메시지 수정(기계적 `，`·`···` 띄어쓰기·`<start>` 뒤 꼬리 제거 136건 + 개별 148건 + `두목`→`대장` 18건). 검수 블록은 백업과 동일 확인. 직전 상태 = `upload/backup/script.before_polish_20261101.json`. `ctrl_census ko` 불일치 13건은 전부 사용자 의도 수정(2026-11-02 확인, 위 "의도된 제어코드 차이" 참고)
 - **세이브 vs 세이브스테이트**: `.sav`(게임 내 저장)는 롬과 별개라 덤프 후에도 그대로 사용 가능. 에뮬 **세이브스테이트**(강제 저장)는 RAM·VRAM 스냅샷이라 롬 패치는 적용되지만, 덤프로 대사 주소가 바뀌므로 대사창이 열린 상태에서 찍은 스테이트는 깨질 수 있음 → 필드에서 찍은 스테이트나 `.sav` 사용 권장
@@ -423,7 +423,7 @@ python tools/script_review/tr_dump.py 12 13      # 미번역 메시지: [화자]
 - ✅ **EUR 100% 세이브 적용**(`resource/roms/...(K)_ver1.1.sav`): VC 세이브 시그니처 보정 후 덮어씀(위 "세이브 파일 지역 호환" 참고)
 - ✅ **1차 검수 완료**(2026-11-04), 번역 진행률 100%(2886/2886) 덤프 반영
 - ✅ **한글 롬 패처 exe 갱신**(2026-11-04): 1차 검수본 덤프 → make_patch → `build.py` 재빌드(`tools/rompatcher/dist/MinishCap_KoreanPatch.exe`, 결과 CRC32 `7073540C`(2026-11-09), 2026-11-08 재빌드 — 제어코드 이름 변경·마지막 메시지 꼬리 정리·빈 공간 재배치·키 타일 정렬·make_script 재생성(블록76 끝 FF 2개 제거) 반영). 이후 script.json을 수정하면 같은 3단계로 다시 갱신
-- ✅ **에뮬 실기 확인·2차 검수 완료**(2026-11-08): 블록8 지명 표시(맵 이동 시 지명·일시정지 메뉴·던전 이름) 확인. 이후 수정은 review.html 수정 → JSON 내보내기 → `update_k10.py` → `insert_kr.py` → `rompatcher/build.py`
+- ✅ **에뮬 실기 확인·2차 검수 완료**(2026-11-08): 블록8 지명 표시(맵 이동 시 지명·일시정지 메뉴·던전 이름) 확인. 이후 수정은 review.html 수정 → JSON 내보내기 → `update_k.py` → `insert_kr.py` → `rompatcher/build.py`
 - ✅ 블록76 디렉토리 오류 보정 + 번역 32개(2026-10-31). 덤프 후 게임식 주소 계산 역추출 대조: 번역 2895건 불일치 0
 - ✅ 블록8 지역명: J판 치환 방식(`insert_kr.py`)으로 ko 30개 삽입·덤프 완료, 에뮬 확인 완료(2026-11-08)(문제 생기면 ko 비우면 기존 `0F 4F XX`로 복귀). 새 글자 필요 시 지명 폰트 빈칸 `52~FF`(174칸)에 글리프 추가 필요
 

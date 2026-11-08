@@ -1,8 +1,8 @@
-# [④] 번역 덤프: rom_script_cut(k1.0).zip 의 대사 전체(K 항목)와 블록8 지명 치환표를 (K)_ver1.1.gba 에 삽입
+# [④] 번역 덤프: rom_script_cut(k1.1).zip 의 대사 전체(K 항목)와 블록8 지명 치환표를 (K)_ver1.1.gba 에 삽입
 #   python tools/insert_kr.py [롬]   (기본: 최종본 (K)_ver1.1.gba 를 읽어 그 파일에 씀. 없으면 안내 후 중단, _ver0.3 안 씀)
 #   대사 영역·지명표만 바꾸고 이름개조·버그픽스·R버튼(dump.py)은 그대로 둠
-#   순서: 롬 읽기 → k1.0 zip 읽기 → tbl 2개(kor-table·kor-area) 읽기(지명 치환표) → 덤프
-#   k1.0 zip 은 script.json 에서 tools/update_k10.py 로 만듦(ko 검사도 그쪽에서). 이 단계는 script.json 을 안 읽음
+#   순서: 롬 읽기 → k1.1 zip 읽기 → tbl 2개(kor-table·kor-area) 읽기(지명 치환표) → 덤프
+#   k1.1 zip 은 script.json 에서 tools/update_k.py 로 만듦(ko 검사도 그쪽에서). 이 단계는 script.json 을 안 읽음
 #   대사 영역 0xE60000~0xEAFFFF: 먼저 전부 FF로 지우고 씀(320KB 넘치면 중단)
 import os, sys, struct, zipfile
 sys.path.insert(0, os.path.dirname(__file__))
@@ -10,7 +10,7 @@ import mc_codec as mc
 import rom_stage
 
 ROOT = rom_stage.ROOT
-K10  = os.path.join(ROOT, "resource", "script-kor", "rom_script_cut(k1.0).zip")
+K10  = os.path.join(ROOT, "resource", "script-kor", "rom_script_cut(k1.1).zip")
 KTBL = os.path.join(ROOT, "resource", "script-kor", "kor-table.tbl")
 ATBL = os.path.join(ROOT, "resource", "script-kor", "kor-area.tbl")
 TEXT_BASE = 0xE60000               # 대사 마스터 디렉토리(0x108ED8 언어0 포인터가 가리킴)
@@ -81,12 +81,12 @@ def apply(rom):
     with zipfile.ZipFile(K10) as z:
         region, master = z.read("K"), z.read("0")
     # zip 무결성: 마스터 = K 앞 320바이트, 블록 시작 16정렬, 80블록 파싱
-    assert region[:320] == master and len(master) == 320, "k1.0 zip: 0 항목과 K 항목 앞부분이 다름"
+    assert region[:320] == master and len(master) == 320, "k1.1 zip: 0 항목과 K 항목 앞부분이 다름"
     dirs = struct.unpack("<80I", master)
-    assert all(d % 16 == 0 for d in dirs) and len(region) % 16 == 0, "k1.0 zip: 16바이트 정렬 아님"
+    assert all(d % 16 == 0 for d in dirs) and len(region) % 16 == 0, "k1.1 zip: 16바이트 정렬 아님"
     nmsg = sum(len(mc.parse_block(region[d:(dirs[i + 1] if i < 79 else len(region))])[1]) for i, d in enumerate(dirs))
     capacity = TEXT_END - TEXT_BASE
-    print("  k1.0 zip: 80블록 %d메시지, 대사 %d바이트 / 용량 %d" % (nmsg, len(region), capacity))
+    print("  k1.1 zip: 80블록 %d메시지, 대사 %d바이트 / 용량 %d" % (nmsg, len(region), capacity))
     if len(region) > capacity:
         sys.exit("중단: 용량 초과(%d > %d). 스크립트 재배치 필요." % (len(region), capacity))
     rom[TEXT_BASE: TEXT_BASE + len(region)] = region   # 대사 영역은 regions 에서 이미 FF로 지워 둠

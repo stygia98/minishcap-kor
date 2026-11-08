@@ -1,0 +1,5 @@
+{
+  // .tbl(thingy 폰트 테이블)은 cp949로 저장됨 → VS Code에서 한국어 인코딩으로 열기
+  "files.associations": { "*.tbl": "tbl", "*.tbl.old": "tbl" },
+  "[tbl]": { "files.encoding": "euckr", "files.autoGuessEncoding": false }
+}

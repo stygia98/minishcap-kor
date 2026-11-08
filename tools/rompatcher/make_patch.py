@@ -5,8 +5,8 @@ import os, glob, struct, zlib, base64
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(os.path.dirname(HERE))
-J = glob.glob(os.path.join(ROOT, "roms", "*(J).gba"))[0]
-K = os.path.join(ROOT, "roms", "The Legend of Zelda - Fushigi no Boushi(K).gba")
+J = glob.glob(os.path.join(ROOT, "resource", "roms", "*(J).gba"))[0]
+K = os.path.join(ROOT, "resource", "roms", "The Legend of Zelda - Fushigi no Boushi(K)_ver1.1.gba")
 GAP = 8
 
 def runs(a, b):

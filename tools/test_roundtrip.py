@@ -1,8 +1,13 @@
-# 왕복 무결성 검증: J/K 전 메시지 decode -> encode == 원본 바이트?
+# 왕복 무결성 검증: J(cut zip)·K(최종 (K)_ver1.1.gba) 전 메시지 decode -> encode == 원본 바이트?
 import os, sys, zipfile
 sys.path.insert(0, os.path.dirname(__file__))
 import mc_codec as mc
-import build_source as bs
+import rom_stage
+
+R = rom_stage.ROOT
+JZIP = os.path.join(R, "resource", "script-japan", "rom_script_cut(j).zip")
+JTBL = os.path.join(R, "resource", "script-japan", "jp-table.tbl")
+KTBL = os.path.join(R, "resource", "script-kor", "kor-table.tbl")
 
 def check(label, blocks, tbl):
     one, two, three, leads, enc = mc.load_tbl(tbl)
@@ -25,10 +30,10 @@ def check(label, blocks, tbl):
     return bad
 
 def main():
-    with zipfile.ZipFile(bs.JZIP) as z:
-        jblocks = [z.read("%d.gba" % bn) for bn in range(1, 81)]
-    kblocks = bs.k_blocks(open(bs.KROM, "rb").read())
-    bad = check("J", jblocks, bs.JTBL) + check("K", kblocks, bs.KTBL)
+    with zipfile.ZipFile(JZIP) as z:
+        jblocks = [z.read(str(bn)) for bn in range(1, 81)]
+    kblocks = mc.k_split(rom_stage.read_final(), 0xE60000, dir_fix=False)   # 최종 (K)_ver1.1.gba 대사(덤프 결과)
+    bad = check("J", jblocks, JTBL) + check("K", kblocks, KTBL)
     sys.exit(1 if bad else 0)
 
 if __name__ == "__main__":

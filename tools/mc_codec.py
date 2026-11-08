@@ -28,10 +28,12 @@ def load_tbl(path):
                 enc.setdefault(v, bytes([c >> 16, (c >> 8) & 0xFF, c & 0xFF]))
     return one, two, three, leads, enc
 
-# 인자 있는 제어명령(게임 디코더 0x805EE28 기준, J/K 동일): 명령+인자를 토큰 하나 <이름:인자HEX>로 묶음
-CMD = {0x01: "op01", 0x02: "color", 0x03: "sound", 0x04: "center", 0x05: "select",
-       0x06: "var", 0x07: "op07", 0x08: "op08", 0x09: "op09"}
+# 인자 있는 제어명령(게임 디코더 0x805EE28 기준, J/K 동일): 명령+인자를 토큰 하나로 묶음.
+# 이름은 tbl 항목(명령+인자 통째, 예 0411=<dialog:open>) 우선, 없으면 <접두어:인자HEX>
+CMD = {0x01: "ezlo", 0x02: "color", 0x03: "sound", 0x04: "dialogbox", 0x05: "select",
+       0x06: "var", 0x07: "move", 0x08: "ocarina", 0x09: "scroll"}
 CMD_OP = {v: k for k, v in CMD.items()}
+CMD_OP["dialogalign"] = 0x04   # 04 10 YY (대사창 위치)
 CMD_TOK = re.compile(r"<([a-z0-9]+):([0-9A-F]+)>")
 
 def cmd_arglen(op, first):
@@ -52,13 +54,13 @@ def decode(data, one, two, three, leads):
         b = data[i]
         if b in CMD and i + 1 < n and i + 1 + cmd_arglen(b, data[i+1]) <= n:
             arg = data[i+1: i+1+cmd_arglen(b, data[i+1])]
-            name = two.get((b << 8) | arg[0]) if len(arg) == 1 else None
-            if b == 0x06 and arg == b"\x00":
-                out.append("<name>")
-            elif b == 0x02 and name:   # 색상은 테이블 이름 유지(<red> 등)
+            seq = int.from_bytes(bytes([b]) + arg, "big")
+            name = two.get(seq) if len(arg) == 1 else three.get(seq) if len(arg) == 2 else None
+            if name:
                 out.append(name)
             else:
-                out.append("<%s:%s>" % (CMD[b], arg.hex().upper()))
+                pre = "dialogalign" if b == 0x04 and arg[0] == 0x10 else CMD[b]
+                out.append("<%s:%s>" % (pre, arg.hex().upper()))
             i += 1 + len(arg); continue
         if b in leads:
             # 3바이트 우선, 다음 2바이트, 그다음 원시
@@ -95,7 +97,8 @@ def encode(text, enc):
                 if text.startswith(name, i):
                     out += enc[name]; i += len(name); break
             else:
-                if "<" not in enc:
+                # 영문자로 시작하는 <...> 는 태그 오타/구 이름 → '<' 글자로 넣지 말고 오류
+                if "<" not in enc or re.match(r"<[A-Za-z][^<>]*>", text[i:]):
                     raise ValueError("미지의 태그: %r (위치 %d)" % (text[i:i+12], i))
                 out += enc["<"]; i += 1   # 태그가 아니면 '<' 글자 자체
             continue
@@ -116,12 +119,32 @@ def parse_block(data):
 # → 게임에서 TEXT_TOWN_MINISH2 대사가 깨짐. 실제 시작 0x42B30(첫 포인터 0xA4=41메시지, cut(k) Untitled76 일치)
 K_DIR_FIX = {75: 0x42B30}
 
-def k_split(rom, base, last_len):
-    """원본 K롬 대사 영역 -> [블록 바이트 x80] (디렉토리 오류 보정, 마지막 블록 끝은 last_len)"""
+def msg_end(data, i):
+    """data[i]부터 메시지 하나를 게임 디코더 규칙대로 읽어 <END>(00) 다음 위치 반환.
+    제어명령 인자 안의 00(예 <white>=02 00)은 끝으로 안 봄"""
+    while True:
+        b = data[i]
+        if b == 0x00:
+            return i + 1
+        if b in CMD:
+            i += 1 + cmd_arglen(b, data[i + 1])
+        elif 0x0B <= b <= 0x0E:
+            i += 2
+        elif b == 0x0F:
+            i += 3 if data[i + 1] >= 0x40 else 2
+        else:
+            i += 1
+
+def k_split(rom, base, dir_fix=True):
+    """K롬 대사 영역 -> [블록 바이트 x80]. dir_fix=True: 원본 K해킹 디렉토리 오류 보정(덤프된 최종 롬은 False)
+    블록 끝 = 다음 블록 시작, 마지막 블록 끝 = 마지막 메시지의 <END>까지(뒤 FF 정렬 패딩은 불필요)"""
     dirs = [struct.unpack_from("<I", rom, base + i*4)[0] for i in range(80)]
-    for i, v in K_DIR_FIX.items():
+    for i, v in (K_DIR_FIX.items() if dir_fix else ()):
         dirs[i] = v
-    ends = dirs[1:] + [dirs[79] + last_len]
+    last = base + dirs[79]
+    cnt = struct.unpack_from("<I", rom, last)[0] // 4
+    last_msg = struct.unpack_from("<I", rom, last + (cnt - 1) * 4)[0]
+    ends = dirs[1:] + [msg_end(rom, last + last_msg) - base]
     return [rom[base + s: base + e] for s, e in zip(dirs, ends)]
 
 def build_block(msgs):

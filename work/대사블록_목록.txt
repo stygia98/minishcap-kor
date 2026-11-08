@@ -1,59 +1,59 @@
-젤다의 전설 신비한 모자 — 대사 블록 80개 내용 요약
+젤다의 전설 이상한 모자 — 대사 블록 80개 내용 요약
 (블록 번호 = tmc TextCategory + 1, 괄호 = 메시지 수)
 
  1  TEXT_SAVE (22)                  세이브 시스템 메시지(복사·삭제·등록 중, 데이터 손상 등)
  2  TEXT_CREDITS (29)               엔딩 스태프롤(영문 이름)
- 3  TEXT_NAMES (149)                NPC·사물 이름표(이상한 구름, 석상, 시인 포에문 등)
+ 3  TEXT_NAMES (149)                NPC·사물 이름표(이상한 구름, 이상한 석상, 시인 포엠 등)
  4  TEXT_NEWSLETTER (41)            텟신 통신 VOL.1~ (모험 도우미 책 내용)
  5  TEXT_ITEMS (125)                아이템 이름(스미스의 검, 화이트 소드 등)
  6  TEXT_ITEM_GET (151)             아이템 획득 메시지 + 설명
  7  TEXT_LOCATIONS (101)            표지판·간판 문구(방향 안내, 가게 간판, 주의문)
- 8  TEXT_WINDCRESTS (41)            바람 문장 이동·조각 맞추기 완료 메시지, 지역명 타이틀 [특수코드, 번역 보류]
+ 8  TEXT_WINDCRESTS (41)            바람 문장 이동·조각 맞추기 완료 메시지, [지명용 테이블-여기서 수정하지 말것]
  9  TEXT_FIGURINE_NAMES (138)       피규어 이름
 10  TEXT_FIGURINE_DESCRIPTIONS (141) 피규어 설명문(인물·몬스터 소개)
 11  TEXT_EMPTY (18)                 개발용 폰트 표시·테스트 메시지 [디버그]
-12  TEXT_EZLO (111)                 에젤로 전투/상황 대사(보스·적 조우 시 조언)
-13  TEXT_EZLO2 (159)                에젤로 힌트 대사(던전 진행·작아지기 안내)
+12  TEXT_EZLO (111)                 에제로 전투/상황 대사(보스·적 조우 시 조언)
+13  TEXT_EZLO2 (159)                에제로 힌트 대사(던전 진행·작아지기 안내)
 14  TEXT_MINISH (183)               픽콜(미니시) 마을 주민 대사, 조각 맞추기
 15  TEXT_KINSTONE (26)              조각 맞추기 성공 후 주민들의 "좋은 생각" 독백(이벤트 발생)
 16  TEXT_PICORI (8)                 오프닝 전설 내레이션(픽콜과 용사, 포스)
-17  TEXT_PROLOGUE (115)             프롤로그(스미스·젤다·축제, 무술대회, 구프 등장, 젤다 석화)
-18  TEXT_FINDING_EZLO (63)          숲에서 에젤로와 만남, 동행 시작
+17  TEXT_PROLOGUE (115)             프롤로그(스미스·젤다·축제, 무술 대회, 구프 등장, 젤다 석화)
+18  TEXT_FINDING_EZLO (63)          숲에서 에제로와 만남, 동행 시작
 19  TEXT_MINISH2 (101)              조각 맞추기 튜토리얼(조각 주머니 아저씨) 등
-20  TEXT_VAATI (49)                 구프와 에젤로의 대면(저주·소원의 모자 사연)
-21  TEXT_GUSTAF (7)                 옛 하이랄 왕 구스타프의 영혼 계시
-22  TEXT_PANEL_TUTORIAL (9)         분신 판·성역·엘레멘트 받침대 안내(에젤로)
+20  TEXT_VAATI (49)                 구프와 에제로의 대면(저주·소원의 모자 사연)
+21  TEXT_GUSTAF (7)                 왕가의 영혼 구스타프의 계시
+22  TEXT_PANEL_TUTORIAL (9)         분신 발판·성역·엘레멘트 받침대 안내(에제로)
 23  TEXT_VAATI2 (104)               후반 스토리(포스의 방, 구프의 정체, 최종 결전 전후)
 24  TEXT_GUSTAF2 (6)                구스타프 두 번째 계시(물의 원류), 비문
 25  TEXT_EMPTY2 (1)                 빈 블록
 26  TEXT_EMPTY3 (1)                 빈 블록
 27  TEXT_FARMERS (33)               농부들(말끝 "베이베"), 조각 맞추기
-28  TEXT_CARPENTERS (40)            목수 두목 무토와 목수들(마을 수리)
-29  TEXT_EZLO_ELEMENTS_DONE (6)     엘레멘트 획득 직후 에젤로 대사
+28  TEXT_CARPENTERS (40)            목수 대장 무토와 목수들(마을 수리)
+29  TEXT_EZLO_ELEMENTS_DONE (6)     엘레멘트 획득 직후 에제로 대사
 30  TEXT_GORONS (13)                고론족(말끝 "고로"), 방패 먹기
 31  TEXT_EMPTY4 (1)                 빈 블록
 32  TEXT_BELARI (61)                아이템 발명가(폭탄·온천물 실험)
-33  TEXT_LON_LON (25)               론론 목장(탈론·말론, 여벌 열쇠, 우유)
+33  TEXT_LON_LON (25)               론론 목장(타론·마론, 여분 열쇠, 우유)
 34  TEXT_FOREST_MINISH (79)         숲의 픽콜 마을 주민들(도구 만들기, 장로)
-35  TEXT_EZLO_PORTAL (4)            작아지는 입구(포털) 설명 — 에젤로
-36  TEXT_PERCY (22)                 시인 포에문·늪 근처 인물(말끝 "모") 등
+35  TEXT_EZLO_PORTAL (4)            작아지는 입구(포털) 설명 — 에제로
+36  TEXT_PERCY (22)                 시인 포엠·늪 근처 인물(말끝 "모") 등
 37  TEXT_BREAK_VAATI_CURSE (17)     석화 해제 후 병사·대신들, 왕 구출
 38  TEXT_FESTIVAL (40)              픽콜 축제 구경(젤다와 함께)
 39  TEXT_EMPTY5 (1)                 빈 블록
-40  TEXT_TREASURE_GUARDIAN (2)      보물 가디언 조우 시 에젤로
-41  TEXT_DAMPE (11)                 묘지기 단페이(왕가의 묘, 까마귀 열쇠)
-42  TEXT_BUSINESS_SCRUB (23)        장사꾼 데쿠스크럽(말끝 "삐"), 물건 판매
+40  TEXT_TREASURE_GUARDIAN (2)      보물 가디언 조우 시 에제로
+41  TEXT_DAMPE (11)                 묘지기 단페이(왕가의 묘, 까마귀·무덤 입구 열쇠)
+42  TEXT_BUSINESS_SCRUB (23)        상인 넛츠(말끝 "삐"), 물건 판매
 43  TEXT_EMPTY6 (1)                 빈 블록
 44  TEXT_PICOLYTE (31)              치롭(물약 종류별 효과 설명)
-45  TEXT_STOCKWELL (38)             잡화점 주인(말끝 "해"), 상품 안내
-46  TEXT_SYRUP (14)                 마녀 시럽의 가게(빨간·파란 약)
+45  TEXT_STOCKWELL (38)             도구점 주인(말끝 "해"), 상품 안내
+46  TEXT_SYRUP (14)                 마법사 시럽의 가게(빨간·파란 약)
 47  TEXT_ITEM_PRICES (26)           상점 가격표
-48  TEXT_WIND_TRIBE (27)            바람의 일족·가스토 할아버지(악령 퇴치)
-49  TEXT_ANJU (21)                  안주의 꼬꼬 잡기 미니게임
-50  TEXT_GORMAN_ORACLES (51)        부동산업자 고먼, 집 소개 이벤트 등
+48  TEXT_WIND_TRIBE (27)            바람의 부족·가스트 할아버지(악령 퇴치)
+49  TEXT_ANJU (21)                  안쥬의 꼬꼬 잡기 미니게임
+50  TEXT_GORMAN_ORACLES (51)        부동산업자 고맨, 집 소개 이벤트 등
 51  TEXT_SMITH (12)                 스미스 할아버지(진행도별 힌트)
 52  TEXT_PHONOGRAPH (3)             축음기(음악 감상)
-53  TEXT_TOWN (61)                  하이랄 마을 주민 1(축제·검기 시험 등)
+53  TEXT_TOWN (61)                  하이랄 마을 주민 1(축제·검술 시험 등)
 54  TEXT_TOWN2 (64)                 하이랄 마을 주민 2(진행 단계별 대사, 고양이·유령 놀이)
 55  TEXT_TOWN3 (67)                 하이랄 마을 주민 3(진행 단계별)
 56  TEXT_TOWN4 (66)                 하이랄 마을 주민 4(진행 단계별)
@@ -61,18 +61,18 @@
 58  TEXT_TOWN6 (55)                 하이랄 마을 주민 6(피난 분위기)
 59  TEXT_TOWN7 (20)                 마물 습격 후 마을(병사·남은 주민)
 60  TEXT_MILK (20)                  론론 우유 판매원
-61  TEXT_BAKERY (13)                빵집(베이킨·파우다), 행운의 빵
-62  TEXT_SIMON (29)                 마로 상회 "꿈속에서 마물과 싸우기" 서비스(말끝 "~유")
+61  TEXT_BAKERY (13)                빵집(베이킹·파우더), 럭키 빵
+62  TEXT_SIMON (29)                 마로 가게 "꿈속에서 마물과 싸우기" 서비스(말끝 "~유")
 63  TEXT_SCHOOL (13)                학교 선생님·학생(점심시간)
-64  TEXT_TINGLE (61)                팅글과 형제들, 조각 맞추기
-65  TEXT_POST (19)                  우체국(텟신 통신 신청), 우체부 노래
-66  TEXT_MUTOH (6)                  목수 두목 무토(노련한 장인)
+64  TEXT_TINGLE (61)                팅클과 형제들, 조각 맞추기
+65  TEXT_POST (19)                  우체국(텟신 통신 신청), 포스트맨 노래
+66  TEXT_MUTOH (6)                  목수 대장 무토(노련한 장인)
 67  TEXT_BURLOV (41)                보물상자 가게(운 시험 미니게임)
 68  TEXT_CARLOV (51)                피규어 장인 카를로프(조개껍데기 제비뽑기)
 69  TEXT_REM (38)                   신발 가게 렘(잠꾸러기, 페가수스 신발)
 70  TEXT_HAPPY_HEARTH (48)          여관(방 등급별 숙박)
-71  TEXT_BLADE_MASTERS (104)        텟신 형제들의 검기 도장(말끝 "~느니라")
-72  TEXT_ANSWER_HOUSE (46)          답변의 집·카페 손님 등, 조각 맞추기
+71  TEXT_BLADE_MASTERS (104)        텟신 형제들의 텟신 도장(검술, 말끝 "~느니라")
+72  TEXT_ANSWER_HOUSE (46)          해답의 집·카페 손님 등, 조각 맞추기
 73  TEXT_UNK_WISE (9)               소식통 "특종 군", 벽난로 집
 74  TEXT_LIBRARY (23)               도서관 사서(미반납 책 3권 찾기)
 75  TEXT_TOWN_MINISH1 (40)          도서관 책장의 픽콜들, 부크타 장로(뇨호호)·조슈 [끝 #39는 바이너리]

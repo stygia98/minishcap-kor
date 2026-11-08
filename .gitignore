@@ -1,5 +1,5 @@
 # 롬·세이브 (저작물·대용량, 덤프로 재생성)
-roms/
+resource/roms/
 *.gba
 *.sav
 *.bak
@@ -15,14 +15,14 @@ __pycache__/
 build/
 dist/
 
-# 자동 생성(dump.py가 매번 재생성)
-work/review.html
-
 # 날짜 백업(git 이력으로 대체)
-work/backup/
+upload/backup/
+
+# 롬 분석 메모(개인 자료)
+resource/rom address/
 
 # 외부 도구(에뮬레이터·그래픽 편집기)
 upload/Vba/
 upload/yy-chr2/
-upload/rom address/
 upload/trans-kor/
+CLAUDE.local.md

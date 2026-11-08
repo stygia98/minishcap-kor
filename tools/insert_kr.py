@@ -1,111 +1,100 @@
-# 3단계: work/script.json 의 번역을 K롬에 삽입(덤프)
-# 규칙: 블록별로 메시지 재조립. ko 비었으면 원본 K 바이트 보존, special 블록은 통째 보존.
-#       마스터 디렉토리(0xE60000, 80엔트리, BASE 상대 오프셋) 재계산. 원본 footprint 안에 들어가면 안전,
-#       넘치면 뒤쪽 0xFF 패딩 여유분까지 사용(그래도 넘치면 중단 -> 재배치 필요).
-import os, sys, json, struct, zipfile, re
+# [④] 번역 덤프: rom_script_cut(k1.0).zip 의 대사 전체(K 항목)와 블록8 지명 치환표를 (K)_ver1.1.gba 에 삽입
+#   python tools/insert_kr.py [롬]   (기본: 최종본 (K)_ver1.1.gba 를 읽어 그 파일에 씀. 없으면 안내 후 중단, _ver0.3 안 씀)
+#   대사 영역·지명표만 바꾸고 이름개조·버그픽스·R버튼(dump.py)은 그대로 둠
+#   순서: 롬 읽기 → k1.0 zip 읽기 → tbl 2개(kor-table·kor-area) 읽기(지명 치환표) → 덤프
+#   k1.0 zip 은 script.json 에서 tools/update_k10.py 로 만듦(ko 검사도 그쪽에서). 이 단계는 script.json 을 안 읽음
+#   대사 영역 0xE60000~0xEAFFFF: 먼저 전부 FF로 지우고 씀(320KB 넘치면 중단)
+import os, sys, struct, zipfile
 sys.path.insert(0, os.path.dirname(__file__))
 import mc_codec as mc
+import rom_stage
 
-# 원시 {0B..}~{0F..} 는 J 폰트 글자(B버튼 아이콘 등)라 제어 비교에서 제외
-TOK = re.compile(r"<[^<>]+>|\{(?!0[B-Fb-f])[0-9A-Fa-f]{2,6}\}")
+ROOT = rom_stage.ROOT
+K10  = os.path.join(ROOT, "resource", "script-kor", "rom_script_cut(k1.0).zip")
+KTBL = os.path.join(ROOT, "resource", "script-kor", "kor-table.tbl")
+ATBL = os.path.join(ROOT, "resource", "script-kor", "kor-area.tbl")
+TEXT_BASE = 0xE60000               # 대사 마스터 디렉토리(0x108ED8 언어0 포인터가 가리킴)
+TEXT_END = 0xEB0000                # 대사 영역 끝(사용자 지정 2026-11-08, 320KB — 원본 약 286KB라 충분). 뒤는 미사용
 
-def ctrl_tokens(s):
-    """제어 토큰(<...>, {..})만 순서대로. <BR>은 줄바꿈이라 비교에서 제외(번역이 바꿀 수 있음)."""
-    if "<start>" in s:  # 첫 <start> 뒤는 블록 정렬 패딩(00…+FF…) → 비교 제외
-        s = s[:s.index("<start>") + len("<start>")]
-    return [t for t in TOK.findall(s) if t != "<BR>"]
+# 블록8 지명 글자 치환표 (J판 방식 복원)
+#   지명 표시 모드(텍스트 상태 bit5-6 == 1)에서 글자마다 0x805F7E0 호출:
+#     언어(0x2000007)==0 이면 치환표(리터럴 0x5F804 → 원본 K 0xE4F000, u16 글자코드, 0 종료)를 검색해
+#     i번째에서 찾으면 지명 폰트 page8(0xE58000)의 i번 글리프, 못 찾으면 (코드 & 0xFF)번 글리프
+#   원본 K해킹은 표가 엉터리(글리프와 무관한 코드)라 지명을 0F 4F XX(=0x18XX → 못 찾음 → XX번)로 직접 지정했음
+#   → 표를 kor-area.tbl 글리프 순서의 "일반 한글 코드"로 다시 채우면 블록8 지명을 평범한 한글로 쓸 수 있음
+#     (기존 0F 4F XX 지명도 예비 경로로 그대로 표시됨)
+#   글자코드 = 디코더 값: 1바이트 b → 0x100|b, 0B~0E xx → ((b&7)+1)<<8|xx, 0F xx(<30) → 0x200|xx,
+#              0F 3x → 0x300|x, 0F 4n xx → (9+n)<<8|xx
+AREA_TABLE_LIT = 0x5F804           # 치환표 주소 리터럴(롬 전체에서 이 한 곳만 참조)
+AREA_TABLE_OLD = 0xE4F000          # 원본 K해킹의 표(엉터리) — 최종본에서는 FF로 지움
+AREA_TABLE_OLD_END = 0xE50000
+AREA_TABLE_OFF = 0xE57C00          # 새 표 자리(_ver0.3 FF), 사용자 지정 2026-11-08
+AREA_TABLE_END = 0xE58000          # 뒤는 지명 폰트 page8 글리프
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SRC  = os.path.join(ROOT, "work", "script.json")
-KTBL = os.path.join(ROOT, "script-kor", "kor-table.tbl")
-KROM = os.path.join(ROOT, "roms", "The Legend of Zelda - Fushigi no Boushi(K)_base.gba")
-KCUT = os.path.join(ROOT, "script-kor", "rom_script_cut(k).zip")
-DEFAULT_OUT = os.path.join(ROOT, "roms", "The Legend of Zelda - Fushigi no Boushi(K)_edit.gba")
+def area_chars():
+    """kor-area.tbl -> 글리프 순서 글자 목록(인덱스 = 글리프 번호)"""
+    out = []
+    for line in open(ATBL, encoding="cp949").read().splitlines():
+        if "=" in line:
+            k, v = line.split("=", 1)
+            assert int(k[4:], 16) == len(out), "kor-area.tbl 순서 오류: " + line
+            out.append(v)
+    return out
 
-def last_block_len():
-    with zipfile.ZipFile(KCUT) as z:
-        return len(z.read("80.gba"))
+def char_code(b):
+    if len(b) == 1:
+        return 0x100 | b[0]
+    if len(b) == 2 and 0x0B <= b[0] <= 0x0E:
+        return ((b[0] & 7) + 1) << 8 | b[1]
+    if len(b) == 2 and b[0] == 0x0F:
+        return 0x200 | b[1] if b[1] < 0x30 else 0x300 | (b[1] & 0xF)
+    if len(b) == 3 and b[0] == 0x0F:
+        return (9 + (b[1] & 0xF)) << 8 | b[2]
+    raise ValueError(b.hex())
 
-def main(out_path):
-    data = json.load(open(SRC, encoding="utf-8"))
-    base = int(data["base"], 16)
-    _, _, _, _, enc = mc.load_tbl(KTBL)
-    kr = open(KROM, "rb").read()
-    last_len = last_block_len()
-    orig_total = struct.unpack_from("<I", kr, base + 79*4)[0] + last_len
-    # 원본 K 블록 바이트(80개, 블록76 디렉토리 오류 보정 포함)
-    korig = mc.k_split(kr, base, last_len)
+AREA_OLD_CODES = [0xFFFF, 0x021A, 0x0210]   # 원본 K 옛 표 앞 3칸(●·◎ 는 한글 테이블에 없어 이 값 유지)
 
-    new_blocks = []
-    changed = 0
-    warns = []
-    for blk in data["blocks"]:
-        bn = blk["n"]
-        ob = korig[bn-1]
-        if blk.get("special"):
-            new_blocks.append(ob)
-            continue
-        _, omsgs = mc.parse_block(ob)
-        msgs = []
-        for i, m in enumerate(blk["msgs"]):
-            ko = m.get("ko", "").replace("\r", "").replace("\n", "")  # 표시용 줄바꿈 제거(줄은 <BR>로만)
-            if ko.strip():
-                # 안전장치: 제어 토큰(명령+인자 통째)이 일본어 원문과 다르면 경고
-                # (현재 한글은 제어코드 파손이 있어 기준으로 부적합 — ctrl_census.py 참고)
-                ref = m.get("jp") or ""
-                if ctrl_tokens(ko) != ctrl_tokens(ref):
-                    warns.append((bn, i, ctrl_tokens(ref), ctrl_tokens(ko)))
-                try:
-                    msgs.append(mc.encode(ko, enc))
-                    changed += 1
-                except Exception as e:
-                    print("  인코딩 실패 블록%d #%d: %s" % (bn, i, e))
-                    msgs.append(omsgs[i])   # 실패 시 원본 유지
-            else:
-                msgs.append(omsgs[i] if i < len(omsgs) else b"")
-        nb = mc.build_block(msgs)
-        # 원본처럼 블록을 16바이트 경계로 FF 패딩(GBA ldr은 정렬 필수 — 어긋나면 포인터 테이블이 깨짐)
-        new_blocks.append(nb + b"\xFF" * (-len(nb) % 16))
+def area_table(rom):
+    enc = mc.load_tbl(KTBL)[4]
+    assert struct.unpack_from("<I", rom, AREA_TABLE_LIT)[0] in (0x8000000 + AREA_TABLE_OLD, 0x8000000 + AREA_TABLE_OFF), "치환표 포인터 불일치"
+    old = AREA_OLD_CODES
+    codes = []
+    for i, ch in enumerate(area_chars()):
+        try:
+            codes.append(char_code(mc.encode(ch, enc)))
+        except Exception:                       # ●·◎ 등 한글 테이블에 없는 기호 → 원본 K 표 값 유지
+            codes.append(old[i] if i < len(old) else 0xFFFF)
+    assert len(set(codes)) == len(codes), "치환표 코드 중복"
+    data = struct.pack("<%dH" % (len(codes) + 1), *codes, 0)
+    assert AREA_TABLE_OFF + len(data) <= AREA_TABLE_END
+    assert rom[AREA_TABLE_OFF:AREA_TABLE_END] == b"\xff" * (AREA_TABLE_END - AREA_TABLE_OFF), "치환표 자리가 비어 있지 않음"
+    rom[AREA_TABLE_OFF: AREA_TABLE_OFF + len(data)] = data
+    struct.pack_into("<I", rom, AREA_TABLE_LIT, 0x8000000 + AREA_TABLE_OFF)
+    print("  지명 치환표: %d글자 @0x%X (J판 방식, 옛 표 0x%X 지움)" % (len(codes), AREA_TABLE_OFF, AREA_TABLE_OLD))
 
-    # 영역 재조립: [80엔트리 디렉토리][블록들]
-    head = 80 * 4
-    off = head
-    diro = []
-    for b in new_blocks:
-        diro.append(off); off += len(b)
-    new_total = off
-    region = bytearray()
-    for d in diro:
-        region += struct.pack("<I", d)
-    for b in new_blocks:
-        region += b
-    assert len(region) == new_total
+def regions(rom):
+    """적용 전 FF로 지우는 구간: 대사 영역 전체 + 지명 치환표 새 자리 + 옛 표(안 쓰므로 지움)
+    (포인터 0x5F804 는 area_table 이 원래/새 값 확인 후 씀)"""
+    return [(TEXT_BASE, TEXT_END), (AREA_TABLE_OFF, AREA_TABLE_END), (AREA_TABLE_OLD, AREA_TABLE_OLD_END)]
 
-    # 용량 검사: 원본 footprint + 뒤쪽 0xFF 패딩 여유
-    free_end = base + orig_total
-    while free_end < len(kr) and kr[free_end] == 0xFF:
-        free_end += 1
-    capacity = free_end - base
-    print("원본 영역=%d, 새 영역=%d, 여유포함 용량=%d" % (orig_total, new_total, capacity))
-    if new_total > capacity:
-        sys.exit("중단: 용량 초과(%d > %d). 스크립트 재배치 필요." % (new_total, capacity))
+def apply(rom):
+    with zipfile.ZipFile(K10) as z:
+        region, master = z.read("K"), z.read("0")
+    # zip 무결성: 마스터 = K 앞 320바이트, 블록 시작 16정렬, 80블록 파싱
+    assert region[:320] == master and len(master) == 320, "k1.0 zip: 0 항목과 K 항목 앞부분이 다름"
+    dirs = struct.unpack("<80I", master)
+    assert all(d % 16 == 0 for d in dirs) and len(region) % 16 == 0, "k1.0 zip: 16바이트 정렬 아님"
+    nmsg = sum(len(mc.parse_block(region[d:(dirs[i + 1] if i < 79 else len(region))])[1]) for i, d in enumerate(dirs))
+    capacity = TEXT_END - TEXT_BASE
+    print("  k1.0 zip: 80블록 %d메시지, 대사 %d바이트 / 용량 %d" % (nmsg, len(region), capacity))
+    if len(region) > capacity:
+        sys.exit("중단: 용량 초과(%d > %d). 스크립트 재배치 필요." % (len(region), capacity))
+    rom[TEXT_BASE: TEXT_BASE + len(region)] = region   # 대사 영역은 regions 에서 이미 FF로 지워 둠
+    area_table(rom)
+    return rom
 
-    out = bytearray(kr)
-    out[base: base + new_total] = region
-    if new_total < orig_total:   # 줄어든 부분은 0xFF로 청소
-        out[base + new_total: base + orig_total] = b"\xFF" * (orig_total - new_total)
-
-    with open(out_path, "wb") as f:
-        f.write(out)
-    diff = sum(1 for i in range(len(kr)) if out[i] != kr[i])
-    print("덤프 완료: %s" % out_path)
-    print("  교체 메시지 %d개, 원본 대비 바이트 차이 %d" % (changed, diff))
-    if warns:
-        print("  ⚠ 제어 토큰 불일치 %d건(번역 실수 가능 — 원본 제어코드 보존 필요):" % len(warns))
-        for bn, i, ref, ko in warns[:20]:
-            print("    블록%d #%d: 원본%s != 번역%s" % (bn, i, ref, ko))
-        if len(warns) > 20:
-            print("    ... 외 %d건" % (len(warns) - 20))
+def main(src=None, dst=rom_stage.FINAL):
+    return rom_stage.run("번역 덤프", regions, apply, src, dst)
 
 if __name__ == "__main__":
-    main(sys.argv[1] if len(sys.argv) > 1 else DEFAULT_OUT)
+    main(dst=sys.argv[1] if len(sys.argv) > 1 else rom_stage.FINAL)

@@ -6,6 +6,7 @@ from tkinter import filedialog, messagebox
 import patch_data as P
 
 TITLE = "젤다 이상한모자 한글 패치"
+OUT_NAME = "The Legend of Zelda - Fushigi no Boushi(K)_ver1.1.gba"   # 결과 롬 기본 파일명
 
 README = (
     "[ 한글 패치 방법 ]\n"
@@ -71,11 +72,11 @@ class App(tk.Frame):
         if path:
             self.src.set(path)
             if not self.dst.get():
-                self.dst.set(os.path.join(os.path.dirname(path), "The Legend of Zelda - Fushigi no Boushi(K).gba"))
+                self.dst.set(os.path.join(os.path.dirname(path), OUT_NAME))
 
     def pick_dst(self):
         path = filedialog.asksaveasfilename(title="한글판 롬 저장", defaultextension=".gba",
-                                            initialfile="The Legend of Zelda - Fushigi no Boushi(K).gba", filetypes=[("GBA 롬", "*.gba")])
+                                            initialfile=OUT_NAME, filetypes=[("GBA 롬", "*.gba")])
         if path:
             self.dst.set(path)
 

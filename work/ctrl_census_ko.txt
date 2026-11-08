@@ -1,39 +1,43 @@
 제어코드 전수 조사: jp vs ko
 종류        jp     ko
+  <END>       3654  3654
+  <black>       17    17
   <blue>       501   489
-  <center>     136   136
-  <color>       17    17
-  <colorEnd>  1899  1886
-  <green>      662   662
+  <dialog>      13    13
+  <dialogalign>   117   117
+  <dialogbox>     8     9
+  <ezlo>       109   109
+  <green>      662   663
+  <move>        71    71
   <name>       198   198
-  <op01>       109   109
-  <op07>        71    71
-  <op09>         5     5
   <red>        763   760
+  <scroll>       5     5
   <select>     230   230
   <sound>      831   831
-  <start>     2943  2943
-  <var>         75    75
-불일치 메시지: 13
+  <var>         76    76
+  <white>     1899  1887
+불일치 메시지: 14
 
 블록2 #18
-   insert  jp[] -> ko[<green> <colorEnd>]
+   insert  jp[] -> ko[<green> <white> <green> <white>]
 블록6 #81
-   delete  jp[<blue> <colorEnd>] -> ko[]
+   delete  jp[<blue> <white>] -> ko[]
 블록24 #1
-   replace jp[<colorEnd>] -> ko[<green>]
-   delete  jp[<blue> <colorEnd> <green> <blue>] -> ko[]
+   replace jp[<white>] -> ko[<green>]
+   delete  jp[<blue> <white> <green> <blue>] -> ko[]
 블록24 #2
-   replace jp[<colorEnd>] -> ko[<red> <blue> <green>]
-   delete  jp[<blue> <colorEnd> <green> <blue> <colorEnd> <blue>] -> ko[]
+   replace jp[<white>] -> ko[<red> <blue> <green>]
+   delete  jp[<blue> <white> <green> <blue> <white> <blue>] -> ko[]
 블록35 #3
-   delete  jp[<blue> <colorEnd>] -> ko[]
+   delete  jp[<blue> <white>] -> ko[]
 블록48 #11
    delete  jp[<blue>] -> ko[]
+블록52 #1
+   insert  jp[] -> ko[<dialogbox:05>]
 블록58 #29
-   delete  jp[<green> <colorEnd>] -> ko[]
+   delete  jp[<green> <white>] -> ko[]
 블록68 #21
-   delete  jp[<blue> <colorEnd> <blue> <colorEnd>] -> ko[]
+   delete  jp[<blue> <white> <blue> <white>] -> ko[]
 블록71 #36
    delete  jp[<blue>] -> ko[]
 블록71 #45
@@ -41,6 +45,6 @@
 블록71 #54
    delete  jp[<blue>] -> ko[]
 블록71 #59
-   delete  jp[<red> <colorEnd> <red> <colorEnd>] -> ko[]
+   delete  jp[<red> <white> <red> <white>] -> ko[]
 블록71 #68
-   delete  jp[<red> <colorEnd> <red> <colorEnd>] -> ko[]
+   delete  jp[<red> <white> <red> <white>] -> ko[]

@@ -1,6 +1,6 @@
-# 한글 패치 통합 도구 exe 빌드 (아이콘 생성 + 불필요 모듈 제외로 용량 축소)
-#   사용: python tools/rompatcher/build.py   → tools/rompatcher/dist/MinishCap_KoreanPatch.exe
-#   패치 내용을 바꿨으면 먼저 python tools/rompatcher/make_patch.py
+# 한글 패치 통합 도구 exe 빌드 (아이콘 = app.ico·shell.ico, 불필요 모듈 제외로 용량 축소)
+#   [⑤] python tools/rompatcher/build.py   → 최종 K롬에서 패치 데이터 생성(make_patch) 후 exe 빌드
+#       → tools/rompatcher/dist/MinishCap_KoreanPatch.exe
 import os, sys, subprocess
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -18,10 +18,13 @@ EXCLUDE = [
 ]
 
 def main():
-    subprocess.check_call([sys.executable, os.path.join(HERE, "make_icons.py")])
+    # 패치 데이터(patch_data.py)를 지금 최종 롬 기준으로 다시 만든 뒤 빌드(자체 검증 포함)
+    subprocess.check_call([sys.executable, os.path.join(HERE, "make_patch.py")], cwd=HERE)
+    # 아이콘: app.ico = 실행 파일, shell.ico = 창 제목(exe에 동봉, minishcap_tool이 실행 시 읽음)
     cmd = [sys.executable, "-m", "PyInstaller", "--noconfirm", "--onefile", "--windowed",
            "--name", "MinishCap_KoreanPatch", "--icon", os.path.join(HERE, "app.ico"),
-           "--paths", os.path.join(os.path.dirname(HERE), "savename"),
+           "--add-data", os.path.join(HERE, "shell.ico") + os.pathsep + ".",
+           "--paths", os.path.join(os.path.dirname(HERE), "name_editer"),
            "--distpath", os.path.join(HERE, "dist"), "--workpath", os.path.join(HERE, "build"),
            "--specpath", os.path.join(HERE, "build")]
     for m in EXCLUDE:

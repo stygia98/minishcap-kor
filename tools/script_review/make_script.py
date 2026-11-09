@@ -39,7 +39,9 @@ def build():
 def main():
     data = build()
     if os.path.exists(OUT):
-        bak = os.path.join(R, "upload", "backup", "script.before_make_script_%s.json" % time.strftime("%Y%m%d_%H%M%S"))
+        bak_dir = os.path.join(R, "upload", "backup")
+        os.makedirs(bak_dir, exist_ok=True)                  # 백업 폴더가 없으면 만듦
+        bak = os.path.join(bak_dir, "script.before_make_script_%s.json" % time.strftime("%Y%m%d_%H%M%S"))
         shutil.copy2(OUT, bak)
         print("기존 script.json 백업:", bak)
     with open(OUT, "w", encoding="utf-8") as f:            # review.html 내보내기와 같은 압축 JSON

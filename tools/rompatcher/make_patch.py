@@ -52,6 +52,8 @@ def main():
         for i in range(0, len(s), 120):
             f.write('    "%s"\n' % s[i:i + 120])
         f.write(")\n")
+        hist = open(os.path.join(ROOT, "CHANGELOG.md"), encoding="utf-8").read()   # [패치 이력] 탭 내용
+        f.write("HISTORY = %r\n" % hist)
     print("구간 %d개, 원본 %d바이트 → 압축 %d바이트" % (cnt, len(body), len(comp)))
     print("J CRC %08X → K CRC %08X" % (zlib.crc32(j), zlib.crc32(k)))
 

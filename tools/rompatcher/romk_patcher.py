@@ -64,7 +64,6 @@ class App(tk.Frame):
         # 아래 빈 공간 = 사용 설명(통합 도구에서는 세이브 탭 높이만큼 늘어남)
         rm = tk.LabelFrame(f, text=" Read Me ", padx=10, pady=6)
         rm.grid(row=6, column=0, columnspan=2, sticky="nsew", pady=(12, 0))
-        tk.Label(rm, text="[한글화:stygia]", fg="#666", anchor="e").pack(side="bottom", fill="x")
         tk.Label(rm, text=README % P.J_CRC, justify="left", anchor="nw", fg="#333").pack(fill="both", expand=True)
 
     def pick_src(self):

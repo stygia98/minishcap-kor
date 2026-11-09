@@ -363,7 +363,7 @@ python tools/unicorn/test_kor_char_sys.py                          # unicorn으�
 `tools/rompatcher/dist/MinishCap_KoreanPatch.exe`(창 제목 "젤다 이상한모자 한글 패치") = **통합 도구**(`minishcap_tool.py`): 탭1 한글 패치(`romk_patcher.App`), 탭2 세이브 이름 수정(`name_editer.App`, 아래 섹션). 두 화면 모두 `tk.Frame`이라 단독 실행(`python romk_patcher.py` / `python name_editer.py`)도 가능.
 
 - 한글 패치 탭: 일본어판 원본 롬을 고르면 내장 변경분을 덮어써 새 한글판 롬을 만듦(원본은 그대로). 원본 CRC32 `6CE771A5`(16MB, 1743 일본판)가 아니면 거부, 결과 CRC32도 검증.
-- **롬을 바꿀 때마다 패치도 다시 만들어야 함**: `insert_kr.py`(대사) 또는 `dump.py`(롬 개조) → `python tools/rompatcher/build.py`(먼저 `make_patch.py`로 J↔최종 K 차이 → `patch_data.py` 생성·자체 검증, 이어서 PyInstaller, 불필요 표준 라이브러리 제외 목록 `EXCLUDE` 포함 → 약 9MB). **아이콘은 `tools/rompatcher/`의 `app.ico`(실행 파일)·`shell.ico`(창 제목, exe에 동봉 → `minishcap_tool`이 `iconbitmap`으로 읽음)**. 두 .ico는 `resource/image/TMC_Ezlo_Sprite_2.png`(첫 프레임)·`TMC_Mysterious_Shell_Sprite.webp`에서 2026-11-08 한 번 만든 완성본(생성 스크립트 삭제). 새 기능에서 표준 모듈을 쓰게 되면 `EXCLUDE`에서 빼야 함
+- **롬을 바꿀 때마다 패치도 다시 만들어야 함**: `insert_kr.py`(대사) 또는 `dump.py`(롬 개조) → `python tools/rompatcher/build.py`(먼저 `make_patch.py`로 J↔최종 K 차이 → `patch_data.py` 생성·자체 검증, 이어서 PyInstaller, 불필요 표준 라이브러리 제외 목록 `EXCLUDE` 포함 → 약 9MB). **아이콘은 `tools/rompatcher/`의 `app.ico`(실행 파일)·`shell.ico`(창 제목, exe에 동봉 → `minishcap_tool`이 `iconbitmap`으로 읽음)**. 두 .ico는 `resource/image/TMC_Ezlo_Sprite_2.png`(첫 프레임)·`TMC_Mysterious_Shell_Sprite.webp`에서 2026-11-08 한 번 만든 완성본(생성 스크립트·원본 이미지 삭제, 이미지는 2026-11-10 git 이력에서도 제거). 새 기능에서 표준 모듈을 쓰게 되면 `EXCLUDE`에서 빼야 함
 - 패치 형식: zlib(`'MCKP'` + [오프셋 u32·길이 u32·바이트]\*, 8바이트 이하 틈은 합침) → base64로 `patch_data.py`에 내장. 2026-11-09 결과 CRC32 `7073540C`(대사 갱신 + 조각 맞추기 이름 + 바아티3 낙하 + 의식 타이머 + 마자르 잡기 수정 반영)
 
 ## 세이브 이름 수정기 (GUI exe)

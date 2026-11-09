@@ -1,5 +1,6 @@
 # 롬·세이브 (저작물·대용량, 덤프로 재생성)
-resource/roms/
+resource/roms/*
+!resource/roms/.gitkeep
 *.gba
 *.sav
 *.bak

@@ -30,9 +30,9 @@ resource/                           프로젝트 자료(git 추적)
     kor-area.tbl                    블록8 지역명 전용 폰트 테이블(0F4F00~51, cp949)
   image/                            에뮬 스크린샷(오류·이름 입력 화면 등)
   log/                              에뮬 로그(VBA-M, 회오리 버그 분석)
-  roms/                             정식판 J/E/U + 해킹판 K/T-Chi(중국어), 세이브·스테이트 (git 제외, 2026-11-08 upload/에서 이동)
+  roms/                             정식판 J/E/U + 해킹판 K/T-Chi(중국어), 세이브·스테이트 (git 제외, 빈 폴더 유지용 `.gitkeep`만 추적, 2026-11-08 upload/에서 이동)
     ...(K)_ver0.3.gba               원본 K해킹롬(J기반, 보존용, 2026-11-08 `_base`에서 이름 변경). tools 프로그램은 전혀 안 씀
-                                    ((K)_ver1.1.gba가 없을 때 처음 한 번 직접 복사해 만드는 출발점). 사용자가 직접 수정(2026-11-08):
+                                    (완전히 처음부터 다시 만들 때 직접 복사하는 출발점. 보통은 J롬 + 패처 exe로 (K)_ver1.1.gba를 만듦). 사용자가 직접 수정(2026-11-08):
                                     빈 글리프 칸 FF→00 — page14 한글 0x40~0xDF(`0xE4A000~0xE4EFFF`), 지명 폰트 0x52~0x7F(`0xE5A900~0xE5BFFF`)
     ...(K)_ver1.1.gba                      최종본(번역+이름개조+버그픽스, dump.py가 매번 생성·플레이용)
 upload/                             외부 자료(대부분 git 제외)
@@ -127,7 +127,8 @@ J롬 원본 대사/포인터는 그대로 두고, K롬은 대사를 **다른 주
 #  ③ script.json ko → k1.1 zip           ④ k1.1 zip → (K)_ver1.1.gba 대사 덤프   ⑤ exe 갱신
 # 평소 번역 수정: ② → ③ → ④ → ⑤
 # 롬 개조(이름개조·버그픽스·R버튼 캡션)를 바꿨을 때: dump.py → ⑤
-# (K)_ver1.1.gba를 처음부터 만들 때: _ver0.3.gba를 (K)_ver1.1.gba로 직접 복사 → ④ → dump.py → ⑤
+# (K)_ver1.1.gba가 없을 때: J롬에 패처 exe(한글 패치 탭) 적용 → 결과를 resource/roms/에 (K)_ver1.1.gba로 저장(현재 최종본과 동일, CRC 7073540C)
+#   완전히 처음부터 다시 만들 때(보존본 보유 시): _ver0.3.gba를 (K)_ver1.1.gba로 직접 복사 → ④ → dump.py → ⑤
 #   (도구는 _ver0.3를 안 씀. (K)_ver1.1.gba가 없으면 "(K)_ver1.1.gba가 없습니다. (K)_ver1.1.gba를 먼저 생성하세요" 표시 후 중단)
 
 # ① 대사 zip 3개 → work/script.json 생성(덮어씀, 기존 파일은 upload/backup/에 자동 백업) + review.html 재생성
